@@ -40,7 +40,7 @@ To accomplish that, what do we have to gather? What happens as a result of the v
 - Slope 1 and friends
 
 ###Links
-http://developer.yahoo.com/ypatterns/social/objects/feedback/
-http://en.wikipedia.org/wiki/Delegative_Democracy
-http://en.wikipedia.org/wiki/Reputation_system
-http://en.wikipedia.org/wiki/Collaborative_filtering
+- http://developer.yahoo.com/ypatterns/social/objects/feedback/
+- http://en.wikipedia.org/wiki/Delegative_Democracy
+- http://en.wikipedia.org/wiki/Reputation_system
+- http://en.wikipedia.org/wiki/Collaborative_filtering
