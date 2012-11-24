@@ -154,14 +154,10 @@ body {
 }
 
 header h1 {
-	background-image: url('/design/bonsai.svg');
+	background-image: url('bonsai.svg');
 	background-size: auto 100%;
-	background-repeat: none;
-    background-origin: padding-box;
-}
-
-header h1 a {
-	padding-left: 2em;
+	background-repeat: no-repeat;
+    background-position: right;
 }
 
 /*		Tablet Layout: 768px.
