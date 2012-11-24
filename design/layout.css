@@ -78,6 +78,9 @@ body {
 	margin: 0em auto;
 }
 
+ul {
+  padding: 0em 2em;
+}
 
 
 
@@ -239,4 +242,8 @@ px      68    160    252    344    436    */
 		padding: 0px 22px 48px;
 	}
 	
+	ul {
+		padding: 0em 1em;
+		list-style: none;
+	}
 }
