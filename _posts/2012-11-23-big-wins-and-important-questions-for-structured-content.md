@@ -7,7 +7,7 @@ Last week, [NPR announced the release of a free WordPress plugin](http://www.dig
 
 Most importantly, it demonstrates that up-front investments in channel-independent content models can pay off. They allow organizations to leverage new and niche platforms *without* gutting, rebuilding, jury-rigging their publishing infrastructure.
 
-###Mobile: A dangerous opportunity
+###Mobile opportunities and pitfalls
 
 Almost two years ago, Karen McGrane and I started brainstorming for an upcoming talk at the Web Content Conference in Chicago: [*Making the Most of Mobile*](http://www.slideshare.net/duoconsulting/making-the-most-of-mobile). At the time, it felt difficult to speak confidently about the host of challenges surrounding the mobile transition. While Ethan Marcotte's ideas were gaining a lot of traction, his influential book [*Reponsive Web Design*](http://www.abookapart.com/products/responsive-web-design) had yet to be published. The dominance of iOS in web traffic had convinced many that a dektop site and a separately-managed iOS app would be the best way forward for content rich projects. Finally, many of the successful multi-channel publishing projects like NPR were young enough that drawing broad conclusions felt chancy.
 
