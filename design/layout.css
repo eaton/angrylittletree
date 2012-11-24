@@ -96,7 +96,7 @@ html {
 	background: url(xv.png) repeat;
 }
 
-header a {
+header a, article h2 a {
 	text-decoration: none;
 }
 
@@ -104,7 +104,7 @@ header p {
 	padding-top: 1em;
 }
 
-header p a:hover {
+header p a:hover, article h2 a:hover {
 	border-bottom: 2px blue dotted;
 }
 
