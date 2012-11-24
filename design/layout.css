@@ -153,7 +153,16 @@ body {
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
 
+header h1 {
+	background-image: url('/design/bonsai.svg');
+	background-size: auto 100%;
+	background-repeat: none;
+    background-origin: padding-box;
+}
 
+header h1 a {
+	padding-left: 2em;
+}
 
 /*		Tablet Layout: 768px.
 		Gutters: 2em.
