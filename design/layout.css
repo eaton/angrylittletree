@@ -152,7 +152,7 @@ article blockquote {
 body {
 	width: 896px;
 	padding: 0em 48px 84px;
-	color: rgb(60,60,60);
+	color: #222;
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
 
