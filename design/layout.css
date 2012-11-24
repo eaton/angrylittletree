@@ -219,8 +219,7 @@ px      68    160    252    */
 	}
 
 	.huge, h1 {
-		font-size: 1.8em;
-		letter-spacing: -1px;
+		font-size: 2em;
 	}
 	
 	.large, h2 {
@@ -263,7 +262,12 @@ px      68    160    252    344    436    */
 		width: 436px;
 		padding: 0px 22px 48px;
 	}
-	
+
+	.huge, h1 {
+		font-size: 1.75em;
+		letter-spacing: -1px;
+	}
+
 	#recent-posts {
 		padding: 0em 1em;
 		list-style: none;
