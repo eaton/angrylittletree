@@ -1,0 +1,26 @@
+# standard jekyll stuff
+permalink: /:year/:month/:title.html
+markdown: rdiscount
+exclude: Rakefile
+
+# configuration required for some pages
+domain: angrylittletree.com
+title: Angry Little Tree
+author: eaton
+email: bonsai@angrylittletree.com
+
+# configuration for ehancements
+google_analytics:
+  account: UA-28080756-1
+
+github:
+  username: eaton
+
+disqus:
+  id: angrylittletree
+
+twitter:
+  username: eaton
+
+typekit:
+  code: jtb0izs

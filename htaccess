@@ -1,0 +1,14 @@
+---
+layout: nil
+permalink: .htaccess
+---
+ErrorDocument 404 /404.html
+Options +Multiviews
+
+{% for post in site.posts limit:20 %}{% if post.drupal_nid %}Redirect permanent /node/{{ post.drupal_nid }} {{ post.url }}{% endif %}
+{% if post.drupal_path %}Redirect permanent /{{ post.drupal_path }} {{ post.url }}{% endif %}
+{% endfor %}
+
+Redirect permanent /node/feed /atom.xml
+Redirect permanent /rss.xml /atom.xml
+Redirect permanent /taxonomy/term/1/feed /tag/drupal/atom.xml
