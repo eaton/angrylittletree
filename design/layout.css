@@ -52,7 +52,8 @@ a img {border: 0;}
 }
 
 .big, h4 {
-	font-size: 1.3em;
+    padding-top: 1em;
+	font-size: 1.2em;
 }
 
 body {
