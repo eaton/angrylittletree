@@ -38,6 +38,7 @@ a img {border: 0;}
 
 .huge, h1 {
 	font-size: 4em;
+	line-height: 1em;
 }
 
 .large, h2 {
