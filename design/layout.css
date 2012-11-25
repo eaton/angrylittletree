@@ -110,7 +110,7 @@ header p {
 }
 
 header p a:hover, article h2 a:hover {
-	border-bottom: 2px blue dotted;
+	background-color: lightgrey;
 }
 
 header {
