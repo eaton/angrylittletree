@@ -43,6 +43,7 @@ a img {border: 0;}
 
 .large, h2 {
 	font-size: 2em;
+	line-height: 1em;
 	margin-bottom: none;
 }
 
