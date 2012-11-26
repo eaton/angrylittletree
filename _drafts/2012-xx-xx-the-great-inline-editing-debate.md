@@ -47,8 +47,12 @@ But Inline editing? While it's useful in some cases it's no silver bullet. Worse
 __Notes__
 
 Setup: Drupal Spark, Create.js, PHPCR, etc. I'm not so bullish.
+- http://drupal.org/project/spark
+- http://createjs.org/
+- http://phpcr.github.com/
+- http://pooteeweet.org/blog/2088
 
-The problems we want to solve:
+The problems with inline editing that must be solved:
 
 Pure UX issues like plone's - accidental edits. Also, hides metadata and privileges desktop. Closely related to the problem of wysiwyg.
 
