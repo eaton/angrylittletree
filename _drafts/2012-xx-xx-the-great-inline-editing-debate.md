@@ -1,7 +1,40 @@
 ---
+notes: Yeah, this one will almost certainly hit Lullabot.com as well. Keeping it here just in case, though.
 layout: post
 title: The Great Inline Editing Debate
 ---
+
+
+###Editorial UX is on the agenda!
+BADCamp had Spark, sessions on decoupling, and live UX tests. DC Toronto had back-to-back sessions on UX for site builders and content admins. Excellent stuff by @useradvocate! Identification of tasks and workflows, emphasis on improving the overal experience of completing relevant tasks rather than *just* streamlining individual forms, etc. Inline is getting a lot of attention -- in fact, it's possible that it could be included in D8 core. [issue](http://drupal.org/node/1824500) on the surface it seems like a huge win. But "on the surface" suggests concern.
+
+###Unpacking inline editing
+First, some definitions.
+
+- Contextual editing
+- Client-side editing
+- Inline editing
+- WYSIWYG editing
+
+Contextual editing is critical; client-side editing is plumbing, and it's extremely valuable. WYSIWYG is problematic but has a place inside of well structured content. Inline is trickier.
+
+###Understanding the pitfalls
+- Privileges the desktop web experience & the current design: makes anticipating impact elsewhere on the site and in other channels VERY hard
+- Only gives access to what is visible: masks unprinted metadata, state, etc.
+- Like WYSIWYG, encourages hack-the-fields ("The box that goes there")
+- Attempts to expose richer metadata result in "The node form on the client side," good but not Inline.
+- Closely-related Create In Place assumes very restricted set of options, and accentuates the problems. tough match for metadata driven sites. for views pages, will the metadata that causes a piece of content to appear there be auto-created? will creating it in a place, then overriding the metadata cause it to pop into existence somewhere else?
+
+###Direct manipulation: A leaky abstraction
+Leaky Abstraction: 'The page is where your content lives.' Joel Spolsky's writing.
+
+###When it works, when it doesn't
+
+###Warnings and opportunities
+
+---
+
+__Notes__
 
 Setup: Drupal Spark, Create.js, PHPCR, etc. I'm not so bullish.
 
@@ -29,6 +62,7 @@ I'm a big proponent of contextually-aware administrative tools. On the WWE proje
 
 Links: Ev's medium post, Joel Spolsky's post on "leaky abstractions", the Plone thread about removing inline editing
 
+- http://drupal.org/node/1824500
 - http://www.joelonsoftware.com/articles/LeakyAbstractions.html
 - http://processwire.com/talk/topic/1365-inline-editing-the-drupal-spark-way/
 - https://medium.com/about/df8eac9f4a5e
