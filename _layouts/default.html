@@ -22,6 +22,17 @@
 		<link rel="apple-touch-icon" sizes="72x72" href="/design/apple-touch-icon-72x72.png" />
 		<link rel="apple-touch-icon" sizes="114x114" href="/design/apple-touch-icon-114x114.png" />
 
+		<meta property="og:site_name" content="{{ site.title }}"/>
+		<meta property="og:image" content="http://angrylittletree.com/design/design/apple-touch-icon-72x72.png"/>
+		<meta property="og:type" content="blog"/>
+		{% if page.title %}<meta property="og:title" content="{{ page.title }}"/>{% endif %}
+		{% if page.summary %}<meta property="og:description" content="{{ page.summary }}"/>{% endif %}
+
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:creator" content="@eaton">
+		<meta name="twitter:title" content="{{ page.title }}">
+		{% if page.summary %}<meta name="twitter:description" content="{{ page.summary }}">{% endif %}
+
 		{% include header_scripts.html %}
 	</head>
 	

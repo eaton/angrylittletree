@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Big Wins and Important Questions for Structured Content
+summary: Structured content is winning, but big questions are still outstanding. How will we deal with shifting ad rates, smaller-budget sites, and a generation of desktop-web-focused publishing tools?
 ---
 
 Last week, [NPR announced the release of a free WordPress plugin](http://www.digitalservices.npr.org/post/announcing-wordpress-npr-api-plugin) -- one that allows their affiliates to syndicate stories *and* contribute local content back to NPR using their much-discussed COPE API. The news may not dominate the holiday headlines, but it's a huge step forward for the structured content camp.
