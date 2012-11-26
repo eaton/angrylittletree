@@ -29,8 +29,18 @@ Contextual editing is critical; client-side editing is plumbing, and it's extrem
 Leaky Abstraction: 'The page is where your content lives.' Joel Spolsky's writing.
 
 ###When it works, when it doesn't
+This isn't to say that inline is *bad*. Ev Williams discusses its advantages on Medium, his new narrative-focused personal publishing startup.
+
+Notice the what he's talking about: they've designed something straeamlined and polished, where the abstraction IS a good representation of what is being created. No extra metadata, no troublesome extra fields, just some text and a VERY stripped down WYSIWYG.
+
+Plone team - some UX problems, but they also discovered that the use case of 'editing a field or two in place' wasn't as common as they had anticipated. The larger the site, the more metadata, the more different ways a single piece of content is presented, etc.
 
 ###Warnings and opportunities
+It may incrementally improve our demos an the first-ten-minutes experience of new tinkerers, but those training wheels will have to come off. Flashy curb-side appeal, great for demos, but inline editing as a paradign is difficult to scale beyond brochureware and simple blogs.
+
+The work of separating things is incredibly valuable. Contextual tools are critical. WYSIWYG, while controversial, is useful when it can be dramatically pared down to prevent content blobs.
+
+But Inline editing? While it's useful in some cases it's no silver bullet. Worse, it can actively confuse users and mask critical information on the kinds of data-rich sites drupal is best suited for.
 
 ---
 
