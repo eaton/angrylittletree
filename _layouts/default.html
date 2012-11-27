@@ -25,11 +25,13 @@
 		<meta property="og:site_name" content="{{ site.title }}"/>
 		<meta property="og:image" content="http://angrylittletree.com/design/apple-touch-icon-114x114.png"/>
 		<meta property="og:type" content="blog"/>
+		<meta name="og:url" content="http://angrylittletree.com{{ page.url }}">
 		{% if page.title %}<meta property="og:title" content="{{ page.title }}"/>{% endif %}
 		{% if page.summary %}<meta property="og:description" content="{{ page.summary }}"/>{% endif %}
 
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:creator" content="@eaton">
+		<meta name="twitter:url" content="http://angrylittletree.com{{ page.url }}">
 		<meta name="twitter:title" content="{{ page.title }}">
 		{% if page.summary %}<meta name="twitter:description" content="{{ page.summary }}">{% endif %}
 
