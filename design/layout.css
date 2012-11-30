@@ -138,6 +138,10 @@ article {
 	margin-bottom: 2em;
 }
 
+article img {
+  max-width: 100%;
+}
+
 article p, article ul, article ol, article code, article pre {
 	padding-top: 1em;
 }

@@ -6,7 +6,9 @@ title: The Great Inline Editing Debate
 
 
 ###Editorial UX is on the agenda!
-BADCamp had Spark, sessions on decoupling, and live UX tests. DC Toronto had back-to-back sessions on UX for site builders and content admins. Excellent stuff by @useradvocate! Identification of tasks and workflows, emphasis on improving the overal experience of completing relevant tasks rather than *just* streamlining individual forms, etc. Inline is getting a lot of attention -- in fact, it's possible that it could be included in D8 core. [issue](http://drupal.org/node/1824500) on the surface it seems like a huge win. But "on the surface" suggests concern.
+BADCamp had Spark, sessions on decoupling, and live UX tests. DC Toronto had back-to-back sessions on UX for site builders and content admins. Excellent stuff by @useradvocate! Identification of tasks and workflows, emphasis on improving the overal experience of completing relevant tasks rather than *just* streamlining individual forms, etc. Inline is getting a lot of attention -- it's part of a larger movement in the PHP CMS world: Create.js. in fact, it's possible that it could be included in D8 core. [issue](http://drupal.org/node/1824500) on the surface it seems like a huge win.
+
+But "on the surface" suggests concern: 
 
 ###Unpacking inline editing
 First, some definitions.
@@ -17,6 +19,14 @@ First, some definitions.
 - WYSIWYG editing
 
 Contextual editing is critical; client-side editing is plumbing, and it's extremely valuable. WYSIWYG is problematic but has a place inside of well structured content. Inline is trickier.
+
+
+> Most content management tools have a "preview" button so the person who's editing content can see how it will look when it's published. It's one of the most requested features from content creators. When you click on that button, what does it show you?
+
+> Why, the desktop website, of course!
+
+> …There's no way to show the content creators how their content might appear on a mobile website or in an app. The existence of the preview button reinforces the notion that the dekstop website is the "real" website and [anything else] is an afterthought.
+
 
 ###Understanding the pitfalls
 - Privileges the desktop web experience & the current design: makes anticipating impact elsewhere on the site and in other channels VERY hard
