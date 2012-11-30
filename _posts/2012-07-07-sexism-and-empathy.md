@@ -6,9 +6,9 @@ Picking on Reddit's general atmosphere of sexism isn't really sporting anymore; 
 
 This week, an interesting thread posed a question to the Dads of Reddit: [How has having a daughter changed your perception of women](http://www.reddit.com/r/AskReddit/comments/vz13z/dads_of_reddit_how_has_having_daughters_changed/)? On one level, it's encouraging: lots of guys talking about how it opened their eyes to the difficulties that women face, or that their feelings about objectifying women have changed. [This one](http://www.reddit.com/r/AskReddit/comments/vz13z/dads_of_reddit_how_has_having_daughters_changed/c58v2p4) in particular sums up the general vibe:
 
-<blockquote>I don't think I can ever go to a strip club again. I just end up thinking that the girl is someone's daughter: they had fake tea parties, she cuddled with him on the couch and watched TV, he came home from work and she threw her arms around his neck because she missed him while he was away…
-<br/><br/>
-I do my best to be a good man, because my daughter needs that. She must know what a good man is, so that in what will feel like a few short years, when boys are falling over themselves to talk to her, she'll know what is good in a man.</blockquote>
+> I don't think I can ever go to a strip club again. I just end up thinking that the girl is someone's daughter: they had fake tea parties, she cuddled with him on the couch and watched TV, he came home from work and she threw her arms around his neck because she missed him while he was away…
+> 
+> I do my best to be a good man, because my daughter needs that. She must know what a good man is, so that in what will feel like a few short years, when boys are falling over themselves to talk to her, she'll know what is good in a man.
 
 I'm torn.
 
