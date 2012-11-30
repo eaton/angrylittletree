@@ -27,6 +27,9 @@ Contextual editing is critical; client-side editing is plumbing, and it's extrem
 
 > …There's no way to show the content creators how their content might appear on a mobile website or in an app. The existence of the preview button reinforces the notion that the dekstop website is the "real" website and [anything else] is an afterthought.
 
+>--Karen McGrane, "Content Strategy for Mobile"
+
+
 
 ###Understanding the pitfalls
 - Privileges the desktop web experience & the current design: makes anticipating impact elsewhere on the site and in other channels VERY hard

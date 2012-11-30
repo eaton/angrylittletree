@@ -151,8 +151,9 @@ article p {
 }
 
 article blockquote {
-	padding: 2em;
-	background-color: slate;
+	padding: 0em 1em .5em 1.5em;
+	background-color: #eee;
+	border-left: solid silver .5em;
 }
 
 body {
