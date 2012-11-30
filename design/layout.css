@@ -170,6 +170,12 @@ header h1 {
 	background-position: right;
 }
 
+#disqus {
+	padding-top: 2em;
+	margin-top: 2em;
+	border-top: .5em solid silver;
+}
+
 /*		Tablet Layout: 768px.
 		Gutters: 2em.
 		Outer margins: 28px.
