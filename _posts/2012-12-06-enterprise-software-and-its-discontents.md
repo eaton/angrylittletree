@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Enterprise Software and Its Discontents
-summary: Everyone remembers their first time: the moment they hear the words, "We're going to be deploying SAP ERP."
+summary: Everyone remembers their first time: the moment they hear the words, “We’re going to be deploying SAP ERP.”
 ---
 
 A friend of mine is currently trapped in enterprise software hell. His company purchased the El Grande Enterprise Call Center Management System With Rustproofing And Chrome Trim, and what they got was a Pinto: corrupted customer accounts, endlessly backlogged customer calls, and a rising river of complaints that's turning the holidays into a nightmare.
