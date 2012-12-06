@@ -1,6 +1,6 @@
 ---
-layout:post
-title:Enterprise Software and Its Discontents
+layout: post
+title: Enterprise Software and Its Discontents
 summary: Everyone remembers their first time: the moment they hear the words, "We're going to be deploying SAP ERP."
 ---
 
