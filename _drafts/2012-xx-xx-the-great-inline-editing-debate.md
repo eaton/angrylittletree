@@ -4,59 +4,124 @@ layout: post
 title: CMS Decoupling, Inline Editing, and the Cost of Leaky Abstractions
 ---
 
-On [the latest episode of Insert Content Here](), Deane Barker and I chatted about the CMS world's growing interest in *decoupling*. Many of today's CMS platforms are highly coupled: [they combine content management, storage, and delivery](http://gadgetopia.com/post/8244) into a single integrated system. That approach has thrived in the age of dynamic, visitor-tailored web sites! However, it's showing cracks as mobile and multi-chanel publishing put more stress on the "delivery" side of the equation. In theory, systems that separate their editorial tools, their underlying data storage, and their delivery tools (like HTML template engines or web services) can respond to these challenges more quickly.
+On [the latest episode of Insert Content Here](), Deane Barker and I chatted about the CMS world's growing interest in *decoupling*. Many of today's CMS platforms are highly coupled: [they combine content management, storage, and delivery](http://gadgetopia.com/post/8244) into a single integrated system. That approach has thrived in the age of dynamic, visitor-tailored web sites! However, it's showing cracks as mobile and multi-chanel publishing put more stress on the "delivery" side of the equation.
 
-Excitement about this concept has been spreading in the Drupal world, too. For several years core developers and other members of the community have worked hard on ways to improve the 
+In theory, systems that separate their editorial tools, their underlying data storage, and their delivery tools (like HTML template engines or web services) can respond to these challenges more quickly. The [Decoupled CMS](http://decoupledcms.org/) home page, and the accompanying [Create.js](http://createjs.org/) project, are also focusing developer attention on the issue and potential solutions. Excitement about some of these ideas has been spreading in the Drupal world, too.
+
+For several years, core Drupal contributors have been working on ways to improve the user experience for content editors. Since May of 2012, project lead Dries Buytaert and his company Acquia have been funding the [Spark Project](http://buytaert.net/announcing-spark-authoring-improvements-for-drupal-7-and-drupal-8), an ambitious set of improvements to Drupal's core editing experience. One of the most eye-popping features they've demonstrated is *inline WYSIWYG editing*, the ability to click on a page element, edit it in place, and persist the changes without visiting a separate page or opening a popup window.
+
+Changes are good that [inline editing functionality could make it into Drupal 8](http://drupal.org/node/1824500) -- specifically, an implementation that's powered by Create.js and the closely associated [Aloha](http://aloha-editor.org/) WYSIWYG editor. Fans of decoupled Drupal code definitely have something to cheer for! The work to modernize Drupal 8's codebase is making it much easier to reuse the great front-end and back-end work from open source projects like Symfony and Create.js.
+
+With that good news, though, there's a potential raincloud on the horizon. Inline editing, as useful as it can be, could easily be the next [WYSIWYG: a tool that simplifies certain tasks but sabotages others](http://www.rachelandrew.co.uk/archives/2011/07/27/your-wysiwyg-editor-sucks/) in unexpected ways.
+
+## A Brief Interlude, With Semantics
+
+With that provocative statement out of the way, I'll take a step back and define some terminology. Because Drupal's administrative interface, the improvements incorporated into the Spark project, and the nature of web UX are all pretty complicated, there's a lot of potential for confusion when a term like "Inline Editing" gets thrown around. There are four key terms I'll be using in certain ways in this post, and *hopefully* they don't collide too badly with anyone else's definitions...
+
+#### Client-side editing
+All editing in a web browser takes place on the client side until we hit the "submit" button, but the kind of client-side editing I'm talking about goes a step further. Rather than rendering an HTML form, the CMS bundles up a copy of the content object itself -- usually in a format like XML or JSON -- and sends it to the user's browser. There, *client-side code* running on the browser presents an editing interface to the user, makes changes to the object, and sends it back when they're done.
+
+Client-side editing is cool, too! It's not a specific approach to editorial UX; rather, it's API plumbing to decouple the editing process from standard HTML forms. When this approach is implemented, other cool things like mobile apps and crazy device integration are possible as well.
+
+#### Contextual editing
+When a content editor is on a particular portion of the web site or is viewing a particular kind of content, they should have access to options and tools that are *contextually relevant*. If an editor visits an article on their web site, give them access to an "Edit" link for that article. If it's unpublished, they should see a "Publish" link, and so on. Contextual editing also means hiding options from users when they're inappropriate. If you don't have permission to modify an article, you shouldn't see the "Edit" link.
+
+Well-designed contextual editing is a great thing! It puts the right tools in the users' hands when they're needed, and helps prevent "option overload".
+
+#### Inline editing
+Inline editing takes contextual editing a step farther. When you see data on the page, you don't just have a link to edit it at your beck and call: you can edit it *right there* without going to another page or popup window. One common scenario is tabular data: click in a cell, edit the cell. Click outside of the cell, and your changes are saved. A more complex example might include clicking on the headline of an article and editing it while viewing it on the front page, or clicking on the body text and adding a new paragraph then and there. The emphasis here is on eliminating context switches and unecessary steps for the editor.
+
+Inline editing can dramatically simplify life for users by replacing cluttered forms, fields, and buttons with direct content manipulation. However, when direct manipulation the primary means of editing content, it can easily hide critical information from those same users. We'll get to that later.
+
+
+#### WYSIWYG editing
+"What You See Is What You Get" editing is all about allowing users to manipulate things *as they will appear in the finished product* rather than using special codes, weird markup, or separate preview modes. Desktop publishing flourished on 1980s Macintosh computers because they let would-be Hearsts and Pulitzers lay out pages and set type visually. WYSIWYG HTML editors have been popular with web content editors for similar reasons: finessing the appearance of content via clicks and drags is easier than encoding semantic instructions for web browsers using raw HTML.
+
+WYSIWYG editing tools can help reduce markup errors and streamline the work of content managers who don't know HTML. Without careful restrictions, though, it can easily sabotage attempts to reuse content effectively. If a restaraunt's menu is posted as a giant HTML table in the "Menu" page's Body field, for example, there's no way to highlight the latest dishes or list gluten-free recipes. Similarly, if the key photo for a news story is dropped into that Body field with a WYSIWYG editor, reformatting it for display on a mobile phone is all but impossible.
+
+#### Everything in-between
+Often, these four different approaches overlap. Inline editing can be thought of as a particularly advanced form of contextual editing, and it's often implemented using client-side editing APIs. In addition, when inline editing is enabled on the visitor-visible "presentation" layout of a web site, it functions as a sort of WYSWIWG editing for the entire page -- not just a particular article or field.
+
+That particular approach -- using inline editing on a site's front end to edit content as it will appear to visitors -- is what I'll be focusing on. [If this turns into a multi-part article, it'll be "…is what I'll be focusing on in the next installment of this series."]
+
+
+---
+
+
+## Inline Editing! Can anything good come from there[?](http://bible.cc/john/1-46.htm)
+Of course! None of the approaches to content editing UX listed above are inherently good or bad. Like all tools, there are situations they're well-suited for and others that make an awkward fit.
+
+Ev Williams, the co-founder of Blogger and Twitter, recently wrote about [why his team has made inline editing and WYSIWYG the native editing interface for their blogging tool, Medium.](https://medium.com/about/df8eac9f4a5e)
+
+> As I’m writing this, I see not just a WYSIWYG editor, I see the page I’m going to publish, which looks just like the version you’re reading. In fact, it is the version you’re reading. There’s no layer of abstraction. This is a simple (and old) concept… and it makes a big difference. Having to go back and forth between your creation tool and your creation is like sculpting by talking.
+
+That's an incredibly compelling argument for the power of WYSIWYG and inline editing. I've seen it in action on Medium, and it really does feel different than the click-edit-save, click-edit-save cycle that most web based tools require. However, and this is a big however, it's also critical to remember the key restrictions Ev and his team have put in place to make that simplicity work.
+
+> One of the reasons its possible to have this *really* WYSIWYG experience is because we’ve stripped out a lot of the power that other online editors give you. Here are things you can’t do: change fonts, font color, font size. You can’t insert tables or use strikethrough or even underline. Here’s what you can do: bold, italics, subheads (two levels), blockquote, and links.
+
+In addition, the underlying structure of an article on Medium is very simple. Each post can have a title, a single optional header image, and the body text of the article itself. No meta tags, no related links, no attached files or summary text for the front page. What you see is what you get here, too: when you are viewing an article, you are viewing the whole article and editing it inline on the page leaves nothing to the imagination.
+
+This kind of relentless focus -- a single streamlined way of presenting each piece of content, a mercilessly stripped down list of formatting options, and a vigilant focus on the written word -- ensure that there really is no gap between what users are manipulating via inline editing and what everyone else sees.
+
+That's an amazing, awesome thing and other kinds of focused web sites can benefit from it, too. Many small-business brochureware sites, for example, have straightfoward, easily-modeled content. Many of those sites' users would kill for the simplicity of a "click here to enter text" approach to content entry.
 
 
 
-###Editorial UX is on the agenda!
-BADCamp had Spark, sessions on decoupling, and live UX tests. DC Toronto had back-to-back sessions on UX for site builders and content admins. Excellent stuff by @useradvocate! Identification of tasks and workflows, emphasis on improving the overal experience of completing relevant tasks rather than *just* streamlining individual forms, etc. Inline is getting a lot of attention -- it's part of a larger movement in the PHP CMS world: Create.js. in fact, it's possible that it could be included in D8 core. [issue](http://drupal.org/node/1824500) on the surface it seems like a huge win.
+## Mapping the pitfalls of inline editing
 
-But "on the surface" suggests concern: 
+Even the best tool, however, can't be right for every job. "Inline WYSIWYG," the approach that's being advocated by the Create.js team and implemented by the Spark Project, can run aground on complex sites in a few critical ways.
 
+#### Leaves invisible data inaccessible
+[ Only gives access to what is visible: masks unprinted metadata, state, etc. Fields that aren't being used on the current design or publishing channel, etc. ]
 
+#### Encourages Visual Hacks
 
-###Unpacking inline editing
-First, some definitions.
+[ Like WYSIWYG, inline editing without sufficient understanding of what's going on encourages hack-the-fields ("The box that goes there," versus "the box that holds the subheading") ]
 
-- Contextual editing
-- Client-side editing
-- Inline editing
-- WYSIWYG editing
+#### Privileges The Editor's Device
 
-Contextual editing is critical; client-side editing is plumbing, and it's extremely valuable. WYSIWYG is problematic but has a place inside of well structured content. Inline is trickier.
-
+[ Privileges the desktop web experience & the current design: makes anticipating impact elsewhere on the site and in other channels VERY hard ]
 
 > Most content management tools have a "preview" button so the person who's editing content can see how it will look when it's published. It's one of the most requested features from content creators. When you click on that button, what does it show you?
-
+> 
 > Why, the desktop website, of course!
-
+> 
 > …There's no way to show the content creators how their content might appear on a mobile website or in an app. The existence of the preview button reinforces the notion that the dekstop website is the "real" website and [anything else] is an afterthought.
-
+> 
 >--Karen McGrane, "Content Strategy for Mobile"
 
+#### Hides inter-field and inter-content relationships
+[ Eliminates cross-field relationships (validation, etc) or hides them from users. ]
+
+#### Complicates creation of new items
+[ Closely-related Create In Place assumes very restricted set of options, and accentuates the problems. tough match for metadata driven sites. for views pages, will the metadata that causes a piece of content to appear there be auto-created? will creating it in a place, then overriding the metadata cause it to pop into existence somewhere else? ]
+
+#### Leads inevitably to parallel editing interfaces
+[ Attempts to expose richer metadata, more state information, etc result in clusters of extra toolbars, widgets, wrapper chrome, or "The node form on the client side," polluting the intent of WYSIWYG Inline. ]
 
 
-###Understanding the pitfalls
-- Privileges the desktop web experience & the current design: makes anticipating impact elsewhere on the site and in other channels VERY hard
-- Only gives access to what is visible: masks unprinted metadata, state, etc.
-- Like WYSIWYG, encourages hack-the-fields ("The box that goes there")
-- Attempts to expose richer metadata result in "The node form on the client side," good but not Inline.
-- Closely-related Create In Place assumes very restricted set of options, and accentuates the problems. tough match for metadata driven sites. for views pages, will the metadata that causes a piece of content to appear there be auto-created? will creating it in a place, then overriding the metadata cause it to pop into existence somewhere else?
 
-###Direct manipulation: A leaky abstraction
-Leaky Abstraction: 'The page is where your content lives.' Joel Spolsky's writing.
+[ if this article is a multi-parter, this should close and set up the final article ]
 
-###When it works, when it doesn't
-This isn't to say that inline is *bad*. Ev Williams discusses its advantages on Medium, his new narrative-focused personal publishing startup.
 
-Notice the what he's talking about: they've designed something straeamlined and polished, where the abstraction IS a good representation of what is being created. No extra metadata, no troublesome extra fields, just some text and a VERY stripped down WYSIWYG.
+---
 
-Plone team - some UX problems, but they also discovered that the use case of 'editing a field or two in place' wasn't as common as they had anticipated. The larger the site, the more metadata, the more different ways a single piece of content is presented, etc.
 
-###Warnings and opportunities
-It may incrementally improve our demos an the first-ten-minutes experience of new tinkerers, but those training wheels will have to come off. Flashy curb-side appeal, great for demos, but inline editing as a paradign is difficult to scale beyond brochureware and simple blogs.
+
+## Direct manipulation: A leaky abstraction
+[ Leaky Abstraction: 'The page is where your content lives.' Joel Spolsky's writing. http://www.joelonsoftware.com/articles/LeakyAbstractions.html ]
+
+At one extreme, a CMS can be treated as a tool for editing a relational database. The user interface exposed by a CMS in that sense is just a way of giving users access to every table and column that must be inserted or updated. Completeness is the name of the game, because users are directly manipulating the underlying storage model. Any data they don't see is probably unnecessary and should be exorcised from the data model. For those of us who come from a software development background this is a familiar approach, and it's dominated the UX decisions of many open source projects and business-focused proprietary systems.
+
+At the other extreme, a CMS can be treated as an artifact of visual web design. We begin with a vision of the end product: a photography portfolio, an online magazine, a school's class schedule. We decide how visitors should interact with it, we extrapolate the kinds of tasks administrators will need to perform to keep it updated, and the CMS is used to fill those dynamic gaps. The underlying structure of its data is abstracted away as WYSIWYG editors, drag-and-drop editing and other tools that allow users to feel they're directly manipulating the final product.
+
+The editing interfaces we offer to users send them important messages, whether we intend it or not. They are affordances, like knobs on doors and buttons on telephones. If the *primary* editing interface we present is also the visual design seen by site visitors, we are saying: this is what your content truly is! The things you see on this page are the true form of your content. With Ev William's Medium, that message is true. But for many sites, it's a lie: what you're seeing on a given page is simply view of a more complex content element, tailored for a particular page or channel.
+
+In those situations, Inline WYSIWYG editing is one of Joel Spolsky's leaky abstractions. It simplifies a user's initial experiences when they first explore the system, but breaks down when they push forward -- causing even more confusion and frustration than the initial learning would have.
+
+
+## Warnings and opportunities
+It may incrementally improve our demos an the first-ten-minutes experience of new tinkerers, but those training wheels will have to come off. Flashy curb-side appeal, great for demos, but Inline WYSIWYG as a paradigm is difficult to scale beyond brochureware and blogs. 
 
 The work of separating things is incredibly valuable. Contextual tools are critical. WYSIWYG, while controversial, is useful when it can be dramatically pared down to prevent content blobs.
 
@@ -66,9 +131,7 @@ But Inline editing? While it's useful in some cases it's no silver bullet. Worse
 
 __Notes__
 
-Setup: Drupal Spark, Create.js, PHPCR, etc. I'm not so bullish.
-
-- http://drupal.org/project/spark
+<small>- http://drupal.org/project/spark
 - http://createjs.org/
 - http://phpcr.github.com/
 - http://pooteeweet.org/blog/2088
@@ -79,6 +142,8 @@ The problems with inline editing that must be solved:
 
 Pure UX issues like plone's - accidental edits. Also, hides metadata and privileges desktop. Closely related to the problem of wysiwyg.
 
+Plone team - some UX problems, but they also discovered that the use case of 'editing a field or two in place' wasn't as common as they had anticipated. The larger the site, the more metadata, the more different ways a single piece of content is presented, etc.
+
 Doesn't scale to complex multi-channel sites and sticks content editors into the designers seat.
 
 How will it look on the front page? On mobile? In email or in social? Workflow etc. our clients need that flexibility. 
@@ -87,7 +152,7 @@ What's promising? Lots of work going into decoupling Drupal's storage, editing, 
 
 A different way? Client by client, node form improvements, etc
 
-Interface sends a message: making inline the emphasis says, "this stuff you see right here IS your content" sometimes, that works. But more frequently, it's a lie - what you're seeing is one view of a content element, tailored for a particular page or channel etc.
+
 
 Not a UI panacea, can be tricky to get right. Learn from Plone
 Hides metadata and state information, greatly privileges desktop web
@@ -104,3 +169,5 @@ Links: Ev's medium post, Joel Spolsky's post on "leaky abstractions", the Plone 
 - http://processwire.com/talk/topic/1365-inline-editing-the-drupal-spark-way/
 - https://medium.com/about/df8eac9f4a5e
 - http://plone.org/products/plone/roadmap/238 and http://plone.293351.n2.nabble.com/RFC-re-inline-editing-td7560809.html
+
+</small>
