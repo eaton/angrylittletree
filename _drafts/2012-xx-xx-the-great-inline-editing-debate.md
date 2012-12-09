@@ -1,14 +1,21 @@
 ---
 notes: Yeah, this one will almost certainly hit Lullabot.com as well. Keeping it here just in case, though.
 layout: post
-title: The Great Inline Editing Debate
+title: CMS Decoupling, Inline Editing, and the Cost of Leaky Abstractions
 ---
+
+On [the latest episode of Insert Content Here](), Deane Barker and I chatted about the CMS world's growing interest in *decoupling*. Many of today's CMS platforms are highly coupled: [they combine content management, storage, and delivery](http://gadgetopia.com/post/8244) into a single integrated system. That approach has thrived in the age of dynamic, visitor-tailored web sites! However, it's showing cracks as mobile and multi-chanel publishing put more stress on the "delivery" side of the equation. In theory, systems that separate their editorial tools, their underlying data storage, and their delivery tools (like HTML template engines or web services) can respond to these challenges more quickly.
+
+Excitement about this concept has been spreading in the Drupal world, too. For several years core developers and other members of the community have worked hard on ways to improve the 
+
 
 
 ###Editorial UX is on the agenda!
 BADCamp had Spark, sessions on decoupling, and live UX tests. DC Toronto had back-to-back sessions on UX for site builders and content admins. Excellent stuff by @useradvocate! Identification of tasks and workflows, emphasis on improving the overal experience of completing relevant tasks rather than *just* streamlining individual forms, etc. Inline is getting a lot of attention -- it's part of a larger movement in the PHP CMS world: Create.js. in fact, it's possible that it could be included in D8 core. [issue](http://drupal.org/node/1824500) on the surface it seems like a huge win.
 
 But "on the surface" suggests concern: 
+
+
 
 ###Unpacking inline editing
 First, some definitions.
@@ -66,7 +73,7 @@ Setup: Drupal Spark, Create.js, PHPCR, etc. I'm not so bullish.
 - http://phpcr.github.com/
 - http://pooteeweet.org/blog/2088
 - http://patternry.com/p=inline-edit/
-
+- http://decoupledcms.org/
 
 The problems with inline editing that must be solved:
 
