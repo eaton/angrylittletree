@@ -25,7 +25,7 @@ Rather than rendering an HTML form, API-based editing means bundling up a copy o
 API-based editing is cool, too! It's not a specific user-visible widget or workflow. In fact, it could be used to deliver the very same HTML forms users are used to -- but it provides a foundation for many other kinds of novel editing interfaces.
 
 #### Inline editing
-Inline editing takes contextual editing a step farther. When you see data on the page, you don't just have a link to edit it at your beck and call: you can edit it *right there* without going to another page or popup window. One common scenario is tabular data: click in a cell, edit the cell. Click outside of the cell, and your changes are saved. A more complex example might include clicking on the headline of an article and editing it while viewing it on the front page, or clicking on the body text and adding a new paragraph then and there. The emphasis here is on eliminating context switches and unecessary steps for the editor.
+Inline editing takes contextual editing a step farther. When you see data on the page, you don't just have a link to edit it at your beck and call: you can edit it *right there* without going to another page or popup window. One common scenario is tabular data: click in a cell, edit the cell. Click outside of the cell, and your changes are saved. A more complex example might include [clicking on the headline of an article](http://patternry.com/p=inline-edit/) and editing it while viewing it on the front page, or clicking on the body text and adding a new paragraph then and there. The emphasis here is on eliminating context switches and unecessary steps for the editor.
 
 Inline editing can dramatically simplify life for users by replacing cluttered forms, fields, and buttons with direct content manipulation. However, when direct manipulation the primary means of editing content, it can easily hide critical information from those same users. We'll get to that later.
 
@@ -62,36 +62,37 @@ That's an amazing, awesome thing and other kinds of focused web sites can benefi
 
 
 
-## Mapping the pitfalls of inline editing
+## The other side(s) of the coin
 
-Even the best tool, however, can't be right for every job. "Inline WYSIWYG," the approach that's being advocated by the Create.js team and implemented by the Spark Project, can run aground on complex sites in a few critical ways.
+Even the best tool, however, can't be right for every job. The inline WYSIWYG approach that's used by Create.js and the Spark Project can pose serious problems, too. The [Decoupled CMS Project](http://decoupledcms.org/) in particular proposes that Inline WYSIWYG could be a useful general editing paradigm for content-rich web˙sites, but that requires looking at the weaknesses clearly and honestly.
 
-#### Leaves invisible data inaccessible
-[ Only gives access to what is visible: masks unprinted metadata, state, etc. Fields that aren't being used on the current design or publishing channel, etc. ]
+#### Invisible data is inaccessible
+Inline editing, by definition, is tied to the page's visible design. Various cues can separate editable and non-editable portions of the page, but there's no place for content elements that *aren't part of the visible page at all*.
 
-#### Encourages Visual Hacks
+Metadata tags, relationships between content that drive other page elements, fields intended for display in *other* views of the content, and flags that control a content element's appearance but aren't inherently visible, are all awkward bystanders. This is particularly important in multichannel publishing environments: often, multiple versions of key fields are created for use in different device and display contexts.
 
-[ Like WYSIWYG, inline editing without sufficient understanding of what's going on encourages hack-the-fields ("The box that goes there," versus "the box that holds the subheading") ]
+#### It encourages visual hacks
+Well-structured content models need the right data in the right fields. We've learned the hard way that WYSIWYG markup editors inevitably lead to ugly HTML hacks. Users naturally assume that "it looks right" means "everything is working correctly." Similarly, inline WYSIWYG emphasizes each field's visual appearance and placement on the page over its semantic meaning. That sets up another cycle of "I put it there because it looked right" editing snafus.
 
-#### Privileges The Editor's Device
+The problem is even more serious for Inline WYSIWYG. Markup editors can be configured to use a restricted set of tags, but no code is smart enough to know that a user entered misused an important text field to achieve a desired visual result.
+
+
+#### It privileges the editor's device
+
+In her book *[Content Strategy for Mobile](http://www.abookapart.com/products/content-strategy-for-mobile)*, author Karen McGrane explains the dangers of the web-based "preview" button. 
+
+> …There's no way to show [desktop] content creators how their content might appear on a mobile website or in an app. The existence of the preview button reinforces the notion that the dekstop website is the "real" website and [anything else] is an afterthought.
 
 [ Privileges the desktop web experience & the current design: makes anticipating impact elsewhere on the site and in other channels VERY hard ]
 
-> Most content management tools have a "preview" button so the person who's editing content can see how it will look when it's published. It's one of the most requested features from content creators. When you click on that button, what does it show you?
-> 
-> Why, the desktop website, of course!
-> 
-> …There's no way to show the content creators how their content might appear on a mobile website or in an app. The existence of the preview button reinforces the notion that the dekstop website is the "real" website and [anything else] is an afterthought.
-> 
->--Karen McGrane, "Content Strategy for Mobile"
 
-#### Hides inter-field and inter-content relationships
+#### Inter-field and inter-content relationships are hidden
 [ Eliminates cross-field relationships (validation, etc) or hides them from users. ]
 
-#### Complicates creation of new items
+#### It complicates creation of new items
 [ Closely-related Create In Place assumes very restricted set of options, and accentuates the problems. tough match for metadata driven sites. for views pages, will the metadata that causes a piece of content to appear there be auto-created? will creating it in a place, then overriding the metadata cause it to pop into existence somewhere else? ]
 
-#### Leads inevitably to parallel editing interfaces
+#### Parallel editing interfaces quickly emerge
 [ Attempts to expose richer metadata, more state information, etc result in clusters of extra toolbars, widgets, wrapper chrome, or "The node form on the client side," polluting the intent of WYSIWYG Inline. ]
 
 
