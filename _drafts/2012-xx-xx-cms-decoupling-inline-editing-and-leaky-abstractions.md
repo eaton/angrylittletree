@@ -10,6 +10,28 @@ Chances are good that [inline editing functionality could make it into Drupal 8]
 
 With that good news, though, there's a potential raincloud on the horizon. Inline editing, as useful as it is, could easily be the next WYSIWYG markup: [a tool that simplifies certain tasks but sabotages others](http://www.rachelandrew.co.uk/archives/2011/07/27/your-wysiwyg-editor-sucks/) in unexpected ways.
 
+## Direct manipulation: A leaky abstraction
+
+Over a decade ago, software developer Joel Spolsky wrote a critically important blog post about user experience: [The Law of Leaky Abstractions](http://www.joelonsoftware.com/articles/LeakyAbstractions.html). He explained that many software APIs are convenient lies about more complex processes they hide to simplify day-to-day work. Often these abstractions work, but just as often the underlying complexity "leaks through." A perfect example is Drupal's popular Views module.
+
+> One reason the law of leaky abstractions is problematic is that it means that abstractions do not really simplify our lives as much as they were meant to.
+> 
+> The law of leaky abstractions means that whenever somebody comes up with a wizzy new code-generation tool that is supposed to make us all ever-so-efficient, you hear a lot of people saying "learn how to do it manually first, then use the wizzy tool to save time." Code generation tools which pretend to abstract out something, like all abstractions, leak, and the only way to deal with the leaks competently is to learn about how the abstractions work and what they are abstracting. So the abstractions save us time working, but they don't save us time learning.
+> 
+> And all this means that paradoxically, even as we have higher and higher level programming tools with better and better abstractions, becoming a proficient programmer is getting harder and harder.
+
+Those words were written about APIs and software development tools, but they're familiar to anyone who's tried to build an humane interface for a modern content management system.
+
+At one extreme, a CMS can be treated as a tool for editing a relational database. The user interface exposed by a CMS in that sense is just a way of giving users access to every table and column that must be inserted or updated. Completeness is the name of the game, because users are directly manipulating the underlying storage model. Any data they don't see is probably unnecessary and should be exorcised from the data model. For those of us who come from a software development background this is a familiar approach, and it's dominated the UX decisions of many open source projects and business-focused proprietary systems.
+
+At the other extreme, a CMS can be treated as an artifact of visual web design. We begin with a vision of the end product: a photography portfolio, an online magazine, a school's class schedule. We decide how visitors should interact with it, we extrapolate the kinds of tasks administrators will need to perform to keep it updated, and the CMS is used to fill those dynamic gaps. The underlying structure of its data is abstracted away as WYSIWYG editors, drag-and-drop editing, and other tools that allow users to feel they're directly manipulating the final product rather than markup codes.
+
+The editing interfaces we offer to users send them important messages, whether we intend it or not. They are affordances, like knobs on doors and buttons on telephones. If the primary editing interface we present is also the visual design seen by site visitors, we are saying: "This *page* is what you manage! The things you see on it are the true form of your content." On certain sites, that message is true. But for many, it's a lie: what you're seeing is simply one view of a more complex content element, tailored for a particular page or channel.
+
+In those situations, Inline WYSIWYG editing is one of Joel Spolsky's leaky abstractions. It simplifies a user's initial experience exploring the system, but breaks down when they push forward -- causing *even more confusion and frustration than the initial learning would have.*
+
+---
+
 ## A brief interlude, with semantics
 
 With that provocative statement out of the way, I'll take a step back and define some terminology. Because Drupal's administrative interface, the improvements added by the Spark project, and the nature of web UX are all pretty complicated, there's a lot of potential for confusion when a term like "Inline Editing" gets thrown around. There are four kinds of editing behaviors that we'll touch on, and clarifying how they differ and overlap will (hopefully) prevent some confusion.
@@ -40,11 +62,8 @@ Often, these four different approaches overlap. Inline editing can be thought of
 That combined approach -- using inline editing on a site's front end to edit content as it will appear to visitors -- is what I'll be focusing on. It's "Inline WYSIWYG."
 
 
----
-
-
 ## Inline WYSIWYG! Can anything good come from there[?](http://bible.cc/john/1-46.htm)
-Of course! Over the past year or so, anything with the word 'WYSIWYG' in it has taken a bit of a beating in web circles. None of the approaches to content editing listed above are inherently good or bad, though. Like all tools, there are situations they're well-suited for and others that make an awkward fit.
+Of course! Over the past year or so, anything with the word 'WYSIWYG' in it has taken a bit of a beating in web circles, but none of the approaches to content editing listed above are inherently good or bad. Like all tools, there are situations they're well-suited for and others that make an awkward fit.
 
 Ev Williams, the co-founder of Blogger and Twitter, recently wrote about [why his team has made inline editing and WYSIWYG the native editing interface for their blogging tool, Medium.](https://medium.com/about/df8eac9f4a5e)
 
@@ -61,10 +80,9 @@ This kind of relentless focus -- a single streamlined way of presenting each pie
 That's an amazing, awesome thing and other kinds of focused web sites can benefit from it, too. Many small-business brochureware sites, for example, have straightfoward, easily-modeled content. Many of those sites' users would kill for the simplicity of a "click here to enter text" approach to content entry.
 
 
-
 ## The other side(s) of the coin
 
-Even the best tool, however, can't be right for every job. The inline WYSIWYG approach that's used by Create.js and the Spark Project can pose serious problems, too. The [Decoupled CMS Project](http://decoupledcms.org/) in particular proposes that Inline WYSIWYG could be a useful general editing paradigm for content-rich web˙sites, but that requires looking at the weaknesses clearly and honestly.
+Even the best tool, however, can't be right for every job. The inline WYSIWYG approach that's used by Create.js and the Spark Project can pose serious problems. The [Decoupled CMS Project](http://decoupledcms.org/) in particular proposes that Inline WYSIWYG could be a useful general editing paradigm for content-rich web˙sites, but that requires looking at the weaknesses clearly and honestly.
 
 ### Invisible data is inaccessible
 Inline editing, by definition, is tied to the page's visible design. Various cues can separate editable and non-editable portions of the page, but there's no place for content elements that *aren't part of the visible page at all*.
@@ -106,30 +124,7 @@ To reiterate Ev William's vision for Medium,
 
 In situations where Inline WYSIWIG can't live up to that ideal, it paradoxically results in even *more* complexity for users.
 
-
 ---
-
-
-## Direct manipulation: A leaky abstraction
-
-Over a decade ago, software developer Joel Spolsky wrote a critically important blog post about user experience: [The Law of Leaky Abstractions](http://www.joelonsoftware.com/articles/LeakyAbstractions.html). He explained that many software APIs are convenient lies about more complex processes they hide to simplify day-to-day work. Often these abstractions work, but just as often the underlying complexity "leaks through."
-
-> One reason the law of leaky abstractions is problematic is that it means that abstractions do not really simplify our lives as much as they were meant to.
-> 
-> The law of leaky abstractions means that whenever somebody comes up with a wizzy new code-generation tool that is supposed to make us all ever-so-efficient, you hear a lot of people saying "learn how to do it manually first, then use the wizzy tool to save time." Code generation tools which pretend to abstract out something, like all abstractions, leak, and the only way to deal with the leaks competently is to learn about how the abstractions work and what they are abstracting. So the abstractions save us time working, but they don't save us time learning.
-> 
-> And all this means that paradoxically, even as we have higher and higher level programming tools with better and better abstractions, becoming a proficient programmer is getting harder and harder.
-
-Those words were written about APIs and software development tools, but they're familiar to anyone who's tried to build an humane interface for a modern content management system.
-
-At one extreme, a CMS can be treated as a tool for editing a relational database. The user interface exposed by a CMS in that sense is just a way of giving users access to every table and column that must be inserted or updated. Completeness is the name of the game, because users are directly manipulating the underlying storage model. Any data they don't see is probably unnecessary and should be exorcised from the data model. For those of us who come from a software development background this is a familiar approach, and it's dominated the UX decisions of many open source projects and business-focused proprietary systems.
-
-At the other extreme, a CMS can be treated as an artifact of visual web design. We begin with a vision of the end product: a photography portfolio, an online magazine, a school's class schedule. We decide how visitors should interact with it, we extrapolate the kinds of tasks administrators will need to perform to keep it updated, and the CMS is used to fill those dynamic gaps. The underlying structure of its data is abstracted away as WYSIWYG editors, drag-and-drop editing, and other tools that allow users to feel they're directly manipulating the final product rather than markup codes.
-
-The editing interfaces we offer to users send them important messages, whether we intend it or not. They are affordances, like knobs on doors and buttons on telephones. If the primary editing interface we present is also the visual design seen by site visitors, we are saying: "This *page* is what you manage! The things you see on it are the true form of your content." With Ev William's Medium, that message is true. But for many sites, it's a lie: what you're seeing is simply one view of a more complex content element, tailored for a particular page or channel.
-
-In those situations, Inline WYSIWYG editing is one of Joel Spolsky's leaky abstractions. It simplifies a user's initial experience exploring the system, but breaks down when they push forward -- causing even more confusion and frustration than the initial learning would have.
-
 
 ## In conclusion, Inline WYSIWYG is [a land of contrasts](http://www.globejotting.com/the-most-overused-cliche-in-travel-writing/)
 So, where does this leave us? Despite my complaints, both Inline and WYSIWYG editing are valuable tools for building an effective editorial experience. The combined Inline WYSIWYG approach *can* radically improve sites that pair an extremely focused presentation with simple content. But despite the impressive splash it makes during demos, Inline WYSIWYG as a primary editing interface is difficult to scale beyond brochureware and blogs. On sites with more complex content and publishing workflows, those training wheels will have to come off eventually.
