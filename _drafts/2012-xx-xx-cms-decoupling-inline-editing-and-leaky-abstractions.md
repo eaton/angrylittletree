@@ -12,7 +12,7 @@ With that good news, though, there's a potential raincloud on the horizon. Inlin
 
 ## Direct manipulation: A leaky abstraction
 
-Over a decade ago, software developer Joel Spolsky wrote a critically important blog post about user experience: [The Law of Leaky Abstractions](http://www.joelonsoftware.com/articles/LeakyAbstractions.html). He explained that many software APIs are convenient lies about more complex processes they hide to simplify day-to-day work. Often these abstractions work, but just as often the underlying complexity "leaks through." A perfect example is Drupal's popular Views module.
+Over a decade ago, software developer Joel Spolsky wrote a critically important blog post about user experience: [The Law of Leaky Abstractions](http://www.joelonsoftware.com/articles/LeakyAbstractions.html). He explained that many software APIs are convenient lies about more complex processes they hide to simplify day-to-day work. Often these abstractions work, but just as often the underlying complexity "leaks through."
 
 > One reason the law of leaky abstractions is problematic is that it means that abstractions do not really simplify our lives as much as they were meant to.
 > 
@@ -127,9 +127,11 @@ In situations where Inline WYSIWIG can't live up to that ideal, it paradoxically
 ---
 
 ## In conclusion, Inline WYSIWYG is [a land of contrasts](http://www.globejotting.com/the-most-overused-cliche-in-travel-writing/)
-So, where does this leave us? Despite my complaints, both Inline and WYSIWYG editing are valuable tools for building an effective editorial experience. The combined Inline WYSIWYG approach *can* radically improve sites that pair an extremely focused presentation with simple content. But despite the impressive splash it makes during demos, Inline WYSIWYG as a primary editing interface is difficult to scale beyond brochureware and blogs. On sites with more complex content and publishing workflows, those training wheels will have to come off eventually.
+So, where does this leave us? Despite my complaints, both Inline and WYSIWYG editing are valuable tools for building an effective editorial experience. The problem of leaky abstractions isn't new to Drupal: Views, for example, is a click-and-drag listing page builder, but requires its users know SQL to understand what's happening when problems arise. As we consider how to apply the tools at our disposal, we have to examine their pros and cons honestly rather than fixating on one or the other.
 
-Is Inline WYSIWYG right for Drupal core? While it can be very useful, it's not a silver bullet for Drupal's UX werewolves. Worse, it can actively confuse users and mask critical information on the kinds of data-rich sites Drupal is best suited for. Enhanced content modeling tools and the much-loved Views module are both built into Drupal 8; even new developers and builders will easily assemble sites whose complexity confounds Inline WYSIWYG. 
+The combined Inline WYSIWYG approach *can* radically improve sites that pair an extremely focused presentation with simple content. But despite the impressive splash it makes during demos, Inline WYSIWYG as a primary editing interface is difficult to scale beyond brochureware and blogs. On sites with more complex content and publishing workflows, those training wheels will have to come off eventually.
+
+Is Inline WYSIWYG right for Drupal core? While it can be very useful, it's not a silver bullet for Drupal's UX werewolves. Worse, it can actively confuse users and mask critical information on the kinds of data-rich sites Drupal is best suited for. Enhanced content modeling tools and the much-loved Views module are both built into Drupal 8; even new developers and builders will easily assemble sites whose complexity confounds Inline WYSIWYG.
 
 At the same time, the underlying architectural changes that make the approach possible are incredibly valuable. If Drupal 8 ships with client-side editing APIs as complete as its existing server-side edit forms, the foundation will be laid for many other innovative editing tools. Even if complex sites can't benefit from Inline WYSIWYG, they'll be able to implement their own appropriate, tailored interfaces with far less work because of it.
 
