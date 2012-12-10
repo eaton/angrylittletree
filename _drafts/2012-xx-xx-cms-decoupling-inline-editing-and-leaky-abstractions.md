@@ -139,3 +139,5 @@ Is Inline WYSIWYG right for Drupal core? While it can be very useful, it's not a
 At the same time, the underlying architectural changes that make the approach possible are incredibly valuable. If Drupal 8 ships with client-side editing APIs as complete as its existing server-side edit forms, the foundation will be laid for many other innovative editing tools. Even if complex sites can't benefit from Inline WYSIWYG, they'll be able to implement their own appropriate, tailored interfaces with far less work because of it.
 
 Like WYSIWYG markup editors, design-integrated Inline WYSIWYG editing is an idea that's here to stay. Deciding when to use it appropriately, and learning how to sidestep its pitfalls, will be an important task for site builders and UX professionals in the coming years. Our essential task is still the same: giving people tools to accomplish the tasks that matter to them!
+
+-Placeholder for paragraph about Views and Panels-
