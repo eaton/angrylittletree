@@ -81,19 +81,30 @@ The problem is even more serious for Inline WYSIWYG. Markup editors can be confi
 
 In her book *[Content Strategy for Mobile](http://www.abookapart.com/products/content-strategy-for-mobile)*, author Karen McGrane explains the dangers of the web-based "preview" button. 
 
-> …There's no way to show [desktop] content creators how their content might appear on a mobile website or in an app. The existence of the preview button reinforces the notion that the dekstop website is the "real" website and [anything else] is an afterthought.
+> …There's no way to show [desktop] content creators how their content might appear on a mobile website or in an app. The existence of the preview button reinforces the notion that the dekstop website is the "real" website  and [anything else] is an afterthought.
 
-[ Privileges the desktop web experience & the current design: makes anticipating impact elsewhere on the site and in other channels VERY hard ]
+Inline WYSIWG amplifies this problem, turning the entire editing experience into an extended preview of what the content will look like on the editor's current browser, platform, screen size, and user context. The danger lies in the hidden ripple effects for *other* devices, views, publishing channels, and even other pages where the same content is reused.
 
 
-#### Inter-field and inter-content relationships are hidden
-[ Eliminates cross-field relationships (validation, etc) or hides them from users. ]
+#### It complicates the creation of new items
+Create.js and the Spark Project also allow editors to create new content items in place on any listing page. This is a valuable feature, especially for sites dominated by simple chronological lists or explicit content hierarchies.
 
-#### It complicates creation of new items
-[ Closely-related Create In Place assumes very restricted set of options, and accentuates the problems. tough match for metadata driven sites. for views pages, will the metadata that causes a piece of content to appear there be auto-created? will creating it in a place, then overriding the metadata cause it to pop into existence somewhere else? ]
+On sites with more complex rule-based listing pages, however, the picture becomes fuzzier. If an editor inserts a new piece of content on another author's page, does the content become owned by that author? On listing pages goverened by complex selection rules, will the newly-inserted item receive default values sufficient to ensure that it will appear on the page? If the editor inserts new content on a listing page, but alters its fields such that the content no longer matches the listing page's selection rules, does the content vanish and re-appear in a different, unknown part of the web site?
 
-#### Parallel editing interfaces quickly emerge
-[ Attempts to expose richer metadata, more state information, etc result in clusters of extra toolbars, widgets, wrapper chrome, or "The node form on the client side," polluting the intent of WYSIWYG Inline. ]
+In addition, multi-step workflows accompany the creation of content on many sites. Translating a single piece of content into several legally mandated languages before publication is necessary in some countries, even for small web sites. Approval and scheduling workflows pose similar problems, moving documents through important but invisible states before they can be displayed accurately on the site.
+
+
+#### Complexity Quickly Reasserts Itself
+Many of the problems described above can be worked around by adding additional visual cues, exposing normally hidden fields in floating toolbars, and providing other normally hidden information when editors have activated Inline WYSIWYG. Additional secondary editing interfaces can also be provided for "full access" to a content item's full list of fields, metadata, and workflow states.
+
+However, the addition of these extra widgets, toolbars, hover-tips, popups, and so on compromise the radical simplicity that justified
+Inline Editing in the first place. On many sites, a sufficiently functional Inline WYSIWYG interface -- one that captures the important state, metadata, and relational information for a piece of content -- will be no simpler or faster than well-designed, task-focused modal editing forms. [Members of the Plone team discovered that was often true](http://plone.org/products/plone/roadmap/238) after adding Inline WYSIWYG to their CMS. After several versions maintaining the feature, [they removed it from the core CMS product](http://plone.293351.n2.nabble.com/RFC-re-inline-editing-td7560809.html).
+
+To reiterate Ev William's vision for Medium,
+
+> There’s no layer of abstraction. This is a simple (and old) concept… and it makes a big difference. Having to go back and forth between your creation tool and your creation is like sculpting by talking.
+
+In situations where Inline WYSIWIG can't live up to that ideal, it paradoxically results in even *more* complexity for users.
 
 
 ---
@@ -128,49 +139,3 @@ Is Inline WYSIWYG right for Drupal core? While it can be very useful, it's not a
 At the same time, the underlying architectural changes that make the approach possible are incredibly valuable. If Drupal 8 ships with client-side editing APIs as complete as its existing server-side edit forms, the foundation will be laid for many other innovative editing tools. Even if complex sites can't benefit from Inline WYSIWYG, they'll be able to implement their own appropriate, tailored interfaces with far less work because of it.
 
 Like WYSIWYG markup editors, design-integrated Inline WYSIWYG editing is an idea that's here to stay. Deciding when to use it appropriately, and learning how to sidestep its pitfalls, will be an important task for site builders and UX professionals in the coming years. Our essential task is still the same: giving people tools to accomplish the tasks that matter to them!
-
-
----
-
-__Notes__
-
-<small>- http://drupal.org/project/spark
-- http://createjs.org/
-- http://phpcr.github.com/
-- http://pooteeweet.org/blog/2088
-- http://patternry.com/p=inline-edit/
-- http://decoupledcms.org/
-
-The problems with inline editing that must be solved:
-
-Pure UX issues like plone's - accidental edits. Also, hides metadata and privileges desktop. Closely related to the problem of wysiwyg.
-
-Plone team - some UX problems, but they also discovered that the use case of 'editing a field or two in place' wasn't as common as they had anticipated. The larger the site, the more metadata, the more different ways a single piece of content is presented, etc.
-
-Doesn't scale to complex multi-channel sites and sticks content editors into the designers seat.
-
-How will it look on the front page? On mobile? In email or in social? Workflow etc. our clients need that flexibility. 
-
-What's promising? Lots of work going into decoupling Drupal's storage, editing, and presentation. As long as we preserve that it should be a net win -- but the flashy curbside appeal of online editing is difficult to scale beyond brochureware.
-
-A different way? Client by client, node form improvements, etc
-
-
-
-Not a UI panacea, can be tricky to get right. Learn from Plone
-Hides metadata and state information, greatly privileges desktop web
-Sends a message: This is what is part of the content. What you see is what matters. This is where it "lives."
-
-Absolutely privileges the desktop web, and the current visual design
-
-I'm a big proponent of contextually-aware administrative tools. On the WWE project, this was a huge boon.
-
-Links: Ev's medium post, Joel Spolsky's post on "leaky abstractions", the Plone thread about removing inline editing
-
-- http://drupal.org/node/1824500
-- http://www.joelonsoftware.com/articles/LeakyAbstractions.html
-- http://processwire.com/talk/topic/1365-inline-editing-the-drupal-spark-way/
-- https://medium.com/about/df8eac9f4a5e
-- http://plone.org/products/plone/roadmap/238 and http://plone.293351.n2.nabble.com/RFC-re-inline-editing-td7560809.html
-
-</small>
