@@ -132,7 +132,7 @@ In those situations, Inline WYSIWYG editing is one of Joel Spolsky's leaky abstr
 
 
 ## In conclusion, Inline WYSIWYG is [a land of contrasts](http://www.globejotting.com/the-most-overused-cliche-in-travel-writing/)
-So, where does this leave us? Despite my complaints, both Inline and WYSIWYG editing are valuable tools for building an effective editorial experience. The combined Inline WYSIWYG approach can radically improve sites that pair an extremely focused presentation with simple content. But despite the impressive splash it makes during demos, Inline WYSIWYG as a primary editing interface is difficult to scale beyond brochureware and blogs. On sites with more complex content and publishing workflows, those training wheels will have to come off eventually.
+So, where does this leave us? Despite my complaints, both Inline and WYSIWYG editing are valuable tools for building an effective editorial experience. The combined Inline WYSIWYG approach *can* radically improve sites that pair an extremely focused presentation with simple content. But despite the impressive splash it makes during demos, Inline WYSIWYG as a primary editing interface is difficult to scale beyond brochureware and blogs. On sites with more complex content and publishing workflows, those training wheels will have to come off eventually.
 
 Is Inline WYSIWYG right for Drupal core? While it can be very useful, it's not a silver bullet for Drupal's UX werewolves. Worse, it can actively confuse users and mask critical information on the kinds of data-rich sites it's best suited for. Enhanced content modeling tools and the much-loved Views module are both built into Drupal 8; even new developers and builders will easily assemble sites whose complexity confounds Inline WYSIWYG. 
 
