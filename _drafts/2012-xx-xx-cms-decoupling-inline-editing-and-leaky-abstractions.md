@@ -2,6 +2,8 @@
 layout: post
 summary:Inline WYSIWYG editing can improve life for some content managers, but brings new problems for content-rich sites.
 title: Inline Editing and the Cost of Leaky Abstractions
+
+notes: This article was eventually published at https://www.lullabot.com/articles/inline-editing-and-cost-leaky-abstractions but this draft remains in place as an archival record of edits and revisions.
 ---
 
 For several years, core Drupal contributors have been working on ways to improve the user experience for content editors. Since May of 2012, project lead Dries Buytaert and his company Acquia have been funding the [Spark Project](http://buytaert.net/announcing-spark-authoring-improvements-for-drupal-7-and-drupal-8), an ambitious set of improvements to Drupal's core editing experience. One of the most eye-popping features they've demonstrated is [Inline WYSIWYG editing](http://buytaert.net/spark-update-in-line-editing-in-drupal), the ability to click on a page element, edit it in place, and persist the changes without visiting a separate page or opening a popup window.
