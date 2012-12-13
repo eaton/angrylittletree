@@ -139,7 +139,11 @@ article {
 }
 
 article img {
-  max-width: 100%;
+	max-width: 96%;
+	border: .5em solid silver;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 article p, article ul, article ol, article code, article pre {
@@ -170,7 +174,7 @@ header h1 {
 	background-position: right;
 }
 
-#disqus {
+#comments {
 	padding-top: 2em;
 	margin-top: 2em;
 	border-top: .5em solid silver;
