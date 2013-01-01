@@ -39,6 +39,6 @@ That career-shift has been terrifying but extremely rewarding -- my wife Catheri
 ##I love you all
 If you're reading this, there's a pretty good chance you're a close friend, colleague, or coworker. (And you, Stranger Who's Viewing The Page From Iceland With A BlackBerry, I don't know you but you seem cool, too.)
 
-Thank you for the encouragement, support, and advice; for the amazing insights you've offered me, the awesome hacks you've shown me, and the perspectives you've brought to my life that I'd never hace known otherwise. Thanks for putting up with my ADHD brainstorming and my arm-waving rants and my self-doubt and my egostorms.
+Thank you for the encouragement, support, and advice; for the amazing insights you've offered me, the awesome hacks you've shown me, and the perspectives you've brought to my life that I'd never have known otherwise. Thanks for putting up with my ADHD brainstorming and my arm-waving rants and my self-doubt and my egostorms.
 
 I love you and you're awesome.
