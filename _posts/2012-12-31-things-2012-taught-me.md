@@ -35,3 +35,10 @@ I spent a good chunk of 2010 and 2011 feel frustrated and aimless. I enjoyed my 
 A conference-night heart-to-heart with Karen McGrane and Kristina Halvorson in late 2011 helped clarify the parts of my work that I really love, and wanted to invest more time in. In 2012, I made a conscious choice to put more energy into it: studying, pursuing projects that would give me more opportunities to experiment and develop the necessary skills, and so on.
 
 That career-shift has been terrifying but extremely rewarding -- my wife Catherine and the bosses at Lullabot have all been really supportive, and it's been encouraging to work with them to make sure it's sustainable both personally and for the company. But without the clarity of understanding what I really, truly love doing? I'd still be thrashing. Even if it takes time to get there, knowing where you're heading makes a huge difference.
+
+##I love you all
+If you're reading this, there's a pretty good chance you're a close friend, colleague, or coworker. (And you, Stranger Who's Viewing The Page From Iceland With A BlackBerry, I don't know you but you seem cool, too.)
+
+Thank you for the encouragement, support, and advice; for the amazing insights you've offered me, the awesome hacks you've shown me, and the perspectives you've brought to my life that I'd never hace known otherwise. Thanks for putting up with my ADHD brainstorming and my arm-waving rants and my self-doubt and my egostorms.
+
+I love you and you're awesome.
