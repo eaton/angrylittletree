@@ -4,7 +4,7 @@ summary: A journalist balks at working for free, and we all learn a valuable les
 title: Ink Stained Wretches
 ---
 
-Over on Metafilter, there's [a rolicking conversation about the publishing world](http://www.metafilter.com/125673/Exposure-Doesnt-Feed-My-Fucking-Children) unfolding. To make a long story short, journalist Nate Thayer wrote a great blog post about the recent "basketball diplomacy" stuff going on in North Korea. A web editor for a major magazine contacted him and asked if he'd be willing to edit down a shortened version of the post for inclusion on their site.
+Over on Metafilter, there's [a rollicking conversation about the publishing world](http://www.metafilter.com/125673/Exposure-Doesnt-Feed-My-Fucking-Children) unfolding. To make a long story short, journalist Nate Thayer wrote a great blog post about the recent "basketball diplomacy" stuff going on in North Korea. A web editor for a major magazine contacted him and asked if he'd be willing to edit down a shortened version of the post for inclusion on their site.
 
 A couple of emails were exchanged, and the editor noted that she couldn't actually *pay* him for it because her freelancing budget was exhausted for the month, though it would be exposure for his work. *Original* reporting, the editor noted, only nets $100 per piece. Thayer refused and fired off a reply explaining that he had children to feed and wouldn't work for free. Then [he posted the entire email thread to his blog](http://natethayer.wordpress.com/2013/03/04/a-day-in-the-life-of-a-freelance-journalist-2013/) and said it was a commentary on the state of journalism.
 
