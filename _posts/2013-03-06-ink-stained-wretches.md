@@ -1,6 +1,6 @@
 ---
 layout:post
-summary journalist balks at working for free, and we all learn a valuable lesson about the 'glamour' of freelancing.
+summary:A journalist balks at working for free, and we all learn a valuable lesson about the glamour of freelancing.
 title:Ink Stained Wretches
 ---
 
