@@ -8,7 +8,7 @@ Over on Metafilter, there's [a rolicking conversation about the publishing world
 
 A couple of emails were exchanged, and the editor noted that she couldn't actually *pay* him for it because her freelancing budget was exhausted for the month, though it would be exposure for his work. *Original* reporting, the editor noted, only nets $100 per piece. Thayer refused and fired off a reply explaining that he had children to feed and wouldn't work for free. Then [he posted the entire email thread to his blog](http://natethayer.wordpress.com/2013/03/04/a-day-in-the-life-of-a-freelance-journalist-2013/) and said it was a commentary on the state of journalism.
 
-Leaving aside the question of whether Thayer was a jerk for posting the email without asking permission, whether he was justified in being offended, or all of the above, it's resulted in a lot of interesting commentary. What stood out to me in the MeFi thread, though, was a comment by one of the folks who was catching up on the story:
+Leaving aside the question of whether Thayer was a jerk for posting the email without asking permission, whether he was justified in being offended, or all of the above, it's resulted in a lot of interesting commentary. What stood out to me in the MeFi thread, though, was [a comment by one of the folks who was catching up on the story](http://www.metafilter.com/125673/Exposure-Doesnt-Feed-My-Fucking-Children#4857198):
  
 > Whoa, $100 for an "original, reported story" is really really skint, unless the writer can knock something together in an hour. And do that five times a day, every day, for a week.</em>
 
