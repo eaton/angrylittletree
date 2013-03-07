@@ -1,7 +1,7 @@
 ---
-layout:post
-summary:A journalist balks at working for free, and we all learn a valuable lesson about the glamour of freelancing.
-title:Ink Stained Wretches
+layout: post
+summary: A journalist balks at working for free, and we all learn a valuable lesson about the glamour of freelancing.
+title: Ink Stained Wretches
 ---
 
 Over on Metafilter, there's [a rolicking conversation about the publishing world](http://www.metafilter.com/125673/Exposure-Doesnt-Feed-My-Fucking-Children) unfolding. To make a long story short, journalist Nate Thayer wrote a great blog post about the recent "basketball diplomacy" stuff going on in North Korea. A web editor for a major magazine contacted him and asked if he'd be willing to edit down a shortened version of the post for inclusion on their site.
