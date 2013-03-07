@@ -25,7 +25,3 @@ I interviewed celebrities, I pitched ideas to the local newspapers, I pored over
 I was lucky enough to have a couple of mentors who had done well as freelancers; they showed me the ropes and assured me this was the "dues-paying" part of the writing life. However, after a couple of years of doing web stuff "on the side" while I wrote, it became clear that tech work was turning into my Real Job while writing was something I simply *enjoyed*. I'm sure if I'd been a better writer, or stuck it out, I could've climbed slowly but steadily. On the other hand, I now build the tech infrastructure for newspapers and magazines trying to survive in the digital age. I love doing what I do, and [I still get the occasional chance to write for real](http://www.amazon.com/Using-Drupal-Angela-Byron/dp/0596515804).
 
 The explosion of completely free high-quality content by people who simply *want to write* and have a platform thanks to the Internet makes competition rough. The shift to web and then to mobile has gutted ad revenues, leaving crunched editors with anemic budgets for freelancers. While Nate Thayer is totally within his rights to say, "Thanks but no thanks," what happened to him just sounds a lot like… well, like *freelancing*.
-
----
-
-*Update: An editor at The Atlantic has replied, [giving a bit of insight into what things look like on the other side of the editorial wall](http://www.theatlantic.com/technology/archive/2013/03/a-day-in-the-life-of-a-digital-editor-2013/273763/). It sounds like things haven't changed too much since I plied my trade.*
