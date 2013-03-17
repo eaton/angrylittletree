@@ -7,8 +7,6 @@ Does the oft-used word "Open" actually *mean* anything? In Saturday's New York T
 
 > “Openness” has become a dangerously vague term, with lots of sex appeal but barely any analytical content… This fascination with “openness” stems mostly from the success of open-source software, publicly accessible computer code that anyone is welcome to improve. But lately it has been applied to everything from politics to philanthropy; recent book titles include “The Open-Source Everything Manifesto” and “Radical Openness.” There’s even “OpenCola” — a true soda drink for the masses.
 
-A shot fired across the bow!
-
 ### Jumping Into the Wayback Machine
 
 Morozov's article starts strong. The Free Software movement *has* radically transformed the tech world since its principles were codified in the early 1980s, and somtimes it seems *everyone* is trying to ride its cultural slipstream. The lingustic fuzziness he refers to, though, is far from a new development.
