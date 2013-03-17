@@ -30,14 +30,14 @@ Here, Morozov confuses the *nature* of open source software with the reasons tha
 - Freedom Two: The freedom to redistribute copies so you can help your neighbor.
 - Freedom Three: The freedom to distribute copies of your modified versions to others.
 
-Because software is covered by copyright law, these freedoms are codified in explicit licensing agreements like the GNU, MIT, and Apache Licenses. Putting aside the issue of geek privilege and the assumption that ever user is a programmer, these four freedoms are quite radical. Even the linguistically watered-down definition of [Open Source](http://opensource.org/osd) shares this emphasis on user/programmer freedom.
+Because software is covered by copyright law, these freedoms are codified in explicit licensing agreements like the GPL, MIT, and Apache Licenses. Putting aside the issue of geek privilege and the assumption that every user is a programmer, these four freedoms are quite radical. Even the linguistically watered-down definition of [Open Source](http://opensource.org/osd) shares this emphasis on individual freedom.
 
 
-## Where Morozov Misses the Boat
+## Missing the Boat
 
 If all of this were just semantic quibbling, Morozov would be right to brush it aside. Recall his comment, though: "While Popper’s openness is primarily about politics and a free flow of ideas, open-source is about cooperation, innovation and efficiency."
 
-This statement should be baffling to anyone who's worked with Free or Open Source software. Their motivating philosophy is absolutely political, and unquestionably focused on the free flow of ideas. In fact, many commercial software companies fought against Open Source for years by characterizing it as a politically motivated "virus."
+This statement should be baffling to anyone who's worked with Free or Open Source software. The movement's motivating philosophy is absolutely political, and unquestionably focused on the free flow of ideas. In fact, many commercial software companies fought against Open Source for years by characterizing it as a politically motivated "virus."
 
 Free Software's four freedoms *have* often given rise to innovative, efficient software, and the Open Source community *does* encourages cooperation and collaboration. However, those happy benefits have *always* been secondary to the underlying freedoms codified in the movement's explicit legal licenses.
 
@@ -50,8 +50,10 @@ It's true that some open-source projects evolve hierarchies as they grow, and so
 The unruly reality of the Open Source ecosystem is that it's full of developers who attack technical challenges and pursue hobby projects with reckless abandon. These developers set their own priorities and attract collaborators on the strength of their solutions rather than their authority to demand cooperation. Open Source software is no panacea for hard problems, but the picture Morozov paints is so muddy that it's unrecognizable.
 
 
-## The Point He Could've Made
+## Making Morozov's Point
 
-The remainder of the article focuses on needling boosters of the Open Government movement, and rightly so. *Simply* giving people access to reams of government spending data, procurement records, memos, and other administravia does not improve the world. Even the laudable goal of transparency is only the first step: 
+The remainder of the article focuses on needling boosters of the Open Government movement, and rightly so. *Simply* giving people access to reams of government spending data, procurement records, memos, and other administravia does not improve the world. Finding evidence of corruption and inefficiency in mountains of raw data is no easy task, and it's easy for unscrupulous public officials to avoid accountability while publishing XML feeds.
 
-Ironically, the *reasoning* behind Morozov's muddled charactierization of Open Source suggests that he'd be quite comfortable with software radicals like Richard Stallman. Healthy democracy demands the real ability to change the status quo when it's unacceptable -- not just a "look, don't touch" window into government. But if Open Government is too vauge, the answer isn't to attack Open Source. Instead, we should demands that its proponents articulate a clear and unambiguous 
+When needles *are* found in the haystacks, citizens still need effective tools to act on the information. The mechanisms for fine-grained policy change are still out of reach for most people: they need either money to pay lobbyists or time to become activists. This gap is a huge problem, and [it corresponds to a serious Open Source issue I've written about before](http://angrylittletree.com/2012/05/tragic-myopia-what-floss-advocates-are-missing.html) -- the disenfranchisement of non-programmers.
+
+Ironically, the *reasoning* behind Morozov's muddled charactierization of Open Source suggests that he'd be quite comfortable with software radicals like Richard Stallman. Healthy democracy demands the real ability to change the status quo when it's unacceptable -- not just a "look, don't touch" window into government. If Open Government is too vauge, the answer isn't to attack Open Source. Instead, we should demand that its proponents articulate a clear and unambiguous explanation of what "open" really means -- and hold them to it.
