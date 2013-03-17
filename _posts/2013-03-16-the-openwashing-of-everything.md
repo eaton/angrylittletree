@@ -7,8 +7,9 @@ Does the oft-used word "Open" actually *mean* anything? In Saturday's New York T
 
 > “Openness” has become a dangerously vague term, with lots of sex appeal but barely any analytical content… This fascination with “openness” stems mostly from the success of open-source software, publicly accessible computer code that anyone is welcome to improve. But lately it has been applied to everything from politics to philanthropy; recent book titles include “The Open-Source Everything Manifesto” and “Radical Openness.” There’s even “OpenCola” — a true soda drink for the masses.
 
+A shot fired across the bow!
 
-## Jumping Into the Wayback Machine
+### Jumping Into the Wayback Machine
 
 Morozov's article starts strong. The Free Software movement *has* radically transformed the tech world since its principles were codified in the early 1980s, and somtimes it seems *everyone* is trying to ride its cultural slipstream. The lingustic fuzziness he refers to, though, is far from a new development.
 
@@ -17,7 +18,7 @@ In 1998, marketing-minded members of the free software crowd coined the "Open So
 The quick explanation of Open Source that Morozov offers -- "publicly accessible computer code that anyone is welcome to improve" -- accurately summarizes [the technical definition of the term](http://opensource.org/osd). However, as the article continues it becomes clear that he's unfamiliar with the movement's philosophical underpinnings.
 
 
-## Getting Philosophical
+### Getting Philosophical
 
 I'm loathe to side with Richard Stallman about anything, but it seems that his fears were well-founded: "open" is just too vague a word, as Morozov's confusion testifies:
 
@@ -33,7 +34,7 @@ Here, Morozov confuses the *nature* of open source software with the reasons tha
 Because software is covered by copyright law, these freedoms are codified in explicit licensing agreements like the GPL, MIT, and Apache Licenses. Putting aside the issue of geek privilege and the assumption that every user is a programmer, these four freedoms are quite radical. Even the linguistically watered-down definition of [Open Source](http://opensource.org/osd) shares this emphasis on individual freedom.
 
 
-## Missing the Boat
+### Missing the Boat
 
 If all of this were just semantic quibbling, Morozov would be right to brush it aside. Recall his comment, though: "While Popper’s openness is primarily about politics and a free flow of ideas, open-source is about cooperation, innovation and efficiency."
 
@@ -50,7 +51,7 @@ It's true that some open-source projects evolve hierarchies as they grow, and so
 The unruly reality of the Open Source ecosystem is that it's full of developers who attack technical challenges and pursue hobby projects with reckless abandon. These developers set their own priorities and attract collaborators on the strength of their solutions rather than their authority to demand cooperation. Open Source software is no panacea for hard problems, but the picture Morozov paints is so muddy that it's unrecognizable.
 
 
-## Making Morozov's Point
+### Making Morozov's Point
 
 The remainder of the article focuses on needling boosters of the Open Government movement, and rightly so. *Simply* giving people access to reams of government spending data, procurement records, memos, and other administravia does not improve the world. Finding evidence of corruption and inefficiency in mountains of raw data is no easy task, and it's easy for unscrupulous public officials to avoid accountability while publishing XML feeds.
 
