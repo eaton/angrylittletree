@@ -51,7 +51,7 @@ The unruly reality of the Open Source ecosystem is that it's full of developers 
 
 ### Making Morozov's Point
 
-The remainder of the article focuses on needling boosters of the Open Government movement, and rightly so. *Simply* giving people access to reams of government spending data, procurement records, memos, and other administravia does not improve the world. Finding evidence of corruption and inefficiency in mountains of raw data is no easy task, and it's easy for unscrupulous public officials to avoid accountability while publishing XML feeds.
+The remainder of the article focuses on needling boosters of the Open Government movement, and rightly so. [*Simply* giving people access to reams of government spending data), procurement records, memos, and other administravia does not improve the world.](http://plf.tumblr.com/post/460130176/sxswkeynotedisasterporn) Finding evidence of corruption and inefficiency in mountains of raw data is no easy task, and it's easy for unscrupulous public officials to avoid accountability while publishing XML feeds.
 
 When needles *are* found in the haystacks, citizens still need effective tools to act on the information. The mechanisms for fine-grained policy change are still out of reach for most people: they need either money to pay lobbyists or time to become activists. This gap is a huge problem, and [it corresponds to a serious Open Source issue I've written about before](http://angrylittletree.com/2012/05/tragic-myopia-what-floss-advocates-are-missing.html) -- the disenfranchisement of non-programmers.
 
