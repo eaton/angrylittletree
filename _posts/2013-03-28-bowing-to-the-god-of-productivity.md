@@ -29,7 +29,7 @@ For those of you who didn't just watch the movie, I'll summarize. Set in the 17t
 
 In the closing scene, Altamirano receives an account of his decision's predictable consequences. He's tormented by the outcome, and his personal assistant attempts to brush aside the guilt. "We must work in the world, your eminence. The world is thus," says his assistant. After some thought, Altamirano replies: "No, Señor Hontar. *Thus have we made the world... thus have I made it.*"
 
-The line is delivered with a long, fourth-wall-breaking stare: Altamirano makes eye contact with the audience as he delivers that final line: "Thus we have made the world; thus have I made it."
+The line is delivered with a long, fourth-wall-breaking stare. Altamirano makes eye contact with the audience and confesses: "Thus we have made the world; thus have I made it."
 
 ### Wait, What About Walmart Again?
 The same easy cop-out is often used when we discuss the dominant role that business and economics has in our society. We *must* optimize our nation's efforts to achieve an ever-increasing GDP. We *must* accept an ever-outsourced workforce and an ever-reduced social safety net. We *must* cede core social services to private industry and the optimized mechinations of the free market, because that's where *efficiency and profit* comes from.
