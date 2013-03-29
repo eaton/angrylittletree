@@ -1,6 +1,6 @@
 # standard jekyll stuff
 permalink: /:year/:month/:title.html
-markdown: rdiscount
+markdown: kramdown
 exclude: Rakefile
 
 # configuration required for some pages
