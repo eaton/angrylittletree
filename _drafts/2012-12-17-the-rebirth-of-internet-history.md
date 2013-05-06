@@ -16,7 +16,9 @@ Third, *holy shit.* There are kids driving around in their own cars who are youn
 
 ###Cycles of Curation
 
-One of the striking things about the Internet of the mid 90s is its reliance on individual curators to gather, assemble, and contextualize useful information. 
+One of the striking things about the Internet of the mid 90s is its reliance on individual curators to gather, assemble, and contextualize useful information. Google hadn't yet hit the scene, and the idea of an all-encompassing ur-Search tool was the stuff of science fiction. Search engines were divided into two categories: generalized and SEO-blasted, or small and topically focused. The latter hadly qualified as "search engines" by today's standards, and were mostly just link sites with manual submission and a search box.
+
+Google's crawl-the-world mission still hits a wall today, though, when closed and private networks are part of the picture. There's some hand-wringing going on about [The Darknet](http://motherboard.vice.com/blog/the-softer-side-of-the-darknet) -- various clusters of sites and communities that are inaccessible by search engines -- but it's just not just illicit content that falls beyond Sauron's gaze.
 
 ---
 
