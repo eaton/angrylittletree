@@ -1,8 +1,8 @@
 ---
-published: false
+published: true
 layout: default
 title: Empathy and Perspective
-summary: "Sometimes, compassion is as simple as realizing that everyone else is scared, too."
+summary: "Sometimes, compassion is as simple as realizing that everyone else is confused, too."
 
 ---
 
