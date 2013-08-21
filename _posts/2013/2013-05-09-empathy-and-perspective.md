@@ -3,7 +3,6 @@ published: true
 layout: post
 title: Empathy and Perspective
 summary: "Sometimes, compassion is as simple as realizing that everyone else is confused, too."
-
 ---
 
 This morning, Karen McGrane published [a fantastic essay about empathy and technology.](http://the-pastry-box-project.net/karen-mcgrane/2013-may-9/) As technical professionals, we often deal with people who don't *get it*, for various values of 'get' and 'it.' That's not a bad thing: everybody has areas of expertise, [Heinlein be damned](http://www.elise.com/quotes/heinlein_-_specialization_is_for_insects), and helping each other out is part of the deal. I've written before about the importance of [understanding and recognizing others' areas of expertise](http://eaton.tumblr.com/post/33243075856/is-that-so-hard), too.
@@ -23,3 +22,7 @@ What she doesn't mention is the flip side of that conversation: I, too, felt out
 Over the following weeks, months, and years, we learned a *lot* and had opportunities to help piles of clients through those disorienting (and terrifying) transitions. But at that moment, we were both trying to wrap our heads around complicated problems with no easy answers. It's disorienting to realize that *she* felt just as out of the loop as I did.
 
 In those moments &mdash; when I feel clueless in front of a colleague I respect or a client I need to dazzle &mdash; the temptation to put up a false front is the strongest. "Nod thoughtfully," says my brain, "and chuckle knowingly to imply this is all old hat! Don't let them know you're in the dark." Reading Karen's story reminded me that all of us have those moments, and they're nothing to be ashamed of. Rather than being embarassments to avoid, they can be bridges, opportunities, and reminders that we all have room to learn from each other.
+
+---
+
+_Update: If you work in this tangly cluster of technologes -- digital publishing, web design, CMS implementation, content strategy -- it's easy to overlook the value of the "soft skills" and emotional insights that play such an important role in what we do. [The Dare Conference](2013.dareconf.com) is a great opportunity to recenter and learn from others. September 23-25th in London. A pile of smarty, hearty people. Check it out._
