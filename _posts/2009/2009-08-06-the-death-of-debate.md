@@ -8,7 +8,7 @@ drupal_path: the-death-of-debate
 drupal_nid: 2001
 created: 1249569484
 ---
-[inline:debate.jpg]
+![](/files/debate.jpg)
 
 
 
@@ -28,7 +28,7 @@ The Obama campaign set up a similar program during the primaries and the general
 
 
 
-[inline:birth.jpg]
+![](/files/birth.jpg
 
 
 
@@ -44,7 +44,7 @@ With depth of analysis out of the picture, the "war of ideas" is really the "war
 
 
 
-[inline:scary-visualization.jpg]
+![](/files/scary-visualization.jpg)
 
 
 

@@ -22,7 +22,7 @@ While short, it was definitely an interesting project and one that I think might
 
 
 
-[inline:rolls.jpg]
+![](/files/rolls.jpg)
 
 
 

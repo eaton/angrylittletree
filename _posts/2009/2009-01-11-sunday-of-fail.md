@@ -39,4 +39,4 @@ Calvinist macho-man Mark Driscoll is still very... Mark Driscoll. There's not mu
 
 <strong>eaton:</strong> "Would you like to repeat your search in Ireland?"</code>
 
-[inline:girlfriends.png]
+![](/files/girlfriends.png)

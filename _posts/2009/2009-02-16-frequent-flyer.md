@@ -18,7 +18,7 @@ And now, I'm on the road again. @quicksketch an I are heading out to Stanford to
 
 
 
-[inline:ord.jpg]
+![](/files/ord.jpg)
 
 
 

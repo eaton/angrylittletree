@@ -11,7 +11,7 @@ Back in the early 90s, I made the big jump from local BBSs and FidoNet relays to
 
 
 
-<a href="http://www.flickr.com/photos/ch/506608332/">[inline:conrad.jpg]</a>
+<a href="http://www.flickr.com/photos/ch/506608332/">![](/files/conrad.jpg)</a>
 
 
 

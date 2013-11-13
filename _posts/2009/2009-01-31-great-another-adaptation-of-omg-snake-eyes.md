@@ -14,7 +14,7 @@ I caught a brief twitter message by @codinghorror mentioning the new <a href="ht
 
 
 
-[inline:snakeshadow.jpg]
+![](/files/snakeshadow.jpg)
 
 
 
@@ -22,7 +22,7 @@ I... yeah, sorry, I can't remember what I was saying anymore. My inner 11 year o
 
 
 
-[inline:snakeyes.jpg]
+![](/files/snakeyes.jpg)
 
 
 

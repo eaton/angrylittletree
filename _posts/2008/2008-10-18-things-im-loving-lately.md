@@ -15,7 +15,7 @@ created: 1224380765
 
 <li><strong>No Heroics</strong> is low-budget a British sitcom about fucked-up, schleppy C-list superheros. It's a mutant hybrid of Coupling, Mystery Men, and Cheers; episodes consist mostly of The Heatness, Timebomb, Girl Power, and Electroclash kvetching over beers at the superheros-only pub. It's crass, tasteless, and the timing is solid so far; definitely worth a torrent if you're here in the US.
 
-[inline:heroics.jpg]
+![](/files/heroics.jpg)
 
 </li><li><strong><a href="http://chicago.metromix.com/restaurants/contemporary/nosh-geneva/137860/content">Nosh,</a></strong> an awesome local gem in downtown Geneva. It's a breakfast/brunch place with a serious bent toward foodie-style quirkiness. Catherine and I made it out for a nice brunch this morning, and I died for the Red Eye Benedict: two poached eggs on english muffins with coffee-encrusted flatiron steak, covered in shiitake hollandaise. Gorgeous fresh sliced pears on the side. I'm drooling just remembering it.</li>
 
@@ -23,7 +23,7 @@ created: 1224380765
 
 
 
-[inline:tooltip.png]
+![](/files/tooltip.png)
 
 </li>
 
@@ -31,7 +31,7 @@ created: 1224380765
 
 <li><strong><a href="http://www.blizzard.com/us/war3/">Warcraft III.</a></strong> Nate is to blame for this one, but slowly I'm getting better at skirmishes. My old go-to tactic from Age of Empire II -- slowly build up an overwhelming force in secret, then clobber the opposition -- was getting me mulched on a regular basis.
 
-[inline:warcraft.jpg]
+![](/files/warcraft.jpg)
 
 </li>
 

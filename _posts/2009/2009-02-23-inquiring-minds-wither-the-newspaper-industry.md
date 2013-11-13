@@ -13,7 +13,7 @@ So the hot news (or at least warm news) is that the <a href="http://www.phillyma
 
 
 
-[inline:newspapers.jpg]
+![](/files/newspapers.jpg)
 
 
 

@@ -9,7 +9,7 @@ drupal_path: bumper-crop
 drupal_nid: 1956
 created: 1225691027
 ---
-<a href="http://flickr.com/photos/jeffeaton/archives/date-posted/2008/11/02/">[inline:bumper-crop.jpg]</a>
+<a href="http://flickr.com/photos/jeffeaton/archives/date-posted/2008/11/02/">![](/files/bumper-crop.jpg)</a>
 
 Another day, another photo, another blog post. It's just under the wire, but I'm determined to keep things rolling. I've been spending some time this weekend going over the book and reading for last-minute technical errors -- I can only imagine what John VanDyk had to juggle doing <em>Pro Drupal Development</em> solo. I salute you, sir.
 

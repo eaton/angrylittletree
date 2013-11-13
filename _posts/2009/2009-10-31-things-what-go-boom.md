@@ -29,7 +29,7 @@ Two of the most recent additions to the gaming rotation are <em>Batman: Arkham A
 
 
 
-[inline:batman-arkham-asylum.jpg]
+![](/files/batman-arkham-asylum.jpg)
 
 
 

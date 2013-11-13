@@ -10,7 +10,7 @@ drupal_path: the-next-four-years
 drupal_nid: 1959
 created: 1225871834
 ---
-[inline:obama.jpg]
+![](/files/obama.jpg)
 
 
 

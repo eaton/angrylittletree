@@ -19,7 +19,7 @@ In the second level, my girlfriend fell asleep on the couch watching TV. I can't
 
 
 
-[inline:achievementlogo.jpg]
+![](/files/achievementlogo.jpg)
 
 
 

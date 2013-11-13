@@ -16,7 +16,7 @@ This is totally my go-to site until polls close. I've got it on the living room 
 
 
 
-<a href="http://is.gd/5atM">[inline:puppies-2.jpg]</a>
+<a href="http://is.gd/5atM">![](/files/puppies-2.jpg)</a>
 
 
 

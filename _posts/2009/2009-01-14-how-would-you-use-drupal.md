@@ -15,7 +15,7 @@ created: 1231961607
 
 
 
-<a href="http://www.amazon.com/exec/obidos/ASIN/0596515804/viaposit-20">[inline:using-drupal.jpg]</a>
+<a href="http://www.amazon.com/exec/obidos/ASIN/0596515804/viaposit-20">![](/files/using-drupal.jpg)</a>
 
 
 
@@ -27,7 +27,7 @@ One of the reasons we wanted to write it was the inherent difficulty in overcomi
 
 
 
-<a href="http://www.amazon.com/exec/obidos/ASIN/0596515804/viaposit-20">[inline:using-drupal-inside.jpg]</a>
+<a href="http://www.amazon.com/exec/obidos/ASIN/0596515804/viaposit-20">![](/files/using-drupal-inside.jpg)</a>
 
 
 

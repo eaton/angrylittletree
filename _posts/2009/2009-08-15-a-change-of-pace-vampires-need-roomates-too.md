@@ -17,7 +17,7 @@ Thankfully, BBC America is ready to help. After watching an hour or so of Primev
 
 
 
-<a href="http://www.nytimes.com/2009/07/24/arts/television/24human.html?_r=1&ref=arts">[inline:being-human.jpg]</a>
+<a href="http://www.nytimes.com/2009/07/24/arts/television/24human.html?_r=1&ref=arts">![](/files/being-human.jpg)</a>
 
 
 

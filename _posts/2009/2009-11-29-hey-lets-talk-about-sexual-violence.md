@@ -79,7 +79,7 @@ The reason I'm writing about it now, while I should be packing for a flight that
 
 
 
-<a href="http://www.qwantz.com/index.php?comic=1604">[inline:comic2-1625.png]</a>
+<a href="http://www.qwantz.com/index.php?comic=1604">![](/files/comic2-1625.png)</a>
 
 
 

@@ -18,7 +18,7 @@ There are some <em>really</em> cool people out there doing interesting things wi
 
 
 
-<a href="http://www.klezmershack.com">[inline:klemzershack.png]</a>
+<a href="http://www.klezmershack.com">![](/files/klemzershack.png)</a>
 
 
 

@@ -8,7 +8,7 @@ drupal_path: the-future-is-shiny
 drupal_nid: 2000
 created: 1249514212
 ---
-[inline:batteries.jpg]
+![](/files/batteries.jpg)
 
 
 
