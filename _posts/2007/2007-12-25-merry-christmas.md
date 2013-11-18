@@ -7,4 +7,4 @@ drupal_path: merry-christmas
 drupal_nid: 549
 created: 1198569190
 ---
-[inline:christmas_comrades.jpg]
+![](/files/christmas_comrades.jpg)

@@ -13,4 +13,4 @@ Totally apropos of nothing, today's <em>Something Positive</em> delivers on a tw
 
 
 
-<a href="http://www.somethingpositive.net/sp12102007.shtml"><img src="/files/peejee_davan.jpg"></a>
+<a href="http://www.somethingpositive.net/sp12102007.shtml">![](/files/peejee_davan.jpg)

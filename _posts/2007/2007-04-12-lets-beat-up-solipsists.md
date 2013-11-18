@@ -9,7 +9,7 @@ drupal_path: lets-beat-up-solipsists
 drupal_nid: 494
 created: 1176386207
 ---
-[inline:Firefox025.png]
+![](/files/Firefox025.png)
 
 
 

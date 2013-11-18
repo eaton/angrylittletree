@@ -10,7 +10,7 @@ drupal_path: the-good-the-bad-and-the-dragons
 drupal_nid: 535
 created: 1191041899
 ---
-[inline:14.jpg]
+![](/files/14.jpg)
 
 
 
