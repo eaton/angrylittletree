@@ -19,4 +19,4 @@ Since no cameras were allowed, I've taken the liberty of recreating the evening 
 
 
 
-[inline:1]
+![](/files/nutcracker.gif)

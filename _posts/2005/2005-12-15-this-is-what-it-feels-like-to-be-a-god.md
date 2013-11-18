@@ -14,7 +14,7 @@ So Catherine and I are out grocery shopping last night. Strolling thruogh the pr
 
 
 
-<a href="http://www.grapplefruits.com">[inline:1]</a>
+<a href="http://www.grapplefruits.com">![](/files/packaging-both.jpg)</a>
 
 
 
