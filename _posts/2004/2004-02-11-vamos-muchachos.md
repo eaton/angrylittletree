@@ -56,8 +56,6 @@ It's important to note that Jesus wasn't just talking about abandoning the laws 
 "When we are done with our honest wrestling before God, very often we will find that we will be observing at least some of the taboos on these lists. But having gone deeper, we find that we will be observing them for a completely different reason.... It is no longer a matter of holding to an accepted list in order that [other] Christians my thing well of us."
 
 Francis Schaeffer, True Spirituality</blockquote>
-
-
 I think that hits on something really, really profound. But it's important that the meat of Christ's teaching wasn't just about the things we don't do. It was about what kind of things would flow out of a fundamentally changed life. What kind of positive things. The core of the Beatitudes, one of Christ's most memorable sermons, is the Golden Rule. Anybody remember it?
 
 <b>[ Wait for response ]</b> 
@@ -96,8 +94,6 @@ Step back for a moment and imagine all of the amazing things that humanity has d
 <b>[ Pause for incredulous stares ]</b>
 
 And here's the kicker. Christ, when he was teaching, talked about people being that way in the here and now, too. As we break up for discussion etc, let's thing about this question: what would my life look like in the here and now? And what's keeping me from it? 
-
-
 <b>[ BREAK FOR DISCUSSION QUESTIONS ]</b>
 <ol>
 <li> How do I believe I'd be different in Heaven? </li>

@@ -18,6 +18,4 @@ After over a year of development, <a href="http://drupal.org/drupal-4.7.0">Drupa
 
 Work on 4.8 is just beginning, and the general consensus in the development community is that it should focus on polishing and refining the Drupal user experience, particular for administration tasks. 4.7 provides a host of new tools we can use to that end, and the next several months should be very exciting.
 
-
-
 Congratulations, everyone! 

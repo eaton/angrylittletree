@@ -112,8 +112,6 @@ he told about his time on the joint chiefs of staff, as gorbachev turned the wor
 "i didn't /want/ that," colin powell said. "it was a great comfort to me. the consistency. the certainty of the world before that time. but the world is changing." he paused dramaticaly. "there are no more red and blue shapes on the map."
 
 i was listening to a president. the man was a master.
-
-
 5:30 pm. my mind is beginning to gel; tim is drawing funny glasses on all the pictures in the program. the guy talking is all about sales, and i'm half-listening. my popcorn is finished now and my soul is recovering. afterglow from the brush with not-words following christopher reeves and colin powell..
 
 not-words. the indescribable sense of something /beyond/ that cannot be contained in speech. the moment of seeing love in someone's eyes. of seeing sunrise tear over the horizon through the clouds. of taking the bony weight of a sick friend in your arms, giving life when they have too little. it is the moment of glancing at the night sky, seeing shooting stars stitch the dark to light. it is opening a letter from your grandmother that you had lost, the smell of her clothes still clinging to the paper.

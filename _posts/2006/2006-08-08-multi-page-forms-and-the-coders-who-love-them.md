@@ -17,11 +17,7 @@ chx and I spent some time this evening talking over the tricky connundrum of mul
 
 <li>Forms that build themselves. You do enter values, submit, and more fields (or different) appear in the form based on what you submitted. You submit again, and again, and so on until it's "done" and then the real work of processing the form is done.</li></ol>
 
-
-
 The problem is that drupal_get_form(), that workhorse of form building, validation, and processing, doesn't really lend itself to forms that are in any way dynamic. To understand why (and understand what may be a solution), we'll first revisit the current form workflow.
-
-
 
 <ol><li>Your function, mymodule_page(), gets called. It constructs a form array and passes it to drupal_get_form().</li>
 
@@ -43,10 +39,6 @@ The problem is that drupal_get_form(), that workhorse of form building, validati
 
 </ol>
 
-
-
 That works smashingly well for single page forms where you enter all of your data, submit, correct any errors, then submit again. But, as we said, the hangup is in step number 6, there. See it? It's sneaky. It's using a set of submitted values from the FIRST time you built the form in step 1, but validating them against the SECOND copy of the form that you built in step 5. This works fine if it's always the same, but in cases where the form is dynamic, there will be a mismatch between the two and it will always fail validation. There are ways around it that work in certain situations, but they all tend to fall down when faced with the demanding workflow of full-sized dynamic and multipart forms.
-
-
 
 It appears, though, that <a href="http://groups.drupal.org/node/100">dopry's post on groups.drupal.org</a> may be the key to the solution. What is it? That's coming soon...

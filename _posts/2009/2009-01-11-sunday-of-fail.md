@@ -11,17 +11,11 @@ For your perusal:
 
 <a href="http://www.nytimes.com/2008/11/04/opinion/04brooks.html?hp">David Brooks argues that liberals who've spent years trying to plan for resource scarcity... aren't prepared for scarcity.</a>
 
-
-
 Calvinist macho-man Mark Driscoll is still very... Mark Driscoll. There's not much else I can offer other than linking to his post about <a href="http://theresurgence.com/fighting_with_God_conference_announcement">Fighting With God,</a> a mixed martial arts cage-fighting ministry. Read that sentence a few times and savor it. The video embedded in his blog post is impressive, a the theological equivalent of "White people dance like this, see..." His site runs Drupal, but so does <a href="http://www.wittenburgdoor.com/driscoll-kicks-own-ass">The Wittenburg Door,</a> one of the true gems of... what? <a href="http://www.wittenburgdoor.com/bible-ricardo">Theological satire?</a> <a href="http://www.wittenburgdoor.com/john-eldredge">Onion-esque meta-religion</a>? So I guess it all comes out balanced.
-
-
 
 <a href="http://en.wikipedia.org/wiki/Joe_the_plumber">Joe the Plumber</a> is now a war reporter in the middle east. I wish I were joking. His public debut is pretty awesome, though.
 
 <blockquote><a href="http://www.youtube.com/watch?v=UDlst03I3lk">I think media should be abolished from, you know, reporting. You know, war is hell. And if you're gonna sit there and say, "Well look at this atrocity," well you don't know the whole story behind it half the time, so I think the media should have no business in it.</a></blockquote>
-
-
 
 <em>This just in: Fresh fail from #predicate</em>
 

@@ -12,15 +12,9 @@ In Max Barry's excellent book, <i>Jennifer Government,</i> the world was so frea
 
 <blockquote>Historically, Second Life users have had to choose names from an ever-changing but [random] list provided by publisher Linden Lab.
 
-
-
 The company has decided .... to charge individuals who want a real last name a $100 setup fee and a $50-a-year maintenance fee. Companies that want their corporate name can have unlimited accounts for a $1,000 setup fee and $500 a year.
 
-
-
 That means that we'll be seeing more instances of companies like Sun populating the world with last names like "SunMicrosystems."
-
-
 
 We can't say just yet whether you'll be seeing anything like "Daniel CNET."</blockquote>
 

@@ -12,17 +12,11 @@ It's no shock that conservative commentators assume Colin Powell's endorsement o
 
 <blockquote>[I]n hailing Barack as a “transformational figure” whose election would “electrify our country … (and) the world,” Powell seems to testify to the centrality of Barack’s ethnicity to his decision.
 
-
-
 For what else is there about this freshman senator, who has no significant legislative accomplishment, to transform our politics and to electrify the world, other than the fact that he would be the nation’s first African-American president?</blockquote>
 
 The right has spent a long time being very, very angry about affirmative action. The idea that some might support a minority candidate <em>because they're a minority</em> is even more offensive, it seems, than the history of discrimination that might lead to such behavior.
 
-<!--break-->
-
 Unpacking Buchanan's statement, though, reveals a strange sort of inverse colorblindness. Obama's approach to divisive issues, his short impressive (if short) record of working with members of both parties, his intelligence, his personal achievements, his policy proposals... All of these things are just distractions from the <em>important</em> fact that he's <em>black.</em> It's as offensive as those who say that only racists will vote for McCain: there are substantial differences between the two candidates that have nothing to do with race, and Buchanan's reasoning smacks of condescension.
-
-
 
 So, too, does his view of Colin Powell. He echoes Republican complains that Powell's endorsement smacks of "ingratitude":
 

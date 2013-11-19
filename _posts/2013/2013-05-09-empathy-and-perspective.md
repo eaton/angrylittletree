@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Empathy and Perspective
-summary: "Sometimes, compassion is as simple as realizing that everyone else is confused, too."
+excerpt: "Sometimes, compassion is as simple as realizing that everyone else is confused, too."
 ---
 
 This morning, Karen McGrane published [a fantastic essay about empathy and technology.](http://the-pastry-box-project.net/karen-mcgrane/2013-may-9/) As technical professionals, we often deal with people who don't *get it*, for various values of 'get' and 'it.' That's not a bad thing: everybody has areas of expertise, [Heinlein be damned](http://www.elise.com/quotes/heinlein_-_specialization_is_for_insects), and helping each other out is part of the deal. I've written before about the importance of [understanding and recognizing others' areas of expertise](http://eaton.tumblr.com/post/33243075856/is-that-so-hard), too.

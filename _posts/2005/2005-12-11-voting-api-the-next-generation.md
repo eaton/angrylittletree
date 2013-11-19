@@ -10,8 +10,6 @@ created: 1134319864
 ---
 After a pleasant weekend of movie-watching, relaxing, and sporadic coding, there's a new version of VotingAPI checked into the Drupal CVS. It's probably as good a time as any to step back and examine the reason for the project.
 
-
-
 <ol>
 
 <li><b>A framework, not a widget</b><br>Existing voting solutions implemented good UI widgets, but provided few options for sites that needed a different voting workflow. Creating a new system required starting from square one again. VotingAPI implements the back end -- saving and retrieving votes, calculating results in a variety of ways, and so on -- so that other modules can handle the site-specific stuff.</li>
@@ -32,10 +30,6 @@ After a pleasant weekend of movie-watching, relaxing, and sporadic coding, there
 
 </ol>
 
-
-
 With last night's checkins, <a href="http://drupal.org/node/36041">VotingAPI.module</a> finally supports all of these features. There's still work to do, and I can think of ways to improve both the caching and simplify retrieval of filtered voting results. As it stands, though, it's fully functional and ready for other module developers to tinker with. Both BuddaBoy and merlinofchaos from #drupal have been instrumental in testing and brainstorming; hopefully the results will make life easier for them, too.
-
-
 
 Huzzah!

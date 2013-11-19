@@ -16,15 +16,9 @@ There's a thread on Patriotism over at <a href="http://www.windsofchange.net/arc
 
 Any issue-framing that boils down to <i>"There are two kinds of people..."</i> is immediately suspect. This text is extra-special-silly, though. Even if one accepts that there is a fundamental split between two kinds of "patriots," his "change-for-change-sake" and "preserve America" labels are just a clumsy attempts at rehashing 1960s arguments about Those Darn Protesters.
 
-
-
 Goldberg claims that America is "not merely an idea" -- this much is obvious. Ideas generally don't have their own currencies, borders, governments, and armies. The "Americanness" that he says must be preserved, though, is by definition an abstract ideal. At least, it must be -- if it simply represents the current state of things, Americanness changes every time there is a cultural shift. Was racial segregation one of those aspects of "Americanness" that true patriots sought to preserve? I'm willing to be Goldberg would say no, but his easy-peasy split between the 'changers' and the 'preservers' gives no tools for tackling the real argument: what American ideals are good and worth preserving, and which ones are ugly and in need of change?
 
-
-
 That, to my eyes, is where the real arguments break out. Everyone who claims to be patriotic -- liberal, conservative, libertarian, leftist, white supremacist, Christian dominionist, etc. -- has a list of things they feel should change and a list of things they feel should be preserved. Taking this road, though, is harder. It requires thought, analysis of the differing claims and arguments, and decision-making. It requires forming one's own view of what about the current state of "Americanness" is good and what is not. Far easier to just side with "the patriots who want to preserve Americanness." Let them sort out what that means, I'll just keep waving my little flag. I got it at the gas station.
-
-
 
 <a href="http://www.windsofchange.net/archives/009797.php#c2">One of the comments</a>, early in the Winds of Change thread, seems to capture everything that's utterly broken about discourse on the right these days. It's just the sort of thing I would've written in 1998 at the height of the Klinton Regime:
 

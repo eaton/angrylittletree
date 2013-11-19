@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tablets Are Waiting For Their Blogging
-summary: Ryan Singer is on the right track when he says that tablet computing needs its Movable Type, but he needs to think back farther…
+excerpt: Ryan Singer is on the right track when he says that tablet computing needs its Movable Type, but he needs to think back farther…
 ---
 Ryan Singer of 37 Signals fired off [an interesting post about the need for a killer magazine production tool](http://37signals.com/svn/posts/3334-tablets-are-waiting-for-their-movable-type
 ) for iOS and other tablets. Lots of people have great ideas and killer content, he says, but getting into (say) the iOS Newsstand is a job for programmers or organizations that can afford expensive toolchains, not lone creatives with an idea. He compares the potential for such an app to Movable Type's impact on the web:

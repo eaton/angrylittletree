@@ -21,8 +21,6 @@ While Cheney's connections to Enron are pretty direct and quite questionable, th
 
 "Bush Is Trying To Create A Police State"
 While I believe that his policies are laying the foundation for a future unscrupulous leader to sieze even MORE unconstitutional control, I do not believe that Bush is in any way trying to 'take over the country.'
-
-
 "Bush Is Evil"
 The policies the Bush Administration has advanced are damaging to our nation and our world. The Bush Administration, though, has never had a monopoly on that. Neither he nor his cabinet members are Evil Incarnate. Kerry, Bush, and other third and fourth party candidates are just people pursuing their agendas. None of them are Satan incarnate -- NONE of them -- and our nation, despite proclomations on both sides, will survive regardless of who's elected. Another four years of Bush may be frightening and frustrating for those I agree with politically, but the world has seen worse times and survived. Take a deep breath. Relax. Smell some flowers.
 

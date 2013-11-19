@@ -13,8 +13,6 @@ created: 1223664188
 ---
 Over the past couple of weeks, a few friends and colleagues asked me to give a run-down of what modules and projects I created or contribute to in the Drupal world. I started picking my way through them, and it was pretty sobering. (I think I'm going to need an intervention if I release even one more module...) This list leaves out the work that I do on Drupal Core, and doesn't include patches or enhancements to other modules, but it's a nice birds-eye view of what kind of stuff I'm doing in my copious free time. Ahem.
 
-<!--break-->
-
 <h3>The Heavy Hitters</h3>
 
 <ul>
@@ -33,8 +31,6 @@ Over the past couple of weeks, a few friends and colleagues asked me to give a r
 
 </ul>
 
-
-
 <h3>Themes</h3>
 
 <ul>
@@ -46,8 +42,6 @@ Over the past couple of weeks, a few friends and colleagues asked me to give a r
 <li><strong><a href="http://drupal.org/project/scruffy">Scruffy</a></strong> is another grungy theme -- way grungier -- and the designer had the foresight to build all kinds of cool bits into the CSS. It works surprisingly well in a variety of settings, and I think it's a great addition to the community's theming toolbox.</li>
 
 </ul>
-
-
 
 <h3>General Purpose Stuff</h3>
 
@@ -83,8 +77,6 @@ Over the past couple of weeks, a few friends and colleagues asked me to give a r
 
 </ul>
 
-
-
 <h3>Old Stuff</h3>
 
 <ul>
@@ -114,8 +106,6 @@ Over the past couple of weeks, a few friends and colleagues asked me to give a r
 <li><strong><a href="http://drupal.org/project/cck_extras">CCK Extras</a></strong> is a grab-bag of neat CCK hacks. Link field formatters that output web site thumbnails, simpler input widgets for node references, and so on. It also contains the infamous "Redirect" formatter for the link field, an idea so horribly wrong that it uses debug_backtrace() in the theming layer.</li>
 
 </ul>
-
-
 
 <h3>Horrible Jokes Gone Wrong</h3>
 

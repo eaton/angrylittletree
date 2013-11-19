@@ -21,8 +21,6 @@ created: 1224380765
 
 <li><strong><a href="http://www.nytimes.com">The New York Times</a></strong> has awesome content, but it's always been plagued by by nasty javascript that popped up word definitions whenever I double-clicked on text in its articles. Today, they rolled out a new version of the script that makes tooltip-style icons over words rather than firing up windows automatically. It's stupid and silly, but man. My Times reading experience is so much nicer. Woo!
 
-
-
 ![](/files/tooltip.png)
 
 </li>
@@ -38,7 +36,5 @@ created: 1224380765
 <li><strong><a href="http://www.franziskaner.com/">Franziskaner,</a></strong> possibly the yummiest 'everyday' beer in the universe. It's light and very smooth, with a fruity taste that doesn't bite. It's super-delicious.</li>
 
 </ul>
-
-
 
 Further updates as awesomeness warrants.

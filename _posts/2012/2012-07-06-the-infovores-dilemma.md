@@ -3,8 +3,6 @@ layout: post
 title: The Infovore's Dilemma 
 ---
 Some call it ADHD, others call it 'keeping up with the Joneses.' the firehose of news and random information that screams past us on a daily basis is pretty staggering, and in some parts of the tech industry we tend to consider it a moral obligation to hoover up as much of it as possible.  At [Lullabot](http://lullabot.com) we've been trying to capture the ways we each approach some of these problems, and my notes ended up spiraling into a full-length ramble. Without further ado, I present… my tools for (relatively) manageable news and data consumption.
-
-
 ###A Taxonomy of News Sources, Listed in Order of Signal/Noise Ratio
 
 If you find yourself overwhelmed, it can help to chunk them up into general categories -- groups that help you understand what to expect, what to pay attention to, and what to skim for the occasional gem. 
@@ -28,8 +26,6 @@ Examples: [Paleofuture](http://blogs.smithsonianmag.com/paleofuture/) [A List Ap
 ####Search Engines and Topical Archives
 Digging for a specific piece of information you need in a search engine, or consulting a site that maintains a long-term archive of specialized information, isn't part of the normal flow of news consumption. They're important, though, because they keep you from developing a dangerous 24-hour-news-cycle myopia. It's way too easy to miss these meaty sites when the flavor of the moment is clamoring for attention.
 Examples: [Google Scholar](http://scholar.google.com/) [The Internet Archive](http://archive.org/), [Pew Research](http://pewresearch.org/), Etc.
-
-
 
 ###My News Workflow
 

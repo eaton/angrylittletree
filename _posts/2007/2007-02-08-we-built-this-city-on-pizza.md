@@ -31,10 +31,6 @@ Observations about New York:
 
 </ul>
 
-
-
 <a href="http://www.flickr.com/photos/jeffeaton/383400559/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/183/383400559_be6adeac86_m.jpg" width="240" height="180" alt="Apple store by night" /></a> <EMBED SRC="/files/applepostermovie.mov" HREF="/files/applestore.mov" TARGET="myself" WIDTH=240 HEIGHT = 196 AUTOPLAY=false CONTROLLER=FALSE LOOP=false PLUGINSPAGE=http://www.apple.com/quicktime/">
-
-
 
 So. All in all, New York is cool. If I ever come back I think I'll have to bring the Canon; I don't think I could live with myself if I didn't get some high quality shots of the assorted bits of city life. But I'm ready to scamper back home now, and watch movies and play cribbage and be with Catherine. My everyday life is good, and I'm eager to get back to it.

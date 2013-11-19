@@ -13,11 +13,7 @@ created: 1187893416
 
 Others have noted that the problem is perhaps not that al-Maliki is divisive, but that the entire country is basically a cluster of fragmented oppositional groups with their own militias, and little incentive to cooperate.
 
-
-
 In other news, I turned thirty! It feels a lot like twenty-nine, but CNN tells me that <a href="http://www.cnn.com/2007/HEALTH/07/27/life.stages/index.html">my organs have officially started to deteriorate.</a>
-
-
 
 Over on Obsidian Wings, Bruce Baugh weighs in on free markets and health insurance reform, articulating <a href="http://obsidianwings.blogs.com/obsidian_wings/2007/08/how-markets-wor.html#comment-80404113">a view I find pretty compelling.</a>
 

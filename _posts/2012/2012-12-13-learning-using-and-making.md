@@ -1,14 +1,12 @@
 ---
 layout: post
-summary: Thoughts on the differences between tool-learners and tool-users, and the difficulty of discovering real users' needs. 
+excerpt: Thoughts on the differences between tool-learners and tool-users, and the difficulty of discovering real users' needs. 
 title: Learning, Using, and Making
 ---
 
 Over the past several years I've been watching the Drupal community bootstrap a UX culture. Outside experts have arrived and become a part of the circle of trust, home-grown specialists have emerged and grown into leadership roles, and the broader developer community has learned to respect the UX team's insights in a way that seemed unlikely back in '07 or '08. It's been really exciting to see this take shape, especially for a scrappy open source project that started as a dorm-room experiment and rose to prominence *despite* its notoriously complicated interface.
 
 Live usability testing ([first started back in 2008](http://drupal.org/node/204667)) was one of the practices that helped the  Drupal developer community swallow the difficult pill of UX feedback. After years of "scratch your own itch" prioritization and "if you don't like it, go write a patch" responses to complaints about user interface issues, watching 30 minute videos of people struggling with basic navigation and site-building tasks was a real eye opener. In the years that followed, that test and a number of others helped identify tons of low hanging fruit that hardcore Drupal users and developers had been blind to, thanks to their familiarity with the software.
-
-
 ## If only it were that easy
 One of the subtle challenges that's emerged, though, is the difficulty of separating problems *learning* a complex system like Drupal from problems *using it regularly.* Presenting Drupal configuration and management tasks to a new user -- someone who's never used it before but has some basic familiarity with other CMSs -- tells us a lot about how easy Drupal is to discover and learn. Figuring out how to streamline and simplify construction and administration tasks for users who know what they're doing but still find it frustrating and cumbersome? That's another challenge entirely.
 

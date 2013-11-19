@@ -10,8 +10,6 @@ created: 1167805507
 ---
 Last year I sketched out <a href="http://jeff.viapositiva.net/archives/2005/11/my_drupal_to_do.html">a rough overview of the things I wanted to code for Drupal.</a> A year later, almost all the items on it have been accomplished (a few by me, a few by other enterprising folks in the community). Even the craziest one -- comments as nodes -- snuck in under the wire as Robert Douglas and I hammered out the custom system for <a href="http://www.daughtryofficial.com">Chris Daughtry's</a> new web site.
 
-
-
 So. With Drupal 5 in its final birth pains, people are starting to talk about predictions and battle plans for the coming year. I've been sitting on a rough outline of my plans for a week or so, and I might as well get in on the action and post them.
 
 <ol>

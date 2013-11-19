@@ -13,11 +13,7 @@ Catherine and I have been having a glorious time of it this weekend, relaxing an
 
 <a href="http://www.flickr.com/photos/jeffeaton/1314002042/"><img src="http://farm2.static.flickr.com/1105/1314002042_f5f92c2a7e.jpg" /></a>
 
-
-
 Other fun bits captured over the course of the weekend:
-
-
 
 <a href="http://www.flickr.com/photos/jeffeaton/1313988868/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1195/1313988868_2393489f27_m.jpg" width="240" height="159" alt="CRW_2302" /></a> <a href="http://www.flickr.com/photos/jeffeaton/1313090381/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1375/1313090381_2887d03642_m.jpg" width="240" height="159" alt="Chevy" /></a><br/>
 

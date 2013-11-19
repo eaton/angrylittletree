@@ -11,8 +11,6 @@ created: 1221632795
 ---
 [inline:lance-henriksen.jpg]
 
-
-
 <ol>
 
 <li>He was illiterate until the age of 30, when he taught himself to read by studying film scripts.</li>

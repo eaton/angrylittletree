@@ -10,8 +10,6 @@ created: 1189375850
 ---
 Close to a decade ago, a couple of friends and I kicked around ideas for an online cyberpunk RPG. We wanted something playful, contemporary, something more <em>Snow Crash</em> than <em>Neuromancer,</em> something that would feel creepier to a sociologist than a Scifi fan.
 
-
-
 The game never panned out, and the webcomic that spun out of it is perpetually under construction. But along the way we hammered out a lot of predictions about where society and culture -- and the world of tech -- would go. A lot of them revolved around media and communication technology. For my own amusement, I started jotting down some of the key elements that made up our fictional future in 1997:
 
 <ul>
@@ -55,7 +53,5 @@ The game never panned out, and the webcomic that spun out of it is perpetually u
 </ul>
 
 Obviously, there were some hits and misses. But it's interesting to see how much of the stuff we were looking at in the mid to late 90's is beginning to come to fruition in the "Web 2.0 World" of collaborative content and software-as-a-service.
-
-
 
 I think a lot of those developments have been at the heart of my dwindling enthusiasm for the fictional world we created. More and more of our speculation has turned into the mundane reality of Gizmodo -- heck, even CNN's tech section. Slowly but surely, the interesting parts of our brainstorming became the weirder, edgier parts where mysticism and mythology melded into chaos theory and neurobiology research. I wonder, these days, if it's time to 'reboot' the project and take a fresh look at it, nudging some of our weirder and as-of-yet-unrealized ideas into the world of today.

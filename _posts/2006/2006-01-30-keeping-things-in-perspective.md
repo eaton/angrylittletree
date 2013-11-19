@@ -16,6 +16,4 @@ created: 1138611083
 
 With all due respect (I know politicking is hard work), I don't really think that <i>the President</i> was the one hit hard by Katrina.
 
-
-
 <a href="http://orig.jacksonsun.com/photogallery/hurricanekatrina2/index.htm">[inline:1]</a>

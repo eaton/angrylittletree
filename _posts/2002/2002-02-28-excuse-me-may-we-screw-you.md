@@ -17,21 +17,13 @@ Credit Line: $10,000
 Bank Affiliation: None
 
 Congratulations, JEFF C EATON.,
-
-
 You have been pre-approved for a gold card membership
 with a $10,000 credit limit valid exclusively towards all
 credit purchases from credit provider!
-
-
 * Mail your $29.95 annual fee by check or money
   order by MAR 18, 02 along with this notice for
   immediate activation.
-
-
 Failure to do so may result in termination of your eligibility.
-
-
 P.S. Full details of your membership benefits will be
      included with your new gold card.
 </PRE></BLOCKQUOTE>

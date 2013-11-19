@@ -17,6 +17,4 @@ vs...
 
 </a></blockquote>
 
-
-
 I dare you to tell which one is real without clicking through.

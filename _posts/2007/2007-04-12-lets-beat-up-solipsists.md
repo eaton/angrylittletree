@@ -11,6 +11,4 @@ created: 1176386207
 ---
 ![](/files/Firefox025.png)
 
-
-
 I love <a href="http://www.qwantz.com/">Dinosaur Comics.</a>

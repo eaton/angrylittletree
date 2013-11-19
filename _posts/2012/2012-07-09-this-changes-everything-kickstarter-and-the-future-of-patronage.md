@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: "This Changes Everything: Kickstarter and the future of Patronage"
-summary: One of the pressing issues for the fully-wired generation is how art will be funded. Is micropatronage the answer?
+excerpt: One of the pressing issues for the fully-wired generation is how art will be funded. Is micropatronage the answer?
 ---
 One of the pressing issues for the fully-wired generation is how *art* will be funded. While the RIAA and the MPAA and ASCAP and all the other IP-centric acronym organizations [double down on the status quo](http://chronicle.com/blogs/wiredcampus/3-major-publishers-sue-open-education-textbook-start-up), the collapse of art-duplication's perceived value continues. And that collapse (rather than a moral or legal one) is what's *really* at the heart of the copy conflict.
 

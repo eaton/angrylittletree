@@ -39,6 +39,4 @@ the story will emerge.
 the drive, hankfully, was uneventful: random snacking as cookies were passed about, and grooving to cool tunes with an obscene number of discmen. it seems that every male in the car brought along a CD player, though none of us realized the van was sans tape player. Doh! score one for useless tape adapters. chad, however, borrowed my CD player and blissed to U2's War, which he hadn't heard in full for years. it took him back, bay-bee.
 
 "Hey, Jeff!" Stan whispered and gestured me over as we entered bloomington. "I got her Bed of Roses on tape!" He grinned. I grinned. and shortly thereafter, we arrived.
-
-
 [events to remember: the little imp with the nasty table tennis serve. chad's absolutely frightening foosball skills. chris' journey into the world of hiphop on the second night.

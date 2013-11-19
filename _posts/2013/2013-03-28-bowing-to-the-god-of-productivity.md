@@ -1,6 +1,6 @@
 ---
 title: Bowing to the God of Productivity
-summary: We've ceded the language of public social planning to economics, with predictable results. With guest appearances by Walmart, The Mission, and Evgeny Morozov.
+excerpt: We've ceded the language of public social planning to economics, with predictable results. With guest appearances by Walmart, The Mission, and Evgeny Morozov.
 layout: post
 ---
 This week, [Walmart talked to Reuters about one of its plans to reduce costs](http://www.reuters.com/article/2013/03/28/us-retail-walmart-delivery-idUSBRE92R03820130328): convince in-store customers to deliver its online orders to other customers.

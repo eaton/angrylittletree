@@ -28,8 +28,6 @@ Sure, sure, another gaming comic. But gimmie a break, I'm a geek. ;) This one ha
 
 <A HREF="http://www.platinumgrit.com/">Platinum Grit</A>
 This one is actually a print comic, with four complete issues converted to flash and posted on the web. It's high-quality high-surrealism stuff, following the adventures of the hapless Jeremy, the comely Nels, and a rogues gallery of exploding turtles, large-nosed bazooka wielding relatives, and talking wardrobes.
-
-
 <B>The Sporadically Good Stuff</B>
 These have moments of genius but are either often offensive, sometimes lame, or just don't make me laugh often enough to merit obsessive update-chechking. They're still good stuff though. Would I recommend bad comics? No. I don't think so.
 

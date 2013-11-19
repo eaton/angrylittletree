@@ -19,8 +19,6 @@ He replied that, when he visited recently, he spoke to every commander and almos
 "Thank you, General."
 
 I suppose the implied meaning is that if the soldiers in question had followed their orders, nothing would've happened -- but that's a question currently under investigation as well. It's a little unsettling that the question "Have things changed?" was never directly answered. The more I watch televised hearings, the more I notice that no one ever answers. Every statement is constructed in such a way that an impression is given, but no falsififiable claim is ever made. It's like everyone is taking cues from Clinton's "I did not have sex with that woman" line.
-
-
 [ Update ]
 
 <a href="http://them0ment.livejournal.com">them0ment</a> pointed out an amusing excerpt from a <a href="http://www.whitehouse.gov/news/releases/2003/01/20030106-1.html" target="_blank">2003 press conference</a>. Perhaps we should start collecting these brilliant gems of obfuscation...

@@ -13,6 +13,4 @@ created: 1282270449
 ---
 <img title="He really sparkles." width=450 alt="Team Edward" src="/files/team-edward.jpg"/>
 
-
-
 <img title="When the moon is full, he uses serif fonts." width=450 alt="Team Jakob" src="/files/team-jakob.jpg"/>

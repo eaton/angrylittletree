@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pure coincidence, my friends
-summary: We can't help it that an evil wizard made the heroine's shirt vanish; we're just the game's creators!
+excerpt: We can't help it that an evil wizard made the heroine's shirt vanish; we're just the game's creators!
 ---
 
 The subject of female sexualization in computer games comes up a lot, and all-too-frequently, guys respond with helpless confusion. Lara Croft is just an adventurer -- she can't afford to wear constricting clothing when she's fighting! Bayonetta? She *has* to be naked: her clothing reforms into an offensive weapon when she fights! Dead Or Alive Beach Volleyball? Well… they're… on the beach!
