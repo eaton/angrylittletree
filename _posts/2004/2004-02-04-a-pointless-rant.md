@@ -10,7 +10,7 @@ created: 1075920600
 ---
 I frequent a few web boards, some of them populated by Christians. Sometimes, political topics come up. [Cue groaning.] Recently, a conservative Christian I know posted his opinion that our government's crackdown on freedoms, agressive stance towards other countries, etc., is sad but necessary. Essentially, it was a discussion abuot turning the other cheek, and whether it's practical in the world we live in today. It got me thinking -- I know I'm a bit (?!) of an idealist. But the question he asked -- how SHOULD we respond? -- left me feeling as if I couldn't communicate a simple answer without explaining the entire worldview behind it.
 
-<lj-cut text="For those who are terribly, tremendously interested in my views on war and peace and terrorism, click here. Otherwise, well. you know the drill.">
+For those who are terribly, tremendously interested in my views on war and peace and terrorism, Feel free to bail. Otherwise, well. You know the drill.
 
 <I><BLOCKQUOTE>well, i have to confess, i am answering with a sort of "right brain/left brain" vibe/thing. my answer was mostly tounge and cheek. yet i did have imbedded in it an element of how i really feel.
 

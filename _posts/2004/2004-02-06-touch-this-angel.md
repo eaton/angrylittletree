@@ -10,7 +10,7 @@ created: 1076100540
 ---
 Random thoughts
 
-It's very, very rare that I watch TV. Most of the time, it's either the odd episode of the <i>Simpsons</i>, or a good DVD. Randomly popped the TV on, and an episode of <i>Joan of Arcadia</i> was on. <lj-cut text="Those who don't want to see me analyze it, feel free to skip this entry!">
+It's very, very rare that I watch TV. Most of the time, it's either the odd episode of the <i>Simpsons</i>, or a good DVD. Randomly popped the TV on, and an episode of <i>Joan of Arcadia</i> was on.
 
 I decided I'd humor it. The basic premise takes a standard teen girl in high school, family drama, stuff like that, and adds the whole 'God talks to her" twist. 
 

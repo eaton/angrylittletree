@@ -8,8 +8,6 @@ drupal_path: more-random-bible-study-notes-yo
 drupal_nid: 1787
 created: 1078268220
 ---
-<lj-cut text="Thems that wants 'em, click here...">
-
 <b>The Kingdom of God</b>
 The Kingdom of God is the heart of our series. It’s something Jesus talked about a lot; it appears in Scripture all the time. Although his early followers often mistook it for a political revolution that would liberate them from Rome, and we as Christians often think of it as the future that we have in Heaven, both of those miss the mark. At its heart, it’s an internal transformation, a lifestyle and an entire way of being that God has called us to and Christ modeled every moment of his Life. Heaven is a future promise for us – the fruition and completion of that – but it’s also something very tangible, something here and now. It’s basically the practice of being who God created us to be, each in our own unique ways, reflecting the beauty and the goodness that He made us for. God desires it for us every day.
 
