@@ -11,6 +11,7 @@ created: 871678740
 Friday: On the road again... just can't wait to get on the road again... After ten long hours on the road we arrived at the American Inn. Frightening, hyper-patriotic place... Massive old glory flying outside, something like thirty feet long. Entire massive sprawling complex is lit up like Vegas with red white and blue neon... Massive sign out front: "WELCOME, SPIRiTUALISTS! OPEN TO THE PUBLIC..."  Wheeeeee! Room reeks of paint... hallways are plush, but littered with empty beer bottles set in the ashtrays... Signs on the walls point the way to 'FREEDOM HALL!' It's sort of a 'We eat our cows alive here, son, y'all gotta pra'wlem with that?' sort of place. Wild. Second room doesn't reek but -- GAH! The phone is /hard wired/ into the wall. What is it? The 70's or something? :-) Definite no-go.
 
 2:00 AM. We're on the road and searching for a place to crash. T-45 minutes to my 20th birthday... It's the weekend. In a gambling town. There /are/ no rooms. But lo and behold, there's actually a free place -- for this night only -- at the budgetell inn. Great place. One bed. I sacked in the recliner with a blanket. Managed to jack in, dial into AOL, and telnet into my WWA account. Tried to fire something off to Bart... lost consciousness in the recliner as I turned twenty. Things are looking a bit bleak.
+
 Saturday: Woke up 3 hours after collapsing to the insistent chirping of the hotel alarm clock. We're out of the room -- someone else's got a reservation on it. So, we're in a new place. Much better, with a microwave and the works... Heading into the conference, and things are looking up! Great room, checked it out before we went to the conf.... phone line, private microwave and fridge... woohoo!
 
 Saturday Afternoon: Wonderful room. Only problem with the room is that it's got roaches falling outof the walls, is located next to a sewage retention levy, andwas just Orkin'd a week ago. /Smell/ them carcinogens, girl! Still trying to find another place, but nobody's got open rooms and the weekday rates are absofreakinglutely obscene. Things are looking bleak again, and it's only 8 hours since I've arrived. God help us if it gets /worse/.
@@ -30,6 +31,7 @@ Saturday night: Someone named Shelly Hanson offered to let us stay at her house.
 Helped pack the car in pouring rain. Spent the 30-minute drive soaked and huddled in the back seat around 1:30 AM, clutching a TWIX bar from a vending machine outside the motel. Pulled into Shelly's driveway. Walked in the door, soaked to the bone and looking like the living dead, a couple leaad-filled bags turning my spinal column into an avant garde sculpture. Girl pokes her head up over the couch, hair mussed from fitful sleep, and blinks at me somnolently. "Oh. Hi."
 
 Apparently there are other people sacked out here, too...
+
 Sunday, 2AMish: Girl is from Minnesota; I was sacked out alone on a couch in the basement with a throw blanket, stripped to my shorts so I wouldn't freeze to death, and she trudged down the stairs and camped out on the couch across from me. "They're still talking up there," she apologized. No big deal, and I said as much. Introduced myself. We talked for a bit before losing consciousness; her family does the conference thing in a big way... she's a lifer. Cute, in a jaded sort of way... that whole looking-vulnerable-while-asleep thing. Could just be that I was exhausted, too.
 
 Sunday Morning: Oog. Wasn't a dream. I manage to regain consciousness and stumble upstairs too late to make it to the Sunday morning service. Hey, no condemnation and all that jazz.
@@ -43,6 +45,7 @@ Ran into Ben and Company again. Still searching for outlets. Bah! Bah, I say. Be
 We all sacked out in the bleachers and such, guy who spoke was fun. Intersting. Not very coherent in what he was getting at, but... I liked some of the stuff he said. Insert witticisms here. "You can't act in faith if you haven't HEARD from God about it. Acting 'in faith' if you haven't heard from him is acting *in*the*flesh*..."
 
 Got home. Chatted with her a bit. She likes techno.
+
 Monday: No dice on Changeling. Calling all through the day, no answer. I'm writing it off as a loss, sadly. :/ I don't think there's much I can do beyond that. So, when I get back I'll work things out with Bart. I think it would be a lot better for IMG if I were to just write articles, none of this 'regular column' stuff... Sad but true.
 
 Met Lavonne today. Wow, this woman is a dynamo. What, sixtysomething? Acts like she's twenty. She owns no house, no car, no nothing. "Lives by faith" as it were as she travels around the world. Missionary to Japan. Has stories about God pulling through in the nick of time that make you laugh for hours. God has a sense of humor, no question 'tall. A real card, and a woman who helps prove that God can't possibly be stuffy.
@@ -66,6 +69,7 @@ Lavonne was telling more stories, and laughing at a couple comments I made. She 
 Four more people have arrived and the basement just got a lot more crowded... Another girl, too, sister of one of the guys and a darkly jaded looking gal with raven-black hair and a faint tattoo on her upper arm. She's got a wan smile, tired looking eyes, and features like a delicate slavic pixie; like she's not happy to be here but knows people want her to be. I found out her Mom wants her going to school in the area 'cause it's safer. She wants to move to Florida.
 
 As we got ready to turn in for bed the canadian dude wanted to show us his video of him skydiving. "What a rush!" he's fun.. enthusiastic to a fault and a /massive/ dude. Square-jawed and six-foot-something, powerful build and the open, innocent face that makes you smile just talking to him. Every night the guys have massive duels with Tecmo Bowl football on the NES in the basement. I'm trapped in a house full of jocks. Hulp!
+
 Tuesday: Woohoo! I've got power! After days of fruitless searching, I stumbled across a live outlet with a standard plug! I sacked out in the middle of one of the big hallways, slapped in my Cloud 2 Ground CD -- screw it, there are people shouting in tongues at the top of their lungs, my techno CD ain't gonna matter. ;)  I sat down on the floor with my precious copy of Tozer's Attributes of God and dug in. Tozer /rocks/ my world. I like this guy. immanenently siggable.
 
 Then plunked down to do some writing on MO stuff. Fruitful and fun. A Mac dude stopped by to cheer me on. "Dude! That's a Powerbook. I love my 7300, man... keep the faith..." Tres spiff. Got myself a killer Edys' cone. I love those people. I was feeling rather better by this time -- if you hadn't already figured it out. :-j I skipped almost everything inside the conference after the praise and worship stuff. Just sacked out and wrote and thought and pondered and read and took random photos of the place. It was refreshing.
@@ -81,6 +85,7 @@ Mike Bickle's sermon, hmm. I missed it, but it seems like everything I've heard 
 More talking to Lavonne. Maybe this book thing isn't a bad idea. Good grief, she's got a lot of wild stories. It could be fun reading.
 
 New girl arrived, three more guys. Girl is an art student, loves to paint. Seems more serene than the other two girls I've run into here, softer. One guy's cool, thirty year old dude on crutches (bone spur surgery) who's the manager of the newmedia group for an HMO. Talked geekstuff with him for a little while. Geeze. Crowded basement now. Six people stuffed in here.
+
 Wednesday...  Well. Today's the day to sack out and relax. I hung around, re-read the first few chapters of Snow Crash and the like. Woo woo. :) Helped Shelly pack up some packages to go out, things like that... hung around with the guys and talked a litle bit. Soaked up some quality male bonding time and played golf on the NES  -- got creamed. Seriously creamed. But hey, it was fun.
 
 Getting to know a few of the guys here -- just a bit -- and it's cool. Listened to some music and talked a bit and things like that. More talking.
@@ -102,6 +107,7 @@ We sat down and talked for pushing two hours. Just friendly, casual discussion t
 "I can get really passionate about things though," she admitted. "I mean, when I was little I looked at Michaelangelo like guys look at Michael Jordan." She wants to travel around Europe, visit France... doesn't know French but wants to learn it. Wants to paint and write songs that aren't Stained Glass Windows. She kept saying things I was about to say and made me grin at the sameness of the thoughts. 
 
 She pulled me over to listen to her favorite music -- the soundtrack to "The Mission" ... it was /amazing/. Never heard it before, but it was a definite piece of work. Beautiful and haunting, the kind of stuff to write to. A few of her old friends showed up and she went off to hook up with them; after a little while I drifted downstairs and took on Mike, the Canadian Dude, in Tecmo Bowl. He won, 24-27. Not bad for my first game. Everyone got back late... and we all finally collapsed.
+
 Thursday: I finally sat down to re-read The Singer and wept. It's beautiful, and tragic... even moreso because I can see the faces and hearts of the people I know and love in it. I'd forgotten the book's power... or perhaps I'm growing closer to grasp the power of it beyond the religious imagery... it's a story about someone I love and how much he loves me.
 
 I want to buy up a million copies of it, just to have and give. We're heading in this evening to see Paul Cain. Talked to Lavonne s'more. She really wants to do this book thing. I think it could work.
@@ -114,7 +120,7 @@ A little later in the day I asked Jaded Raven-Haired Girl what she thought about
 
 She smiled, more distant and melancholy than amused. "You can't respect something like that. You have to rip it when you see it."
 
--------------
+---
 
 Jaded Raven-Haired Girl is no longer. The black is now a sun-streaked shade of brown; she dyed it just before we split for the conference. I arrived there and promptly plonked Mel and my backpack in the upper row and went down to wander; Cher (Swede Woman) was wandering around too, and we bopped around downtown for about half an hour to an hour before things got started. Talked for a while, perched on the three-foot ledge that overlooks the street. It's a beautiful city, really, new and old juxtaposed. Mirror-plated modern nestled beside classic brick, high-reaching and fire-escape trimmed.
 
@@ -127,6 +133,7 @@ Ran into Lydia Hacker. I got a hug; a word of wisdom; a kiss on the forehead. Sh
 Found Cher and snapped a photo of her with Squeaky, after some persuasion.
 
 The Trosts never did end up arriving while I was conscious... Went downstairs, sacked out. After a while I heard noise upstairs and wandered up; Conrad and Mike had just gotten home and wanted to play super tecmo bowl. They'd rented it from funcoland. Conrad beat Mike, I took on Mike and lost 28-0, and Conrad took him again. They watched TV for a bit, and I ended up crawling out to switch it off when they fell asleep.
+
 Friday Morning: Well, here I am in the car, on the way home as scenery sweeps by, blurring into a mottling of passing colors. I woke up late -- 8:30 and missed Christine. NUTS. Wanted to tell her, after our conversation, about The Singer trilogy. I think she'd like them. And, admittedly, I'd wanted to see if she had email. So, as we were packing everything up I scribbled down a note. Said g'bye to Conrad and Mike...
 
 Rewrote the note. First one seemed corny and not natural enough. As luck would have it, Christine got home early! So fore we left I got a chance to talk to her... /and/ get a pic with Squeaky :-) Much to my delight, when I asked if she had email, she said that her school has it but she doesn't know what her address is yet. I gave her mine and said it would be cool if we could keep in touch. Too forward? Maybe. *Shrug* *le sigh* In any case, what's done is done, and I left the note on the counter as well just in case.
