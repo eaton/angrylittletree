@@ -1,5 +1,5 @@
 # standard jekyll stuff
-permalink: /:year/:month/:title.html
+permalink: /:categories/:year/:title.html
 markdown: kramdown
 exclude: Rakefile
 

@@ -27,13 +27,13 @@
 		<meta property="og:type" content="blog"/>
 		<meta name="og:url" content="http://angrylittletree.com{{ page.url }}">
 		{% if page.title %}<meta property="og:title" content="{{ page.title }}"/>{% endif %}
-		{% if page.summary %}<meta property="og:description" content="{{ page.summary }}"/>{% endif %}
+		{% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt }}"/>{% endif %}
 
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:creator" content="@eaton">
 		<meta name="twitter:url" content="http://angrylittletree.com{{ page.url }}">
 		<meta name="twitter:title" content="{{ page.title }}">
-		{% if page.summary %}<meta name="twitter:description" content="{{ page.summary }}">{% endif %}
+		{% if page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt }}">{% endif %}
 
 		{% include header_scripts.html %}
 	</head>
