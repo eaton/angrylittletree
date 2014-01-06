@@ -1,0 +1,14 @@
+--- 
+layout: post
+title: Thoughts on taxation and social responsibility
+drupal_path: 11/08/thoughts-taxation-and-social-responsibility
+drupal_nid: 12
+created: 1313642844
+---
+I'm a white midwestern suburb kid who started out mowing lawns and hauling rocks for summer funds, got a crummy job out of school and slowly bootstrapped myself to become a reasonably successful software developer and public speaker. From a flat-out personal income standpoint, I stand to benefit from the Republican (and even Tea Party) tax proposals over the next decade or so. From a societal standpoint, however, I stand to lose out badly. My taxes pay for a world in which those with less money than me have a bit less to worry about. That means that they can do productive, useful things like raising their kids rather than trying to scrape for a third job; go to the doctor for a checkup rather than waiting until they collapse in pain; and starting new and innovative businesses rather than "playing it safe" for their families. Those are the things that a social safety net makes possible, and when other people enjoy its benefits I benefit as well, from their business if nothing else.
+
+I view my contribution to the management of our society -- via taxes -- to be one of my fundamental responsibilities as an American, no less important than showing up for Jury Duty and registering for the draft. You can object to how some tax monies are being spent, just as you can object to how our military is being used around the world, or how certain court cases turn out. The objections being raised by most small government advocates, however, have little to do with "waste" once the rhetoric is swept away. It's about the idea that shared funding of society's infrastructure is fundamentally wrong, unless it goes to police or military forces. 
+
+The two arguments that I hear frequently are strangely contradictory. First, there's the claim that lower income people who want to see taxes raised are "trying to screw the rich." Second, there's the complaint that higher-income people who want to see taxes raised "should just donate to charities if they want to help people." The obvious conclusion is that no one -- not anyone! -- can make an honest case to raise taxes. Charity and charity alone should cover the social safety net.
+
+We tried that, as a nation, for some time. It didn't work, and we went through a long hard slog to fix it. That's why we pay higher taxes than we did in the 1800s. That's why the rest of the first world pays higher taxes than Tea Party and small-government conservatives would prefer. They either don't remember the lessons that our country learned, or they believe that trading the potential of unlimited wealth for the reality of widespread hardship is worthwhile. I do not believe that it is; I'm OK with being called anti-capitalist, anti-American, and so on because of that. That's the way that political discourse works.
