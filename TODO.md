@@ -6,6 +6,3 @@
 
 # Design todos
 - Actually implement a new design
-
-# New stuff
-- Migrate Growing Up Goddy posts
