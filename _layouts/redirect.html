@@ -1,0 +1,13 @@
+---
+redirect: /
+---
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Whoops!</title>      
+<meta http-equiv="refresh" content="0;URL='{{ page.redirect }}'" />    
+</head>
+<body>
+<p>This page has moved to a <a href="http://{{site.url}}{{ page.redirect }}">
+http://{{site.url}}{{ page.redirect }}</a>.</p> 
+</body>
+</html>

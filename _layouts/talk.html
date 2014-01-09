@@ -1,0 +1,41 @@
+---
+title: 
+layout: default
+body-class: talk
+slide-url: 
+summary: 
+tags: []
+links: 
+# { title: X, description: x, url: x }
+venues: 
+# { title: X, date: x, url: x }
+responses: 
+# { quote: X, name: X }
+---
+<article>
+<header>
+<h2>{{ page.title }}</h2>
+<p>{{ page.summary }}</p>
+{% if page.slide-url %}<a href="{% if page.slide-url %}" class="slides">See the slides</a>{% endif %}
+</header>
+
+{{ content }}
+
+{% if page.links or page.venues or page.responses %}<section class="talkmeta">
+{% if page.links %}<ul class="references">
+<h3>Related links</h3>
+{% for link in page.links %}<li><a href="{{ link.url }}">{{ link.title }}</a>{% if link.description %} <span>{{ link.description }}</span>{% endif %}</li>{% endfor %}
+</ul>{% endif %}
+
+{% if page.venues %}<ul class="venues">
+<h3>Where it happened</h3>
+{% for venue in page.venues %}<li><a href="{{ venue.url }}">{{venue.title}}</a>{% if venue.date %} <span>{{ venue.date }}</span>{% endif %}</li>{% endfor %}
+</ul>{% endif %}
+
+
+{% if page.responses %}<ul class="responses">
+<h3>What people said</h3>
+{% for response in page.responses %}<li><blockquote>{{ response.quote }}{% if quote.name %} <cite>{{ quote.name }}</cite>{% endif %}</blockquote></li>{% endfor %}
+</ul>{% endif %}
+</section>{% endif %}
+</article>

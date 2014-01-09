@@ -1,9 +1,14 @@
 ---
+title: 
+summary: 
 layout: default
 body-class: article
-comments: true
+comments: Yes
+hero: No
+tags: []
+citations: 
+  - 
 ---
-<section id="content" class="squish">
 <article data-wordcount="{{ page.content | number_of_words }}">
 <header{% if page.hero %} data-hero="{{page.hero}}"{% endif %}>
 <h2>{{ page.title }}</h2>
@@ -12,9 +17,8 @@ comments: true
 
 {{ content }}
 
-{% if page.comments %}<section id="comments">
+{% if page.comments and site.disqus %}<section id="comments">
 {% include disqus_thread.html %}
-</section>{% endif %}
-
-</article>
 </section>
+{% endif %}
+</article>

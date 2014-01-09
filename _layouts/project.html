@@ -1,0 +1,29 @@
+---
+title: 
+layout: default
+body-class: project
+type: 
+summary: 
+tags: []
+link: 
+primary-photo: 
+images: 
+# { image: X, description: x, link: x }
+---
+<article>
+<header>
+<h2>{{ page.title }}</h2>
+{% if primary-photo %}<img src="{{ primary-photo }}" />{% endif %}
+{% if page.link %}<a href="{% if page.link %}" class="projectlink">Visit the site</a>{% endif %}
+<p>{{ page.summary }}</p>
+</header>
+
+{% if page.images %}<ul class="images">
+{% for image in page.images %}<li>{% if image.link %}<a href="{{ image.link }}><img src="{{ image.image }}" /></a>
+{% else %}<a href="{{ image.link }}><img src="{{ image.image }}" /></a>
+{% endif %}{% if image.description %}<p>{{ image.description }}{% endif %}</li>{% endfor %}
+</ul>{% endif %}
+
+{{ content }}
+
+</article>
