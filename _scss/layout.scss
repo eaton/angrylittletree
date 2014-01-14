@@ -1,0 +1,16 @@
+/* 
+Basic layout styles
+
+Assumed base layout: 3-column, stacked layout.
+Slit: Small screens in landscape, pushes stuff to the side. 5 columns
+Landscape: Tablets, netbooks and small laptops, etc. 5 columns.
+Spread: Big-ass screen, wide layout. 7 columns.
+*/
+
+#sitehead {
+  @include outer-container();
+}
+
+#primary {
+  @include outer-container();
+}
