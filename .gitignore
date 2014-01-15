@@ -2,4 +2,3 @@ Rakefile
 _site
 .DS_Store
 .sass-cache
-css
