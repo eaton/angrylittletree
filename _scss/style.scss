@@ -1,8 +1,3 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
 /* External libraries */
 @import "compass/reset";
 @import "compass/typography/lists/horizontal-list";
@@ -11,5 +6,29 @@
 @import "bitters/bitters";
 @import "neat";
 
-@import "layout";
+/* 
+Breakpoint setups
 
+Standard base: Stacked layout, minimal margins.
+Slit: Small screens in landscape, pushes stuff to the side.
+Large: Tablets, netbooks and small laptops, etc.
+Spread: Big-ass screen, wide layout.
+*/
+
+$envelope: new-breakpoint(max-height 480px orientation landscape);
+$large: new-breakpoint(min-width 768px);
+$spread: new-breakpoint(min-width 1600px);
+
+#query-test {
+  position: fixed;
+  font-size: .8em;
+  width: 1.5em;
+  text-align: center;
+  font-color: silver;
+  #fallback { background-color: green; }
+  #envelope { @include media($envelope) { background-color: green; } }
+  #large { @include media($large) { background-color: green; } }
+  #spread { @include media($spread) { background-color: green; } }
+}
+
+@import "layout";

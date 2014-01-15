@@ -1,45 +1,53 @@
-/* 
-Basic layout styles
-
-Assumed base layout: 3-column, stacked layout.
-Slit: Small screens in landscape, pushes stuff to the side. 5 columns
-Landscape: Tablets, netbooks and small laptops, etc. 5 columns.
-Spread: Big-ass screen, wide layout. 7 columns.
-*/
-
 body {
   @include outer-container();
   em, blockquote, cite { font-style: italic; }
 }
 
-#sitehead {
-  @include span-columns(8);
-  @include shift(2);
-  h1 {
-  	font-size: 5em;
-  }
-  nav ul {
-    @include horizontal-list();
-  }
-  
+#sitehead, #primary, footer {
+  @include span-columns(10);
+  @include shift(1);
+}
+
+#sitehead, #primary {
   padding-bottom: 2em;
 }
 
-#primary {
-  @include span-columns(8);
-  @include shift(2);
-  font-size: 1.4em;
-  line-height: 1.5em;
+nav ul {
+  @include horizontal-list();
 }
 
-footer {
-  @include span-columns(8);
-  @include shift(2);
-  font-style: italic;
-}
 
-#about {
-  font-size: 1.5em;
-  line-height: 1.5em;
-  font-style: italic;
+@include media($large) {
+  #sitehead {
+    @include span-columns(8);
+    @include shift(2);
+    h1 {
+      font-size: 5em;
+    }
+
+    padding-bottom: 2em;
+  
+    nav ul {
+      @include horizontal-list();
+    }
+  }
+
+  #primary {
+    @include span-columns(8);
+    @include shift(2);
+    font-size: 1.4em;
+    line-height: 1.5em;
+  }
+
+  footer {
+    @include span-columns(8);
+    @include shift(2);
+    font-style: italic;
+  }
+
+  #about {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-style: italic;
+  }
 }
