@@ -1,0 +1,619 @@
+/* External libraries */
+/* line 17, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* line 1, ../_scss/bitters/extends/_button.scss */
+button,
+input[type="submit"] {
+  border: 1px solid #2459a6;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 0 #89a8d5;
+  color: white;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  background-color: #477dca;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #477dca), color-stop(100%, #2760b2));
+  background-image: -webkit-linear-gradient(#477dca, #2760b2);
+  background-image: linear-gradient(#477dca, #2760b2);
+  padding: 7px 18px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #1b4f9a;
+  background-clip: padding-box;
+  font-size: 1em; }
+  /* line 79, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_button.scss */
+  button:hover:not(:disabled),
+  input[type="submit"]:hover:not(:disabled) {
+    box-shadow: inset 0 1px 0 0 #628cc8;
+    cursor: pointer;
+    background-color: #3c71bb;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3c71bb), color-stop(100%, #255aa5));
+    background-image: -webkit-linear-gradient(#3c71bb, #255aa5);
+    background-image: linear-gradient(#3c71bb, #255aa5); }
+  /* line 95, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_button.scss */
+  button:active:not(:disabled),
+  input[type="submit"]:active:not(:disabled) {
+    border: 1px solid #2459a6;
+    box-shadow: inset 0 0 8px 4px #235397, inset 0 0 8px 4px #235397, 0 1px 1px 0 #eeeeee; }
+  /* line 38, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_button.scss */
+  button:disabled,
+  input[type="submit"]:disabled {
+    opacity: 0.5;
+    cursor: not-allowed; }
+
+/* line 1, ../_scss/bitters/_typography.scss */
+body {
+  color: #333333;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5em; }
+
+/* line 9, ../_scss/bitters/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.25em;
+  margin: 0;
+  text-rendering: optimizeLegibility; }
+
+/* line 16, ../_scss/bitters/_typography.scss */
+h1 {
+  font-size: 2.25em; }
+
+/* line 20, ../_scss/bitters/_typography.scss */
+h2 {
+  font-size: 2em; }
+
+/* line 24, ../_scss/bitters/_typography.scss */
+h3 {
+  font-size: 1.75em; }
+
+/* line 28, ../_scss/bitters/_typography.scss */
+h4 {
+  font-size: 1.5em; }
+
+/* line 32, ../_scss/bitters/_typography.scss */
+h5 {
+  font-size: 1.25em; }
+
+/* line 36, ../_scss/bitters/_typography.scss */
+h6 {
+  font-size: 1em; }
+
+/* line 40, ../_scss/bitters/_typography.scss */
+p {
+  margin: 0 0 0.75em; }
+
+/* line 44, ../_scss/bitters/_typography.scss */
+a {
+  color: #477dca;
+  text-decoration: none;
+  -webkit-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  transition: color 0.1s linear; }
+  /* line 49, ../_scss/bitters/_typography.scss */
+  a:hover {
+    color: #2c5999; }
+  /* line 53, ../_scss/bitters/_typography.scss */
+  a:active, a:focus {
+    color: #2c5999;
+    outline: none; }
+
+/* line 59, ../_scss/bitters/_typography.scss */
+hr {
+  border-bottom: 1px solid #dddddd;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 1.5em 0; }
+
+/* line 67, ../_scss/bitters/_typography.scss */
+img {
+  margin: 0;
+  max-width: 100%; }
+
+/* line 72, ../_scss/bitters/_typography.scss */
+abbr, acronym {
+  border-bottom: 1px dotted #dddddd;
+  cursor: help; }
+
+/* line 77, ../_scss/bitters/_typography.scss */
+address {
+  display: block;
+  margin: 0 0 0.75em; }
+
+/* line 82, ../_scss/bitters/_typography.scss */
+hgroup {
+  margin-bottom: 0.75em; }
+
+/* line 86, ../_scss/bitters/_typography.scss */
+del {
+  color: #595959; }
+
+/* line 90, ../_scss/bitters/_typography.scss */
+blockquote {
+  border-left: 2px solid #dddddd;
+  color: #595959;
+  margin: 1.5em 0;
+  padding-left: 0.75em; }
+
+/* line 97, ../_scss/bitters/_typography.scss */
+cite {
+  color: #737373;
+  font-style: italic; }
+  /* line 101, ../_scss/bitters/_typography.scss */
+  cite:before {
+    content: '\2014 \00A0'; }
+
+/* line 10, ../_scss/bitters/_forms.scss */
+fieldset {
+  background: #f7f7f7;
+  border: 1px solid #dddddd;
+  margin: 0 0 0.75em 0;
+  padding: 1.5em; }
+
+/* line 19, ../_scss/bitters/_forms.scss */
+input,
+label,
+select {
+  display: block;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1em; }
+
+/* line 25, ../_scss/bitters/_forms.scss */
+label {
+  font-weight: bold;
+  margin-bottom: 0.375em; }
+  /* line 29, ../_scss/bitters/_forms.scss */
+  label.required:after {
+    content: "*"; }
+  /* line 33, ../_scss/bitters/_forms.scss */
+  label abbr {
+    display: none; }
+
+/* line 39, ../_scss/bitters/_forms.scss */
+textarea,
+input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: border-color;
+  -moz-transition: border-color;
+  transition: border-color;
+  background-color: white;
+  border-radius: 0.1875em;
+  border: 1px solid #dddddd;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1em;
+  margin-bottom: 0.75em;
+  padding: 0.5em 0.5em;
+  resize: vertical;
+  width: 100%; }
+  /* line 53, ../_scss/bitters/_forms.scss */
+  textarea:hover,
+  input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover {
+    border-color: #c4c4c4; }
+  /* line 57, ../_scss/bitters/_forms.scss */
+  textarea:focus,
+  input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus {
+    border-color: #477dca;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
+    outline: none; }
+
+/* line 64, ../_scss/bitters/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none; }
+
+/* line 68, ../_scss/bitters/_forms.scss */
+input[type="checkbox"], input[type="radio"] {
+  display: inline;
+  margin-right: 0.375em; }
+
+/* line 73, ../_scss/bitters/_forms.scss */
+input[type="file"] {
+  width: 100%; }
+
+/* line 77, ../_scss/bitters/_forms.scss */
+select {
+  width: auto;
+  margin-bottom: 1.5em; }
+
+/* line 83, ../_scss/bitters/_forms.scss */
+button,
+input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+
+/* line 1, ../_scss/bitters/_tables.scss */
+table {
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  table-layout: fixed;
+  width: 100%; }
+
+/* line 8, ../_scss/bitters/_tables.scss */
+th {
+  border-bottom: 1px solid #b7b7b7;
+  font-weight: bold;
+  padding: 0.75em 0;
+  text-align: left; }
+
+/* line 15, ../_scss/bitters/_tables.scss */
+td {
+  border-bottom: 1px solid #dddddd;
+  padding: 0.75em 0; }
+
+/* line 20, ../_scss/bitters/_tables.scss */
+tr, td, th {
+  vertical-align: middle; }
+
+/* line 1, ../_scss/bitters/_lists.scss */
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+/* line 19, ../_scss/bitters/_lists.scss */
+dl {
+  line-height: 1.5em;
+  margin-bottom: 0.75em; }
+  /* line 23, ../_scss/bitters/_lists.scss */
+  dl dt {
+    font-weight: bold;
+    margin-top: 0.75em; }
+  /* line 28, ../_scss/bitters/_lists.scss */
+  dl dd {
+    margin: 0; }
+
+/* line 1, ../_scss/bitters/_flashes.scss */
+.error, #flash_failure {
+  background: #fbe3e4;
+  color: #96151b;
+  font-weight: bold;
+  margin-bottom: 0.75em;
+  padding: 0.75em; }
+  /* line 8, ../_scss/bitters/mixins/_flash.scss */
+  .error a, #flash_failure a {
+    color: #6a0f13; }
+    /* line 11, ../_scss/bitters/mixins/_flash.scss */
+    .error a:hover, #flash_failure a:hover {
+      color: #110203; }
+
+/* line 5, ../_scss/bitters/_flashes.scss */
+.notice, #flash_notice {
+  background: #fff6bf;
+  color: #8c7800;
+  font-weight: bold;
+  margin-bottom: 0.75em;
+  padding: 0.75em; }
+  /* line 8, ../_scss/bitters/mixins/_flash.scss */
+  .notice a, #flash_notice a {
+    color: #594c00; }
+    /* line 11, ../_scss/bitters/mixins/_flash.scss */
+    .notice a:hover, #flash_notice a:hover {
+      color: black; }
+
+/* line 9, ../_scss/bitters/_flashes.scss */
+.success, #flash_success {
+  background: #e6efc2;
+  color: #56651a;
+  font-weight: bold;
+  margin-bottom: 0.75em;
+  padding: 0.75em; }
+  /* line 8, ../_scss/bitters/mixins/_flash.scss */
+  .success a, #flash_success a {
+    color: #333c10; }
+    /* line 11, ../_scss/bitters/mixins/_flash.scss */
+    .success a:hover, #flash_success a:hover {
+      color: black; }
+
+/* line 2, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* 
+Breakpoint setups
+
+Standard base: Stacked layout, minimal margins.
+Slit: Small screens in landscape, pushes stuff to the side.
+Large: Tablets, netbooks and small laptops, etc.
+Spread: Big-ass screen, wide layout.
+*/
+/* line 22, ../_scss/style.scss */
+#query-test {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  font-size: .8em;
+  width: 1.5em;
+  text-align: center;
+  font-color: silver; }
+  /* line 30, ../_scss/style.scss */
+  #query-test #fallback {
+    background-color: green; }
+  @media screen and (max-height: 480px) and (orientation: landscape) {
+    /* line 31, ../_scss/style.scss */
+    #query-test #envelope {
+      background-color: green; } }
+  @media screen and (min-width: 768px) {
+    /* line 32, ../_scss/style.scss */
+    #query-test #large {
+      background-color: green; } }
+  @media screen and (min-width: 1600px) {
+    /* line 33, ../_scss/style.scss */
+    #query-test #spread {
+      background-color: green; } }
+
+/* line 1, ../_scss/layout.scss */
+body {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  body:before, body:after {
+    content: " ";
+    display: table; }
+  /* line 23, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  body:after {
+    clear: both; }
+  /* line 3, ../_scss/layout.scss */
+  body em, body blockquote, body cite {
+    font-style: italic; }
+
+/* line 6, ../_scss/layout.scss */
+#sitehead, #primary, footer {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%; }
+  /* line 33, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+  #sitehead:last-child, #primary:last-child, footer:last-child {
+    margin-right: 0; }
+
+/* line 11, ../_scss/layout.scss */
+#sitehead, #primary {
+  padding-bottom: 2em; }
+
+/* line 15, ../_scss/layout.scss */
+#site-title {
+  width: 100%;
+  display: inline-block; }
+
+/* line 21, ../_scss/layout.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  *zoom: 1; }
+  /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  nav ul:before, nav ul:after {
+    content: " ";
+    display: table; }
+  /* line 23, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  nav ul:after {
+    clear: both; }
+  /* line 60, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  nav ul li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    display: inline;
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px; }
+    /* line 48, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    nav ul li:first-child, nav ul li.first {
+      padding-left: 0; }
+    /* line 49, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    nav ul li:last-child {
+      padding-right: 0; }
+    /* line 50, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    nav ul li.last {
+      padding-right: 0; }
+
+@media screen and (min-width: 768px) {
+  /* line 27, ../_scss/layout.scss */
+  #sitehead {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%;
+    padding-bottom: 2em; }
+    /* line 33, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+    #sitehead:last-child {
+      margin-right: 0; }
+    /* line 33, ../_scss/layout.scss */
+    #sitehead nav ul {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      *zoom: 1; }
+      /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+      #sitehead nav ul:before, #sitehead nav ul:after {
+        content: " ";
+        display: table; }
+      /* line 23, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+      #sitehead nav ul:after {
+        clear: both; }
+      /* line 60, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      #sitehead nav ul li {
+        list-style-image: none;
+        list-style-type: none;
+        margin-left: 0;
+        white-space: nowrap;
+        display: inline;
+        float: left;
+        padding-left: 4px;
+        padding-right: 4px; }
+        /* line 48, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+        #sitehead nav ul li:first-child, #sitehead nav ul li.first {
+          padding-left: 0; }
+        /* line 49, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+        #sitehead nav ul li:last-child {
+          padding-right: 0; }
+        /* line 50, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+        #sitehead nav ul li.last {
+          padding-right: 0; }
+
+  /* line 38, ../_scss/layout.scss */
+  #primary {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%;
+    font-size: 1.4em;
+    line-height: 1.5em; }
+    /* line 33, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+    #primary:last-child {
+      margin-right: 0; }
+
+  /* line 45, ../_scss/layout.scss */
+  footer {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%;
+    font-style: italic; }
+    /* line 33, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+    footer:last-child {
+      margin-right: 0; }
+
+  /* line 51, ../_scss/layout.scss */
+  .squish {
+    *zoom: 1;
+    display: block;
+    padding-bottom: 1em; }
+    /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+    .squish:before, .squish:after {
+      content: " ";
+      display: table; }
+    /* line 23, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+    .squish:after {
+      clear: both; }
+    /* line 54, ../_scss/layout.scss */
+    .squish :last-child {
+      padding-bottom: 0em; }
+
+  /* line 58, ../_scss/layout.scss */
+  .postlist-marker {
+    display: block;
+    float: left;
+    margin-right: 3.57866%;
+    width: 22.316%;
+    margin-left: -25.89467%;
+    text-align: right; }
+    /* line 33, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+    .postlist-marker:last-child {
+      margin-right: 0; }
+
+  /* line 63, ../_scss/layout.scss */
+  .postlist {
+    display: block;
+    float: left;
+    margin-right: 3.57866%;
+    width: 100%; }
+    /* line 33, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+    .postlist:last-child {
+      margin-right: 0; } }
+/* line 1, ../_scss/type.scss */
+#site-meta a {
+  color: #333333; }
+
+/* line 5, ../_scss/type.scss */
+article .post-date {
+  font-size: .8em;
+  font-color: smoke;
+  font-style: italic; }
+
+/* line 11, ../_scss/type.scss */
+#about {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-style: italic; }
+
+/* line 18, ../_scss/type.scss */
+article ul {
+  list-style-type: disc; }
+/* line 22, ../_scss/type.scss */
+article ol {
+  list-style-type: decimal; }
+/* line 26, ../_scss/type.scss */
+article ul, article ol {
+  margin-left: 1em;
+  margin-bottom: .75em;
+  list-style-position: inside; }
+  /* line 30, ../_scss/type.scss */
+  article ul li, article ol li {
+    text-indent: -1em; }
