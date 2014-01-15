@@ -11,8 +11,8 @@ body-class: article
 ---
 <article data-wordcount="{{ page.content | number_of_words }}">
 <header{% if page.hero %} data-hero="{{page.hero}}"{% endif %}>
-<h2>{{ page.title }}</h2>
-<p class="post-date">{{ post.date | date: '%B %d, %Y'}}</p>
+<h2 class="post-title">{{ page.title }}</h2>
+<p class="post-date">{{ page.date | date: '%B %-d, %Y'}}</p>
 </header>
 
 {{ content }}
