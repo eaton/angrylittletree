@@ -47,12 +47,6 @@ nav ul {
     @include shift(2);
     font-style: italic;
   }
-
-  #about {
-    font-size: 1.5em;
-    line-height: 1.5em;
-    font-style: italic;
-  }
   
   .squish {
     @include row();
