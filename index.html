@@ -1,22 +1,17 @@
 ---
 layout: default
-description: A description about my blog homepage
-summary: The home page of Jeff Eaton, an autodidactic teacher, content strategy ingenue, software architecture ne'er-do-well, and generally opinionated snark.
+type: landing
+body-class: home
 ---
-<header>
-<h1><a href="/">{{ site.title }}</a></h1>
-<p class="bigger">I'm <a href="http://twitter.com/eaton" rel="nofollow">Jeff Eaton</a>. I enjoy <a href="http://flickr.com/photos/jeffeaton/" rel="nofollow">photography</a>, write about <a href="http://growingupgoddy.com" rel="nofollow">religious experience</a>, and rant about <a href="http://plf.tumblr.com" rel="nofollow">technology</a>. I build <a href="http://www.wwe.com/">things</a> with <a href="http://drupal.org" rel="nofollow">Drupal</a> and <a href="http://www.amazon.com/dp/0596515804" rel="nofollow">teach</a> others about it for <a href="http://lullabot.com" rel="nofollow">Lullabot</a>, a digital strategy and services company. I'm married to <a href="http://sparrowpost.com" rel="nofollow">Catherine</a>, and I like <a href="http://pinboard.in/u:eaton" rel="nofollow">interesting things</a>.</p>
-</header>
 
-{% for post in site.posts limit:1 %}
-<article>
-{% if post.title %}<h2><a href="{{ post.url }}">{{ post.title }}&nbsp;⇢</a></h2>{% endif %}
-{{ post.content }}
-{% endfor %}
-</article>
+<p id="about">My name is <a href="http://twitter.com/eaton">Jeff Eaton</a>. I’m a <a href="http://drupal.org">CMS</a> architect and <a href="http://insertcontenthere.com">content strategist</a> at <a href="http://lullabot.com" rel="nofollow">Lullabot</a>. I’m married to <a href="http://sparrowpost.com" rel="nofollow">Catherine</a>, and I like <a href="http://pinboard.in/u:eaton" rel="nofollow">interesting things</a>.</p>
 
-<ul id="recent-posts">
-{% for post in site.posts offset:1 limit:20 %}
-<li><span>{{ post.date | date_to_string }} - </span><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
+{% for post in site.categories.blog limit:1 %}<article class="{{ post.url }}">
+{% if post.title %}<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>{% endif %}
+{{ post.excerpt }}</article>{% endfor %}
+
+<ul>
+<h4>Recently</h4>
+{% for post in site.categories.blog offset:4 limit: 4 %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+<li><em><a href="/archive">See the archives&hellip;</a></em></li>
 </ul>

@@ -1,0 +1,22 @@
+--- 
+layout: post
+title: The rest of it all
+drupal_path: 11/04/rest-it-all-0
+drupal_nid: 9
+created: 1301851510
+---
+There's nothing like three weeks of travel, a site launch, and a major sinus infection to cut into your blogging output, you know? But now, here I am: I've survived DrupalCon, the <a href="http://www.wwe.com">client's web site</a> has launched successfully, and I'm <a href="http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001670/">doped to the gills on painkillers, antibiotics, and anti-inflammatory drugs</a>. Hooray!
+
+<img src="http://gallery.me.com/jeff.eaton/100008/IMG_6740/web.jpg?ver=13000789290001" width=650 />
+
+Although the Lullabot team has been doing post-Drupalcon posts and podcasts over at <a href="http://www.lullabot.com">the company site</a>, we haven't talked much about one of the really cool things that preceded it. Our second annual <a href="http://gallery.me.com/jeff.eaton/100008">full-company retreat</a> was in downstate Illinois this year, and it was pretty amazing. Since I joined in 2006, Lullabot has grown from a handful of devs hacking on Drupal to a powerhouse team. There are about two dozen 'bots now, and as a fully virtual company we have to work hard to get face time. It's a critical investment in the company, though: the four days we spent laughing, connecting, planning, and getting to know each other better was <em>invaluable.</em>
+
+I'm struck by how lucky I am to be working with such a gifted group of developers, designers, teachers, writers, project managers, and more. We've grown to the point where specialization is a necessity, not a luxury, and seeing everyone tackle their roles and specialties (and thrive) is tremendously encouraging. One of the retreat days was dedicated to teaching -- not Drupal stuff, but the random talents and interests and passions that we each have. Joe taught us how to <a href="http://gallery.me.com/jeff.eaton/100008/IMG_6040">give awesome hugs</a> (complete with charts!), Liza gave a <a href="http://gallery.me.com/jeff.eaton/100008/IMG_6361">fashion boot camp</a> for geeks, Angie introduced everyone to <a href="http://gallery.me.com/jeff.eaton/100008/IMG_5891">the beauty of Picross</a>, Dave taught us <a href="http://gallery.me.com/jeff.eaton/100008/IMG_6308">sleight of hand tricks</a>, Jared showed everyone how to <a href="http://gallery.me.com/jeff.eaton/100008/IMG_6093">make a golden ratio grid</a>... By the time we left for Drupalcon proper, we were all riding high.
+
+<img src="http://gallery.me.com/jeff.eaton/100008/IMG_5502/web.jpg?ver=13000789310001" width=650 />
+
+One of the topics that was discussed a lot over the retreat week was the challenge of preserving Lullabot's culture and values as it grows. In a way, I think that our challenges mirror those of the Drupal community as it evolves into a "mature" platform and industry. A lot of the default approaches to communicating, planning, and setting goals have to change and grow. And while Lullabot's definitely grown in the past several years, the folks steering the ship have made deliberate choices to focus on <em>being good at what we do</em> rather than <em>being the biggest at what we do.</em> That encourages me a lot, given the relentless emphasis on VC-funded growth explosions that the web industry frequently treats as the goal.
+
+We all talked a lot about books like <em><a href="http://www.smallgiantsbook.com/">Small Giants</a></em>, and ways to improve the things we value most. Over the past couple of weeks, I've started collecting various articles about similar ideas, and it's interesting to see examples of that kind of focus are scattered all around, often hidden behind the flashier success stories. Chipotle's story of <a href="http://www.rockymountainnews.com/news/2006/dec/23/chipotle-founder-had-big-dreams/">staying focused even when McDonalds pressured them</a> to branch out, Trader Joe's history of <a href="http://money.cnn.com/2010/08/20/news/companies/inside_trader_joes_full_version.fortune/index.htm">doing a few things really well</a>, and developer <a href="http://blog.wilshipley.com/2011/04/success-and-farming-vs-mining.html">Wil Shipley's thoughts on "miners" versus "farmers"</a> all resonate really deeply these days. It's an interesting time to work on web stuff, and I'm glad I'm doing it with <a href="http://www.stephencross.com/home/2011/3/31/secret-sauce-smart-people.html">awesome people</a>.
+
+<img src="http://gallery.me.com/jeff.eaton/100008/IMG_5557/web.jpg?ver=13000645100001" width=650 />

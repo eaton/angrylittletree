@@ -1,12 +1,14 @@
 # standard jekyll stuff
 permalink: /:year/:month/:title.html
 markdown: kramdown
-exclude: Rakefile
+exclude:
+  - Rakefile
+  - config.rb
 
 # configuration required for some pages
 domain: angrylittletree.com
 title: Angry Little Tree
-author: eaton
+author: Jeff Eaton
 email: bonsai@angrylittletree.com
 
 # configuration for ehancements
@@ -23,4 +25,4 @@ twitter:
   username: eaton
 
 typekit:
-  code: jtb0izs
+  code: npd0inp

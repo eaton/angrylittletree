@@ -1,46 +1,41 @@
-<!doctype html>
-<html>
+---
+# title: 
+layout: none
+---
+<!DOCTYPE html{% if page.citations %} xmlns:cito="http://purl.org/spar/cito/"{% endif %}>
+<!--[if IE 7]><html lang="en" class="ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><html lang="en"><![endif]-->
+<!--[if !IE]><html lang="en-US"><![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+{% include global/meta.html %}
+{% include global/citations.html %}
+{% include global/header_scripts.html %}
+</head>
 
-	<head>
-		<meta charset="utf-8"/>
-	    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-		{% if page.description %}
-		<meta name="description" content="{{ page.description }}" />
-		{% endif %}
+<body class="{{ page.body-class }}">
 
-		<!--[if lt IE 9]>
-			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<link rel="stylesheet" media="all" href="/design/layout.css"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
+<!--
+<ul id="query-test">
+<li id="fallback">F</li>
+<li id="envelope">E</li>
+<li id="large">L</li>
+<li id="spread">S</li>
+</ul>
+-->
 
-	    <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+{% include global/nav.html %}
 
-		<link rel="shortcut icon" href="/favicon.ico" />
-		<link rel="apple-touch-icon" href="/design/apple-touch-icon-57x57.png" />
-		<link rel="apple-touch-icon" sizes="72x72" href="/design/apple-touch-icon-72x72.png" />
-		<link rel="apple-touch-icon" sizes="114x114" href="/design/apple-touch-icon-114x114.png" />
+<div id="primary">
+{{ content }}
+</div>
 
-		<meta property="og:site_name" content="{{ site.title }}"/>
-		<meta property="og:image" content="http://angrylittletree.com/design/apple-touch-icon-114x114.png"/>
-		<meta property="og:type" content="blog"/>
-		<meta name="og:url" content="http://angrylittletree.com{{ page.url }}">
-		{% if page.title %}<meta property="og:title" content="{{ page.title }}"/>{% endif %}
-		{% if page.summary %}<meta property="og:description" content="{{ page.summary }}"/>{% endif %}
-
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:creator" content="@eaton">
-		<meta name="twitter:url" content="http://angrylittletree.com{{ page.url }}">
-		<meta name="twitter:title" content="{{ page.title }}">
-		<meta property="twitter:account_id" content="2582861" />
-		{% if page.summary %}<meta name="twitter:description" content="{{ page.summary }}">{% endif %}
-
-		{% include header_scripts.html %}
-	</head>
-	
-	<body lang="en">
-	{{ content }}
-	</body>
-
+<footer>
+<p>Want more? <a href="/atom.xml">Subscribe</a> to this site's feed, <a href="http://twitter.com/eaton">follow me</a> on Twitter, or <a href="http://github.com/eaton">fork</a> my stuff on GitHub.</p>
+</footer>
+<script type="text/javascript">fitText(document.getElementById('site-title'), .8)</script>
+</body>
 </html>

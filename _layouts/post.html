@@ -1,13 +1,23 @@
 ---
 layout: default
+body-class: article
+# title: 
+# summary: 
+# hero: No
+# tags: []
+# citations: 
+#   { url: X, type: x }
 ---
-<header>
-<h1><a href="/">{{ site.title }}</a></h1>
+<article data-wordcount="{{ page.content | number_of_words }}">
+<header{% if page.hero %} data-hero="{{page.hero}}"{% endif %}>
+<h2 class="post-title">{{ page.title }}</h2>
+<p class="post-date">{{ page.date | date: '%B %-d, %Y'}}</p>
 </header>
 
-<article>
-{% if page.title %}<h2>{{ page.title }}</h2>{% endif %}
 {{ content }}
 
-{% if site.disqus %}{% include disqus_thread.html %}{% endif %}
+{% if site.disqus %}<section id="comments">
+{% include disqus_thread.html %}
+</section>
+{% endif %}
 </article>

@@ -1,0 +1,67 @@
+body {
+  @include outer-container();
+  em, blockquote, cite { font-style: italic; }
+}
+
+#sitehead, #primary, footer {
+  @include span-columns(10);
+  @include shift(1);
+}
+
+#sitehead, #primary {
+  padding-bottom: 2em;
+}
+
+#site-title {
+  width: 100%;
+  display: inline-block;
+}
+
+
+nav ul {
+  @include horizontal-list();
+}
+
+
+@include media($large) {
+  #sitehead {
+    @include span-columns(8);
+    @include shift(2);
+
+    padding-bottom: 2em;
+  
+    nav ul {
+      @include horizontal-list();
+    }
+  }
+
+  #primary {
+    @include span-columns(8);
+    @include shift(2);
+    font-size: 1.4em;
+    line-height: 1.5em;
+  }
+
+  footer {
+    @include span-columns(8);
+    @include shift(2);
+    font-style: italic;
+  }
+  
+  .squish {
+    @include row();
+    padding-bottom: 1em;
+    :last-child {
+      padding-bottom: 0em;
+    }
+  }
+  .postlist-marker {
+    @include span-columns(2 of 8);
+    @include shift(-2);
+    text-align: right;
+  }
+  .postlist {
+    @include span-columns(8 of 8);
+  }
+  
+}

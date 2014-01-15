@@ -1,0 +1,2 @@
+{% for cite in page.citations %}<link rel="cito:{% if cite.type %}{{ cite.type }}{% else %}cites{% endif %}" href="{{ cite.url }}">
+{% endfor %} 
