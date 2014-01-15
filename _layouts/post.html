@@ -3,7 +3,6 @@ layout: default
 body-class: article
 # title: 
 # summary: 
-# comments: Yes
 # hero: No
 # tags: []
 # citations: 
@@ -17,7 +16,7 @@ body-class: article
 
 {{ content }}
 
-{% if page.comments and site.disqus %}<section id="comments">
+{% if site.disqus %}<section id="comments">
 {% include disqus_thread.html %}
 </section>
 {% endif %}

@@ -9,3 +9,22 @@ article .post-date {
   line-height: 1.5em;
   font-style: italic;
 }
+
+article {
+  ul {
+    list-style-type: disc;
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  ul, ol {
+    margin-left: 1em;
+    margin-bottom: .75em;
+    list-style-position: inside;
+    li {
+      text-indent: -1em;
+    }
+  }
+}
