@@ -1,5 +1,4 @@
 ---
-published: true
 layout: post
 title: Empathy and Perspective
 summary: "Sometimes, compassion is as simple as realizing that everyone else is confused, too."

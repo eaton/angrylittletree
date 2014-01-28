@@ -1,7 +1,7 @@
 ---
 title: Cognitive Science and Your Blog
 layout: post
-excerpt: A content strategy lesson from Daniel Kahneman’s book, Thinking Fast and Slow
+summary: A content strategy lesson from Daniel Kahneman’s book, Thinking Fast and Slow
 ---
 
 *This post was guest-written by [James Mathewson](https://twitter.com/James_Mathewson) as part of Blog Secret Santa. There's a list of all Secret Santa posts, including one written by me, on [Santa's list of 2013 gift posts](http://secretsanta.csworkflow.com/draws/2013/gifts).*
