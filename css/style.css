@@ -617,3 +617,8 @@ article ul, article ol {
   /* line 30, ../_scss/type.scss */
   article ul li, article ol li {
     text-indent: -1em; }
+/* line 35, ../_scss/type.scss */
+article code {
+  font-size: .8em;
+  font-weight: bold;
+  color: darkslategrey; }
