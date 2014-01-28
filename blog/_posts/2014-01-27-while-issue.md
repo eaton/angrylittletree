@@ -19,4 +19,11 @@ Has anyone else noticed the number of endless loops in the latest build of socie
       print "Legislating morality is terrible and never works!";
     }
 
+    while ($issue) {
+      print "$issue is immoral and wrong!";
+      print "$issue is just how people are, sorry it hurts you!";
+      print "OK, I'll work to change peoples' minds.";
+      print "This sucks, people dislike me for being $issue now!";
+    }
+
 Has anyone else been able to reproduce this issue? Anyone know which subsystem I should log it against?
