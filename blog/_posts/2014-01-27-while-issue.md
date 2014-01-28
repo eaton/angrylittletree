@@ -3,7 +3,7 @@ title: while($issue)
 summary: Noticing endless loops in conversations about patriarchy. Shouldn't automated tests be catching these?
 layout: post
 ---
-Has anyone else noticed the number of endless loops in the latest build of society? Going back to read the docs on previous builds, it looks like they've been around for quite a few releases. The value of `$issue` can vary, but if it's in `array('patriarchy', 'sexism', 'privilege')`, the problem trigers pretty reliably. 
+Has anyone else noticed the number of endless loops in the latest build of society? Going back to read the docs on previous builds, it looks like they've been around for quite a few releases. The value of `$issue` can vary, but if it's in `array('patriarchy', 'sexism', 'privilege')`, the problem triggers pretty reliably. 
 
     while ($issue) {
       print "Hey, $issue is important!";
