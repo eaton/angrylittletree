@@ -1,8 +1,9 @@
 ---
 title: Cognitive Science and Your Blog
 layout: post
-summary: A content strategy lesson from Daniel Kahneman’s book, Thinking Fast and Slow
+excerpt: A content strategy lesson from Daniel Kahneman’s book, Thinking Fast and Slow
 ---
+
 *This post was guest-written by [James Mathewson](https://twitter.com/James_Mathewson) as part of Blog Secret Santa. There's a list of all Secret Santa posts, including one written by me, on [Santa's list of 2013 gift posts](http://secretsanta.csworkflow.com/draws/2013/gifts).*
 
 I had the great fortune to attend the [Cognitive Colloquium](http://asmarterplanet.com/blog/2013/10/live-blogging-from-the-ibm-research-cognitive-systems-colloquium.html) in early October of this year at the IBM Watson Research Center in Yorktown Heights, NY. It was one of those life-changing moments when you feel like you’re sitting on top of a mountain and you can see much more distant horizons. In my case, the horizon I saw involved using some of my mental energy to solve the grand problems of digital content using the methods of cognitive computing.
