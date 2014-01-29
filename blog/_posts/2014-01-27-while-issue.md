@@ -26,4 +26,11 @@ Has anyone else noticed the number of endless loops in the latest build of socie
       print "This sucks, people hate me for supporting $issue now!";
     }
 
+    while ($issue) {
+      print "$issue is a serious problem that needs attention.";
+      print "I don't think $issue is serious: show me examples!";
+      print "Here's an exhaustive list of times when...";
+      print "Why are you so obsessed with $issue?";
+    }
+
 Has anyone else been able to reproduce this? Anyone know which subsystem I should log it against?
