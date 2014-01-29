@@ -4,7 +4,7 @@ summary: When we're part of a project we care about, the signs of burnout can sn
 link: https://the-pastry-box-project.net/jeff-eaton/2014-january-26
 layout: post
 ---
-Earlier this week, a piece that I wrote was published on The Pastrybox. It's about the self-imposed and social pressures that can lead to [personal burnout and community dysfunction](https://the-pastry-box-project.net/jeff-eaton/2014-january-26).
+Earlier this week, a piece that I wrote was published on The Pastry Box. It's about the self-imposed and social pressures that can lead to [personal burnout and community dysfunction](https://the-pastry-box-project.net/jeff-eaton/2014-january-26).
 
 > No mission, project, or community is big enough to sacrifice your health or well being; your responsibilities to yourself, your family, and your loved ones are just as important as a worthy cause or an investor’s profits. If a cause or a project can only survive by chewing you up, *it deserves to die*.
 
