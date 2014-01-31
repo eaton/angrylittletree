@@ -7,14 +7,14 @@ body-class: list
 <p id="about">From .txt files to Blogger to LiveJournal to Moveable Type to Drupal to Jekyll to you.</p>
 
 {% for post in site.categories.blog %}
-{% capture pyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-{% capture nyear %}{{ post.previous.date | date: '%Y' }}{% endcapture %}
+{% assign pyear = post.next.date | date: '%Y' %}
+{% assign year = post.date | date: '%Y' %}
+{% assign nyear = post.previous.date | date: '%Y' %}
 {% if year != pyear or forloop.first %}
 <div class="squish">
 <h3 class="postlist-marker">{{ year }}</h3>
 <ul class="postlist">
-{% endif %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endif %}<li><a href="{{ post.url }}" data-wordcount="{{ post.content|strip_html|number_of_words }}">{{ post.title }}</a></li>
 {% if year != nyear or forloop.last %}
 </ul>
 </div>{% endif %}

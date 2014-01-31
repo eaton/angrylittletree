@@ -622,3 +622,16 @@ article code {
   font-size: .8em;
   font-weight: bold;
   color: darkslategrey; }
+
+/* line 42, ../_scss/type.scss */
+span.wordcount {
+  font-style: italic;
+  font-size: .75em;
+  color: silver;
+  padding-left: 1em;
+  text-decoration: none;
+  visibility: hidden; }
+
+/* line 51, ../_scss/type.scss */
+a:hover span.wordcount {
+  visibility: visible; }

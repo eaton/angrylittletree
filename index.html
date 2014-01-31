@@ -11,7 +11,7 @@ body-class: home
 {{ post.excerpt }}</article>{% endfor %}
 
 <ul>
-<h4>Recently</h4>
-{% for post in site.categories.blog offset:1 limit: 4 %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+<h4>Writing</h4>
+{% for post in site.categories.blog offset:1 limit: 4 %}<li><a href="{{ post.url }}" data-wordcount="{{ post.content|strip_html|number_of_words }}">{{ post.title }}</a></li>{% endfor %}
 <li><em><a href="/archive">See the archives&hellip;</a></em></li>
 </ul>

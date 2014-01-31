@@ -38,3 +38,16 @@ article {
     color: darkslategrey;
   }
 }
+
+span.wordcount {
+  font-style: italic;
+  font-size: .75em;
+  color: silver;
+  padding-left: 1em;
+  text-decoration: none;
+  visibility: hidden;
+}
+
+a:hover span.wordcount {
+  visibility: visible;
+}
