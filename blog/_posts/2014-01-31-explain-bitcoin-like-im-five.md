@@ -1,6 +1,7 @@
 ---
-title: Explain Bitcoin Like I'm Five
-summary: What is Bitcoin? Why do people who use it need powerful graphics cards? What is 'Mining?' What is a doge?
+title: Explain Bitcoin Like I’m Five
+summary: What is Bitcoin? Why do people who use it need powerful graphics cards? What is ‘Mining?’ What is a doge? All this and more, answered inside.
+excerpt: Anything can be used as money if enough people agree to use it, because the value of money is in the agreement everyone has made, not the worth of the paper itself. The problem is making sure that people don’t just take a pen and some paper and “make” themselves new money without doing the work to earn it. 
 layout: post
 ---
 Money is super important because it lets us save and buy and sell things easier. If I'm a farmer and all I have are chickens, I might be able to find a baker who will trade me bread in exchange for a chicken. But if he doesn't want my chicken, I have to find someone with milk (or candy, or something the Baker wants). I'd have to trade my chicken for that thing, then trade that thing for the bread. It gets really complicated when different people want different things, and if I can't work it all it, I'm stuck with my chickens.
