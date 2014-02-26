@@ -25,7 +25,6 @@ article {
 
   ul, ol {
     margin-left: 1em;
-    margin-bottom: .75em;
     list-style-position: inside;
     li {
       text-indent: -1em;
@@ -37,6 +36,10 @@ article {
     font-weight: bold;
     color: darkslategrey;
   }
+}
+
+ul, ol {
+  margin-bottom: .75em;
 }
 
 span.wordcount {

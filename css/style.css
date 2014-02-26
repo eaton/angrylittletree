@@ -612,18 +612,21 @@ article ol {
 /* line 26, ../_scss/type.scss */
 article ul, article ol {
   margin-left: 1em;
-  margin-bottom: .75em;
   list-style-position: inside; }
-  /* line 30, ../_scss/type.scss */
+  /* line 29, ../_scss/type.scss */
   article ul li, article ol li {
     text-indent: -1em; }
-/* line 35, ../_scss/type.scss */
+/* line 34, ../_scss/type.scss */
 article code {
   font-size: .8em;
   font-weight: bold;
   color: darkslategrey; }
 
-/* line 42, ../_scss/type.scss */
+/* line 41, ../_scss/type.scss */
+ul, ol {
+  margin-bottom: .75em; }
+
+/* line 45, ../_scss/type.scss */
 span.wordcount {
   font-style: italic;
   font-size: .75em;
@@ -632,6 +635,6 @@ span.wordcount {
   text-decoration: none;
   visibility: hidden; }
 
-/* line 51, ../_scss/type.scss */
+/* line 54, ../_scss/type.scss */
 a:hover span.wordcount {
   visibility: visible; }

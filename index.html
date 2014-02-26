@@ -15,3 +15,12 @@ body-class: home
 {% for post in site.categories.blog offset:1 limit: 4 %}<li><a href="{{ post.url }}" data-wordcount="{{ post.content|strip_html|number_of_words }}">{{ post.title }}</a></li>{% endfor %}
 <li><em><a href="/archive">See the archives&hellip;</a></em></li>
 </ul>
+
+<ul>
+<h4>Speaking</h4>
+<li><a href="http://2014.midcamp.org/speakers">Midwest Drupalcamp, March 28-30</a></li>
+<!--<li><a href="https://gathercontent.com/">Gather Content webinar, April 2</a></li>-->
+<li><a href="http://nowwhatconference.com/schedule/">Now What Conference, April 24</a></li>
+<!--<li><a href="https://austin2014.drupal.org/">DrupalCon Austin, June 2-6</a></li>-->
+<li><a href="http://www.congility.com/congility-2014/">Congility 2014, June 19-20</a></li>
+</ul>

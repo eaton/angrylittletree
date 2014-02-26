@@ -5,7 +5,7 @@ permalink: .htaccess
 ErrorDocument 404 /404.html
 Options +Multiviews
 
-{% for post in site.posts limit:20 %}{% if post.drupal_nid %}Redirect permanent /node/{{ post.drupal_nid }} {{ post.url }}{% endif %}
+{% for post in site.posts %}{% if post.drupal_nid %}Redirect permanent /node/{{ post.drupal_nid }} {{ post.url }}{% endif %}
 {% if post.drupal_path %}Redirect permanent /{{ post.drupal_path }} {{ post.url }}{% endif %}
 {% endfor %}
 
