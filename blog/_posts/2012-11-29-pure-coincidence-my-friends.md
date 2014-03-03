@@ -8,7 +8,7 @@ The subject of female sexualization in computer games comes up a lot, and all-to
 
 This age-old dance played out recently in a [Kickstarter project for an RPG](http://www.kickstarter.com/projects/g3studios/thorvalla-an-rpg-by-guido-henkel/posts/355852). Concept art was posted, and a few fans noted that the barbarian heroine's low-cut plate-armor bustier was a bit unbelievable.
 
-![The barbarian warrior in question](http://www.thorvalla.com/images/Dyrfinna.jpg)
+![The barbarian warrior in question](/files/thorvalla-dyrfinna.jpg)
 
 The artist responded, explaining that people just didn't get *the backstory*.
 
