@@ -17,6 +17,7 @@ citations:
     url: http://mobile.smashingmagazine.com/2014/02/06/applying-xsl-transformations-to-responsive-web-design
   - type: citesAsPotentialSolution
     url: http://www.contentstrategyinc.com/using-content-modules-improve-efficiency-user-experience
+
 ---
 
 In which I give some background information about the Battle for the Body Field article, explain where it's going, and discuss how much has gone into it.
@@ -24,4 +25,14 @@ In which I give some background information about the Battle for the Body Field 
 also include a link to the austin core conversation proposal.
 
 
- 
+
+
+* http://alistapart.com/article/battle-for-the-body-field
+* http://gadgetopia.com/post/8356
+* http://intentionaldesign.ca/2013/01/06/content-re-use-and-narrative-flow/
+* http://alistapart.com/column/wysiwtf
+* http://storify.com/karenmcgrane/wysiwyg-as-editor-for-rich-data-types
+* http://mobile.smashingmagazine.com/2014/02/06/applying-xsl-transformations-to-responsive-web-design
+* http://www.contentstrategyinc.com/using-content-modules-improve-efficiency-user-experience
+* http://coding.smashingmagazine.com/2014/03/04/introduction-to-custom-elements/
+

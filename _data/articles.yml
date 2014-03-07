@@ -1,0 +1,24 @@
+- name: The Battle for the Body Field
+  link: http://alistapart.com/article/battle-for-the-body-field
+  location: A List Apart
+  summary: Modeling rich, narrative content requires thinking beyond vanilla HTML.
+
+- name: When Editors Design
+  link: http://coding.smashingmagazine.com/2013/06/26/controlling-presentation-in-structured-content/
+  location: Smashing Magazine
+  summary: Five techniques for controlling presentation without sacrificing semantic meaning.
+
+- name: You Matter More Than the Cause
+  link: https://the-pastry-box-project.net/jeff-eaton/2014-january-26
+  location: The Pastry Box
+  summary: If a cause or a project can only survive by chewing you up, it deserves to die.
+
+- name: Inline Editing and the Cost of Leaky Abstractions
+  link: https://www.lullabot.com/blog/article/inline-editing-and-cost-leaky-abstractions
+  location: Lullabot
+  summary: The promise of page-level WYSIWYG is seductive, but on many sites it's a dangerous trap.
+
+- name: Please, Don't Be Female
+  link: https://medium.com/growing-up-goddy/319a7c74f453
+  location: Growing Up Goddy
+  summary: There's a desperate obsession lurking under the surface of modesty culture.

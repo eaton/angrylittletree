@@ -1,0 +1,24 @@
+- name: Midwest Drupalcamp
+  date: March 28-30
+  link: http://2014.midcamp.org/speakers
+  summary: Larry Garfield and I will explaining what's new in Drupal 8, how it will affect your projects, and what it means for the web.
+
+- name: Gather Content webinar
+  date: April 3
+  link: https://www.gathercontent.com/agency-content-strategy
+  summary: A look under the hood of Lullabot's evolving content strategy practice.
+
+- name: Now What Conference
+  date: April 24
+  link: http://nowwhatconference.com/schedule
+  summary: Want to figure out how to think beyond "pages" and grow your company's content? Boom. Here it is.
+
+#- event: DrupalCon Austin
+#  date: June 2-6
+#  link: https://austin2014.drupal.org/session/battle-body-field-drupal-and-future-wysiwyg
+#  summary: A live version of my Battle for the Body Field talk, and a look at the rich possibilities for D8.
+
+- name: Congility 2014
+  date: June 19-20
+  link: http://www.congility.com/congility-2014
+  summary: I'll be explaining how we tackled the workflow needs of three deadline-driven news organizations.
