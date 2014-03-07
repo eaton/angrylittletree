@@ -8,7 +8,7 @@ body-class: home
 
 <ul>
 <h4>The obligatory blog</h4>
-{% for post in site.categories.blog limit: 5 %}<li><a href="{{ post.url }}" data-wordcount="{{ post.content|strip_html|number_of_words }}" title="{{ post.excerpt|strip_html }}">{{ post.title }}</a></li>{% endfor %}
+{% for post in site.categories.blog limit: 5 %}<li><a href="{{ post.url }}" data-wordcount="{{ post.content|strip_html|number_of_words }}" title="{{ post.excerpt|strip_html|strip_newlines }}">{{ post.title }}</a></li>{% endfor %}
 <li><em><a href="/archive">See the archives&hellip;</a></em></li>
 </ul>
 
