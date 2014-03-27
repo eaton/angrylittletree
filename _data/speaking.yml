@@ -13,10 +13,10 @@
   link: http://nowwhatconference.com/schedule
   summary: Want to figure out how to think beyond "pages" and grow your company's content? Boom. Here it is.
 
-#- event: DrupalCon Austin
-#  date: June 2-6
-#  link: https://austin2014.drupal.org/session/battle-body-field-drupal-and-future-wysiwyg
-#  summary: A live version of my Battle for the Body Field talk, and a look at the rich possibilities for D8.
+- event: DrupalCon Austin
+  date: June 2-6
+  link: https://austin2014.drupal.org/session/battle-body-field-drupal-and-future-wysiwyg
+  summary: A live version of my Battle for the Body Field talk, and a look at the rich possibilities for D8.
 
 - name: Congility 2014
   date: June 19-20
