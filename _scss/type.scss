@@ -2,12 +2,6 @@
   color: #333333;
 }
 
-article .post-date {
-  font-size: .8em;
-  font-color: smoke;
-  font-style: italic;
-}
-
 #about {
   font-size: 1.5em;
   line-height: 1.5em;
@@ -35,6 +29,12 @@ article {
     font-size: .8em;
     font-weight: bold;
     color: darkslategrey;
+  }
+
+  .post-date {
+    font-size: .8em;
+    font-color: smoke;
+    font-style: italic;
   }
 }
 
