@@ -1,7 +1,7 @@
 ---
 title: Eclipse Phase
 summary: Notes about, and resources for, the Eclipse Phase tabletop RPG
-layout: default
+layout: list
 ---
 
 ### Take Dead Space, Lovecraft, Accelerando, and The X-Files. Mix to taste.
@@ -9,10 +9,6 @@ layout: default
 Eclipse Phase is a post-apocalyptic transhuman conspiracy horror roleplaying game. If you manage to unpack that one and still want to keep reading, we'll get along juuuuuuuust fine.
 
 The Big Idea for Eclipse Phase is that humans reached the post-scarcity world of nanofabrication and neural mapping goodness, but an AI apocalypse called "The Fall" threw everything off track. Lots of people died, humanity was scattered, and we discovered that terrible things Out There wanted to stomp us. The AIs left via Stargate-style bridges to other galaxies, but humans (and hyperintelligent corvids, and uplifted bonobos, and whales in mecha suits...) are trying to pick up the pieces in a complicated, broken world. 
-
-Every player has an Ego (their inner self) and a Morph (their body). The morph is important but fundamentally disposable, like a car. Resleeving the ego into a new morph is expensive but totally doable, and some humans even forgo bodies entirely, living in simulated environments as Infomorphs.
-
-I noodle around with it a lot, in part because its themes mesh really well with the style of scifi I've always loved. Recently, I've started running a couple of campaigns for co-workers and friends and have accumulated some potentially useful stuff. 
 
 Beyond the game itself, PostHuman Studios is a pretty cool place. They've released the Eclipse Phase books under a Creative Commons license, so there's a pretty active community of people building cool tools for it.
 
@@ -27,7 +23,7 @@ The [EP character sheet generator](https://github.com/JSenek/Eclipse-Phase-Chara
 
 ### Continuity maps
 
-!(continuity-station.png)
+![](continuity-station.png)
 
 The excellent [Continuity](http://eclipsephase.com/releases/continuity) starter adventure has one key weakness: its maps are colorful orange-on-dark-blue things that look great on screen but murder a black and white printer. I recreated the Continuity maps as black-and-white line art in OmniGraffle, and produced an alternate GM-only version that marks the locations of key equipment, NPCS, and threats. I also took some liberties with the map of Kepler station, allowing it to fit a bit nicer on an 8.5x11 or 11x17 sheet.
 
