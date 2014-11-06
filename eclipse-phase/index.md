@@ -1,7 +1,7 @@
 ---
 title: Eclipse Phase
 summary: Notes about, and resources for, the Eclipse Phase tabletop RPG
-layout: list
+layout: default
 ---
 
 ### Take Dead Space, Lovecraft, Accelerando, and The X-Files. Mix to taste.
@@ -21,7 +21,19 @@ Beyond the game itself, PostHuman Studios is a pretty cool place. They've releas
 
 The [EP character sheet generator](https://github.com/JSenek/Eclipse-Phase-Character-Generator) project is a bit out of date: it only features morphs and character backgrounds from the core book, not from the recent Transhuman supplement. However, i's super-clean, super-fast, and you can check it out and run it in your local browser without an internet connection. Slick.
 
-### Continuity maps
+### Random Stuff
+I'm a new GM, so keeping track of a lot of the details can bog me down. Which robot took that last wound? How many rounds of ammo does that drone have? Was that NPC's Fray skill at 45 or 50? You get the idea. I whipped up some maps, and a small pile of mini cheat sheets and scratchpads sized for printing on 4x6 index cards.
+
+All maps and printables use the free [PT Mono font.](http://www.paratype.com/public/). It's pretty, and has an attractive set of accompanying serif and sans serif faces. Yum.
+
+#### Scratchpads
+I give new players a [combat scratchpad](combat-scratchpad.pdf) to help them focus on the numbers they'll need in "vanilla" fights that don't involve hacking or PSI. Print 'em out, cut 'em in half, hand out some pencils.
+
+#### Generic NPC Cards
+[NPC cheat cards](npc-card.pdf) are no-frills printouts that contain combat-relevant skills and equipment for NPCs. The [original Numbers version](npc-card.numbers.zip) can calculate derived stats like trauma thresholds from other aptitudes once they're entered.
+
+
+#### Continuity maps
 
 ![](continuity-station.png)
 
@@ -30,12 +42,9 @@ The excellent [Continuity](http://eclipsephase.com/releases/continuity) starter 
 * Player maps: [PDF](continuity-maps.pdf), [OmniGraffle](continuity-equipment.graffle.zip) 
 * GM Equipment maps: [PDF](continuity-equipment.pdf), [OmniGraffle](continuity-maps.graffle.zip) 
 
-All maps and printables use the free [PT Mono font.](http://www.paratype.com/public/). It's pretty, and has an attractive set of accompanying serif and sans serif faces. Yum.
 
-### Scratchpads and cheat sheets
-I'm a new GM, so keeping track of a lot of the details can bog me down. Which robot took that last wound? How many rounds of ammo does that drone have? Was that NPC's Fray skill at 45 or 50? You get the idea. I whipped up a small pile of mini cheat sheets and scratchpads, sized for printing on 4x6 index cards.
+#### Continuity and Bump In The Night Cards
+I've whipped up those NPC cards for [all of the NPCs and mobs in the Continuity adventure](continuity-npcs.pdf) (including Exsurgent-infected versions of the suggested pregen PCs), as well as [Bump In The Night](bump-in-the-night-npcs.pdf) adventure.
 
-* I give new players a [combat scratchpad](combat-scratchpad.pdf) to help them focus on the numbers they'll need in "vanilla" fights that don't involve hacking or PSI. Print 'em out, cut 'em in half, hand out some pencils.
-* [NPC cheat cards](npc-card.pdf) are no-frills printouts that contain combat-relevant skills and equipment for NPCs. The [original Numbers version](npc-card.numbers.zip) can calculate derived stats like trauma thresholds from other aptitudes once they're entered.
-* I've whipped up those NPC cards for [all of the NPCs and mobs in the Continuity adventure](continuity-npcs.pdf) (including Exsurgent-infected versions of the suggested pregen PCs), as well as [Bump In The Night](bump-in-the-night-npcs.pdf) adventure.
-* A general [GM cheat sheet for Continuity](continuity-cheat-sheet.pdf) saved my bacon. It includes a quick lookup table for the suggested pregen characters' relevant skills, pre-calculated targets for the common WILx3 and COG+INT+SAV tests triggered by the scenario's Basilisk hack, and weapon damage tables with the equipment they're likely to find on the ship highlighted. It's definitely geared towards Continuity and the particular PCs my group was running, but I'm probably going to whip out similar ones for upcoming sessions.
+#### Continuity GM Cheat Sheet
+A general [GM cheat sheet for Continuity](continuity-cheat-sheet.pdf) saved my bacon. It includes a quick lookup table for the suggested pregen characters' relevant skills, pre-calculated targets for the common WILx3 and COG+INT+SAV tests triggered by the scenario's Basilisk hack, and weapon damage tables with the equipment they're likely to find on the ship highlighted. It's definitely geared towards Continuity and the particular PCs my group was running, but I'm probably going to whip out similar ones for upcoming sessions.
