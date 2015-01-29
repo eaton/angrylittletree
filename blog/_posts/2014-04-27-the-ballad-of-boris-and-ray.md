@@ -1,7 +1,7 @@
 ---
-layout:post
-summary:
-title:The Ballad of Boris and Ray
+layout: post
+summary: 
+title: The Ballad of Boris and Ray
 ---
 
 Back in 2000, when dinosaurs roamed the earth, I worked for a software development shop that packed a secret weapon: a _methodology._ While other companies wrote mere code, we practiced Code Science™, a homegrown process cribbed from the hot new “Extreme Programming” movement. We had best practices and core principles and ten steps and lean documentation; we wrote tests first and we crafted user stories and we pair programmed. We explained to our customers how much _better_ it was than the old way of doing things, and printed up impressive brochures about the new age of software development it would usher in.

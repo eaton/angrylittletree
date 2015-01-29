@@ -1,7 +1,7 @@
 ---
-layout:post
-summary:
-title:Dodging Cassandra
+layout: post
+summary: 
+title: Dodging Cassandra
 ---
 
 “You’re all doomed.”

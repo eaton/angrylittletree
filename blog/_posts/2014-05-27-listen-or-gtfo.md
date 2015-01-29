@@ -1,7 +1,7 @@
 ---
-layout:post
-summary:
-title:Listen or GTFO
+layout: post
+summary: 
+title: Listen or GTFO
 ---
 
 It’s Memorial Day as I sit here with my laptop, polishing the last few paragraphs of a post about building presentations on short notice. It’s a fun little bit of technophillia, but here in the final stretch, I’m struck by a simple thought: _It doesn’t matter._

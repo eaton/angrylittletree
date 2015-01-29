@@ -1,7 +1,7 @@
 ---
-layout:post
-summary:
-title:Parlez-vous de l'argent?
+layout: post
+summary: 
+title: Parlez-vous de l'argent?
 ---
 
 I think one of the toughest challenges for passionate developers, designers, and writers is learning to _speak business._

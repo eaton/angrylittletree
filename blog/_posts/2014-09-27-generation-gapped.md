@@ -1,7 +1,7 @@
 ---
-layout:post
-summary:
-title:Generation Gapped
+layout: post
+summary: 
+title: Generation Gapped
 ---
 When I stumbled into the world of web development in the mid 90s, “state of the art” meant table-based layouts, JPEG image maps, and the occasional CGI script. They were dark times, full of spacer GIFs and half-tested regular expressions.
 

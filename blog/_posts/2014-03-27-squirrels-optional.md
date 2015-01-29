@@ -1,7 +1,7 @@
 ---
-layout:post
-summary:
-title:Squirrels Optional
+layout: post
+summary: 
+title: Squirrels Optional
 ---
 
 As I write this, it’s a gorgeous, sunny day outside. That’s big news here in the midwest, where winter has been a grim, Hothlike spectacle of snow, ice, and sub-zero temperatures. Today, though, the ground is visible, the sun is out, and rowdy crowds of squirrels are scrambling over every available surface.

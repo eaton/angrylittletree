@@ -1,7 +1,7 @@
 ---
-layout:post
-summary:
-title:Building Beyond Our Means
+layout: post
+summary: 
+title: Building Beyond Our Means
 ---
 
 ## I.

@@ -1,7 +1,7 @@
 ---
-layout:post
-summary:
-title:You Matter More Than The Cause
+layout: post
+summary: 
+title: You Matter More Than The Cause
 ---
 
 A few years ago, I started thinking hard about the idea of “burnout.” It was no academic exercise: I was part of a high-profile Open Source community that was feeling the crunch, and the people I knew and cared about were suffering.

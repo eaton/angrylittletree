@@ -1,7 +1,7 @@
 ---
-layout:post
-summary:
-title:Your Brain Hates You, and Other Hazards of Metrics
+layout: post
+summary: 
+title: Your Brain Hates You, and Other Hazards of Metrics
 ---
 
 I love measuring things.

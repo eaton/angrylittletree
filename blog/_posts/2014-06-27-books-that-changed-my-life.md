@@ -1,7 +1,7 @@
 ---
-layout:post
-summary:
-title:Seven Books That Changed My Life
+layout: post
+summary: 
+title: Seven Books That Changed My Life
 ---
 
 Both my wife and I love books — when we married, one of the first challenges was figuring out how to fit the dozens of boxes we’d accumulated into just _one_ apartment.

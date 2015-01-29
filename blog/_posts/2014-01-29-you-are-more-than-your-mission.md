@@ -1,7 +1,6 @@
 ---
 title: You are more than your mission
 summary: When we're part of a project we care about, the signs of burnout can sneak up on us.
-link: https://the-pastry-box-project.net/jeff-eaton/2014-january-26
 layout: post
 ---
 Earlier this week, a piece that I wrote was published on The Pastry Box. It's about the self-imposed and social pressures that can lead to [personal burnout and community dysfunction](https://the-pastry-box-project.net/jeff-eaton/2014-january-26).
