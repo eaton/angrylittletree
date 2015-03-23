@@ -5,10 +5,15 @@
 
 - name: DrupalCon Los Angeles
   date: May 11-15
-  link: https://events.drupal.org/losangeles2015
-  summary: A look under the hood of Lullabot's evolving content strategy practice
+  link: https://events.drupal.org/losangeles2015/sessions/battle-body-field
+  summary: A deep dive into the best Drupal tools for editorially-controlled layout
+
+- name: Design/Content Conference
+  date: August 5-7 
+  link: http://www.designcontentconf.com
+  summary: A special episode of the Insert Content Here podcast
 
 - name: Confab Intensive
   date: August 31-September 2
-  link: http://confabevents.com/events/intensive
+  link: http://confabevents.com/events/intensive/program/battle-for-the-body-field
   summary: A three-hour deep dive into the latest techniques for modeling and managing narrative content.
