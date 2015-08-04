@@ -1,0 +1,208 @@
+{
+  "basics": {
+    "name": "Jeff Eaton",
+    "label": "Digital Publishing Obsessive",
+    "picture": "http://farm5.staticflickr.com/4024/4596020523_21f42d86b6_b.jpg",
+    "email": "bonsai@angrylittletree.com",
+    "phone": "(630) 697-8828",
+    "website": "http://angrylittletree.com",
+    "summary": "I combine content strategy and technical architecture experience with a deep love of the publishing industry, and have nearly two decades of experience in web development and digital publishing. I'm a strong communicator who enjoys teaching, and I'm frequently the liaison between business, development, and design teams.",
+    "location": {
+      "address": "215 Sandholm St.",
+      "postalCode": "60134",
+      "city": "Chicago",
+      "countryCode": "US",
+      "region": "Illinois"
+    },
+    "profiles": [{
+      "network": "Twitter",
+      "username": "eaton",
+      "url": "http://twitter.com/eaton"
+    },
+    {
+      "network": "GitHub",
+      "username": "eaton",
+      "url": "http://github.com/eaton"
+    },
+    {
+      "network": "LinkedIn",
+      "username": "jeffeaton",
+      "url": "https://www.linkedin.com/in/jeffeaton"
+    },
+    {
+      "network": "Lanyrd",
+      "username": "eaton",
+      "url": "http://lanyrd.com/profile/eaton/"
+    }]
+  },
+  "work": [{
+    "company": "Lullabot, Inc.",
+    "position": "Senior Digital Strategist",
+    "website": "http://lullabot.com",
+    "startDate": "2013-09-01",
+    "summary": "Planned and iteratively developed business goals, success metrics, and implementation plans for large-scale web publishing platforms. Consulted for entertainment and news media clients on multi-channel publishing, editorial workflow and user experience, and structured content modeling.",
+    "highlights": [
+      "Led content modeling and editorial workflow efforts for MSNBC.com replatforming",
+      "Evaluated and planned improvements to CNBC.com's decoupled publishing platform",
+      "Planned and oversaw execution of Apple's intranet content personalization system",
+      "Planned and helped execute Hotwire.com's structured content initiative",
+      "Extensive speaking and writing on structured content for multi-channel publishing"
+    ]
+  },
+  {
+    "company": "Lullabot, Inc.",
+    "position": "Senior CMS Architect",
+    "website": "http://lullabot.com",
+    "startDate": "2006-10-01",
+    "endDate": "2013-09-01",
+    "summary": "Planned and implemented custom Drupal-based publishing platforms for clients including Harvard, WWE, Fast Company Magazine, Sony/BMG Music, and more. Advised development teams for clients including Stanford, Tesla Motors, and Verizon.",
+    "highlights": [
+      "Designed and helped implement Sony/BMG Music's artist hosting platform, turning fan communities into a revenue-generating engagement tool.",
+      "Planned and led WWE.com replatforming, improving editor efficiency and site performance",
+      "Led the reorganization of Lullabot’s Drupal training curriculum",
+      "Developed Lullabot.com content strategy, served as site editor for three years"
+    ]
+  },
+  {
+    "company": "Retail Vision Systems",
+    "position": "Senior Software Developer",
+    "website": "http://www.rvsinfo.com",
+    "startDate": "2003-05-01",
+    "endDate": "2006-10-01",
+    "summary": "Gathered customer requirements for and implemented Enterprise supply-chain automation software for grocery and retail sales customers.",
+    "highlights": [
+      "Led testing and troubleshooting of legacy business processes",
+      "Optimized nightly data import workflow, cutting processing time by 75%",
+      "Designed and deployed a reusable framework for recurring data warehousing tasks"
+    ]
+  },
+  {
+    "company": "Geneer Corporation",
+    "position": "Software Developer",
+    "startDate": "2000-10-01",
+    "endDate": "2001-10-01",
+    "summary": "Developed, tested, and deployed Dow Agroscience’s international chemical deployment tracking software; built custom sites and support software for web startups."
+  },
+  {
+    "company": "Willow Creek Association",
+    "position": "Webmaster",
+    "website": "http://www.willowcreek.com",
+    "startDate": "1999-07-01",
+    "endDate": "2000-09-01",
+    "summary": "Planned and implemented the migration of a PERL/ColdFusion eCommerce site to ASP, gathered requirements from company stakeholders, and supported site end-users."
+  },
+  {
+    "company": "Robis Marketing",
+    "position": "Copywriter, Web Designer",
+    "website": "http://www.robismarketing.com",
+    "startDate": "1996-10-01",
+    "endDate": "1999-07-01",
+    "summary": "Implemented web marketing campaigns for small businesses, designed static HTML/CSS sites, and wrote copy for client sites and newsletters. Developed database-driven sites for ecommerce customers."
+  }],
+  "volunteer": [{
+    "organization": "Drupal Association",
+    "position": "Content Strategy Working Group",
+    "website": "http://association.drupal.org/",
+    "startDate": "2013-01-01",
+    "summary": "Planned and managed content and IA improvements for Drupal.org"
+  },
+  {
+    "organization": "Drupal Core Project",
+    "position": "Architect and developer",
+    "website": "http://drupal.org/",
+    "startDate": "2005-06-01",
+    "endDate": "2011-01-01",
+    "summary": "Architecture, development, and community management for the Drupal open source CMS",
+    "highlights": [
+      "Co-developed Drupal 6's improved form display and processing API",
+      "Developed and maintained VotingAPI, Drupal's user feedback system",
+      "Developed and maintained of TokenAPI, Drupal's dynamic content system",
+      "Frequent speaker, writer, and teacher on Drupal development and architecture"
+    ]
+  }],
+  "publications": [{
+    "name": "Using Drupal, 1st Edition",
+    "publisher": "O'Reilly Media",
+    "releaseDate": "2008-12-01",
+    "website": "http://usingdrupal.com",
+    "summary": "Planned and co-authored the first guide to solutions-oriented Drupal site architecture."
+  },
+  {
+    "name": "The Battle For The Body Field",
+    "publisher": "A List Apart",
+    "releaseDate": "2014-02-25",
+    "website": "http://alistapart.com/article/battle-for-the-body-field",
+    "summary": "Describes the challenges of structured content modeling for media-rich narrative content, and outlines promising solutions from the XML world."
+  },
+  {
+    "name": "Dodging Cassandra",
+    "publisher": "The Pastry Box",
+    "releaseDate": "2014-02-27",
+    "website": "https://the-pastry-box-project.net/jeff-eaton/2014-february-27",
+    "summary": "What opera can teach us about managing high-risk projects."
+  },
+  {
+    "name": "When Editors Design",
+    "publisher": "Smashing Magazine",
+    "releaseDate": "2013-06-26",
+    "website": "http://www.smashingmagazine.com/2013/06/controlling-presentation-in-structured-content/",
+    "summary": "Summarizes lessons on editorial design control for structured content from major news and intranet projects."
+  },
+  {
+    "name": "Inline Editing and the Cost of Leaky Abstractions",
+    "publisher": "Lullabot",
+    "releaseDate": "2012-12-01",
+    "website": "https://www.lullabot.com/articles/inline-editing-and-the-cost-of-leaky-abstractions",
+    "summary": "A detailed analysis of the pros and cons of Medium-style 'in-place WYSIWYG editing.'"
+  },
+  {
+    "name": "Growing Up Goddy",
+    "website": "https://medium.com/growing-up-goddy",
+    "summary": "Essays on Evangelical culture by a Christian expat."
+  }],
+  "skills": [
+  {
+    "name": "Content Strategy",
+    "level": "Expert",
+    "keywords": [
+      "Editorial workflow",
+      "Copywriting and copyediting",
+      "Structured content modeling"
+    ]
+  },
+  {
+    "name": "Drupal Architecture",
+    "level": "Expert",
+    "keywords": [
+      "Decoupled publishing",
+      "Content APIs",
+      "Authoring experience",
+      "Performance optimization",
+      "Project decomposition"
+    ]
+  },
+  {
+    "name": "Web Development",
+    "level": "Experienced",
+    "keywords": [
+      "PHP",
+      "Django/Python",
+      "ASP.Net",
+      "API Design",
+      "SQL",
+      "HTML5"
+    ]
+  }],
+  "references": [{
+    "name": "Karen McGrane",
+    "reference": "Eaton is, quite seriously, one of the smartest people working in the content management space today. People who are good strategic, conceptual thinkers and also have deep technical prowess are not that common, and Eaton is one of the best."
+  },
+  {
+    "name": "James Walker",
+    "reference": "I had the pleasure of working directly with Jeff for a few years on large Drupal/CMS architecture projects. His ability to see the big picture and make sense of complicated problems is as good as I've ever encountered. His technical understanding is only surpassed by his ability to effectively communicate his ideas."
+  },
+  {
+    "name": "Emma Jane Westby",
+    "reference": "Jeff has an amazing capacity to tease apart difficult problems. He listens carefully and has a knack for knowing when to poke holes and when to provide affirmation. He also has the confidence to ask others for their opinion, incorporating their feedback and stories into his own work while still maintaining the integrity of his voice when communicating his findings."
+  }]
+}

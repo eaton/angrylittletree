@@ -1,0 +1,44 @@
+---
+layout: default
+title: Jeff Eaton's Resume
+excerpt: The extended resume and hand-waving
+body-class: about
+---
+
+<h3>{{ site.data.resume.basics.name }}, {{ site.data.resume.basics.label }}</h3>
+<p>{{ site.data.resume.basics.summary }}</p>
+
+<h4>Work</h4>
+{% for job in site.data.resume.work %}
+<h5>{{ job.company }}: {{ job.position }} <em>{{ job.startDate }} through {{ job.endDate }}</em></h5>
+<p>{{ job.summary }}</p>
+{% if job.highlights %}<ul>{% for note in job.highlights %}
+<li>{{ note }}</li>
+{% endfor %}</ul>{% endif %}
+{% endfor %}
+
+<h4>Volunteering</h4>
+{% for job in site.data.resume.volunteer %}
+<h5>{{ job.organization }}: {{ job.position }} <em>{{ job.startDate }} through {{ job.endDate }}</em></h5>
+<p>{{ job.summary }}</p>
+{% if job.highlights %}<ul>{% for note in job.highlights %}
+<li>{{ note }}</li>
+{% endfor %}</ul>{% endif %}
+{% endfor %}
+
+<h4>Publications</h4>
+{% for piece in site.data.resume.publications %}
+<h5><i><a href="{{ piece.website }}">{{ piece.name }}</a></i>, {{ piece.publisher }}</h5>
+<p>{{ piece.summary }}</p>
+{% endfor %}
+
+<h4>Skills</h4>
+<ul>{% for skill in site.data.resume.skills %}
+<li><strong>{{ skill.name }}</strong>, {{ skill.level }}: ({{ skill.keywords | array_to_sentence_string }})</li>
+{% endfor %}</ul>
+
+
+<h4>References</h4>
+{% for quote in site.data.resume.references %}
+<blockquote>"{{ quote.reference }}" <cite>{{ quote.name }}</cite></blockquote>
+{% endfor %}
