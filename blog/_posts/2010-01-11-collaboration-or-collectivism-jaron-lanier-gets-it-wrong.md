@@ -1,11 +1,11 @@
 --- 
 layout: post
-title: Collaboration, or collectivism? Joaron Lanier gets it wrong.
+title: Collaboration, or collectivism? Jaron Lanier gets it wrong.
 tags: 
 - wtf
 - wallstreetjournal
 - collectivism
-drupal_path: collaboration-or-collectivism-joaron-lanier-gets-it-wrong
+drupal_path: collaboration-or-collectivism-jaron-lanier-gets-it-wrong
 drupal_nid: 2023
 created: 1263269181
 ---
