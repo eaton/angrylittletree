@@ -4,21 +4,15 @@ type: landing
 body-class: home
 ---
 
-<p id="about">My name is <a href="http://twitter.com/eaton">Jeff Eaton</a>. I’m a <a href="http://drupal.org">CMS</a> architect and <a href="http://insertcontenthere.com">content strategist</a> at <a href="http://lullabot.com" rel="nofollow">Lullabot</a>. I’m married to <a href="http://sparrowpost.com" rel="nofollow">Catherine</a>, and I like <a href="http://pinboard.in/u:eaton" rel="nofollow">interesting things</a>.</p>
+<p id="about">My name is <a href="http://eaton.fyi">Jeff Eaton</a>. I'm a founding partner at <a href="https://autogram.is">Autogram</a>, where I design <a href="http://insertcontenthere.com">digital content platforms</a>. I’m married to <a href="http://sparrowpost.com" rel="nofollow">Catherine</a>, and I like <a href="http://pinboard.in/u:eaton" rel="nofollow">interesting things</a>.</p>
 
 <ul>
-<h4>The obligatory blog</h4>
-{% for post in site.categories.blog limit: 5 %}<li><a href="{{ post.url }}" data-wordcount="{{ post.content|strip_html|number_of_words }}" title="{{ post.excerpt|strip_html|strip_newlines }}">{{ post.title }}</a></li>{% endfor %}
+<h4>The latest bits</h4>
+{% for post in site.categories.blog limit: 10 %}<li><a href="{{ post.url }}" data-wordcount="{{ post.content|strip_html|number_of_words }}" title="{{ post.excerpt|strip_html|strip_newlines }}">{{ post.title }}</a></li>{% endfor %}
 <li><em><a href="/archive">See the archives&hellip;</a></em></li>
 </ul>
 
 <ul>
-<h4>Events</h4>{% for event in site.data.speaking %}
-<li><a href="{{ event.link }}" title="{{ event.summary }}"><strong>{{ event.name }}</strong></a>, {{ event.date }}</li>
-{% endfor %}</ul>
-
-
-<ul>
-<h4>Selected writings</h4>{% for article in site.data.articles %}
-<li><a href="{{ article.link }}" title="{{ article.summary }}"><strong>{{ article.name }}</strong></a> <cite>{{ article.location }}</cite></li>
+<h4>Other projects</h4>{% for project in site.data.projects %}
+<li><a href="{{ project.link }}"><strong>{{ project.name }}</strong></a> <cite>{{ project.summary }}</cite></li>
 {% endfor %}</ul>
