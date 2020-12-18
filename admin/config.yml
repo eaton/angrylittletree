@@ -1,0 +1,79 @@
+backend:
+  name: github
+  branch: master
+  repo: eaton/angrylittletree
+
+site_url: "/"
+
+media_folder: 'files' # Media files will be stored in the repo under src/uploads
+public_folder: '/files' # The src attribute for uploaded media will begin with /uploads
+
+# Please run "npx netlify-cms-proxy-server" for local backend
+local_backend: true
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    label_singular: "Post"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    folder: "_posts"
+    create: true
+    view_groups:
+      - label: "Posted"
+        field: "date"
+        pattern: \d{4}
+    sortable_fields: ["title", "date"]
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: true, pattern: ['.{0,60}', "60 characters max"], hint: "60 character limit; used in meta tags."  }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - { label: "Summary", name: "summary", widget: "string", required: false, pattern: ['.{0,160}', "160 characters max"], hint: "Optional 160-char text used in listings and meta tags." }
+      - { label: "Excerpt", name: "excerpt", widget: "string", required: false, hint: "Optional excerpt I don't seem to use anywhere." }
+      - { label: "Tags", name: "tags", widget: list, required: false}
+      - label: "Migration Metadata"
+        name: "profile"
+        widget: "object"
+        collapsed: true
+        - fields:
+          - { label: "Livejournal", name: "lj_post", widget: "boolean", required: false, default: false }
+          - { label: "Drupal Path", name: "drupal_path", widget: "string", required: false }
+          - { label: "Drupal ID", name: "drupal_nid", widget: "number", value_type: "int", required: false }
+          - { label: "Created", name: "created", widget: "datetime", format: "x", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "data"
+    label: "Site Data"
+    delete: false
+    files:
+
+      - name: "articles"
+        label: "Articles"
+        label_singular: "Article"
+        description: "Externally published articles written by Jeff."
+        file: "_data/articles.yml"
+        fields:
+        - { label: "Article Title", name: "name", widget: "string", required: true  }
+        - { label: "Publisher", name: "link", widget: "string", required: true }
+        - { label: "URL", name: "location", widget: "string", required: true }
+        - { label: "Description", name: "summary", widget: "string", required: true }
+
+      - name: "projects"
+        label: "Projects"
+        label_singular: "Project"
+        description: "Things I'm doing around the web."
+        file: "_data/projects.yml"
+        fields:
+        - { label: "Project", name: "name", widget: "string", required: true  }
+        - { label: "URL", name: "location", widget: "string", required: true }
+        - { label: "Description", name: "summary", widget: "string", required: true }
+
+      - name: "speaking"
+        label: "Speaking"
+        label_singular: "Talk"
+        description: "Upcoming talks I'll be giving this year."
+        file: "_data/speaking.yml"
+        fields:
+        - { label: "Event", name: "name", widget: "string", required: true  }
+        - { label: "Date", name: "date", widget: "string", required: true  }
+        - { label: "Talk URL", name: "location", widget: "string", required: true }
+        - { label: "Description", name: "summary", widget: "string", required: true }
