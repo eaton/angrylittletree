@@ -35,7 +35,7 @@ collections:
         name: "profile"
         widget: "object"
         collapsed: true
-        fields:
+        fields: 
           - { label: "Livejournal", name: "lj_post", widget: "boolean", required: false, default: false }
           - { label: "Drupal Path", name: "drupal_path", widget: "string", required: false }
           - { label: "Drupal ID", name: "drupal_nid", widget: "number", value_type: "int", required: false }
@@ -56,8 +56,8 @@ collections:
         - label: "Items"
           name: "items"
           widget: "list"
-          fields:
-          - { label: "Article Title", name: "name", widget: "string", required: true  }
+          fields: 
+          - { label: "Article Title", name: "name", widget: "string", required: true }
           - { label: "Publisher", name: "link", widget: "string", required: true }
           - { label: "URL", name: "location", widget: "string", required: true }
           - { label: "Description", name: "summary", widget: "string", required: true }
@@ -71,8 +71,8 @@ collections:
         - label: "Items"
           name: "items"
           widget: "list"
-          fields:
-          - { label: "Project", name: "name", widget: "string", required: true  }
+          fields: 
+          - { label: "Project", name: "name", widget: "string", required: true }
           - { label: "URL", name: "location", widget: "string", required: true }
           - { label: "Description", name: "summary", widget: "string", required: true }
 
@@ -81,11 +81,12 @@ collections:
         label_singular: "Talk"
         description: "Upcoming talks I'll be giving this year."
         file: "_data/speaking.yml"
+        fields:
         - label: "Items"
           name: "items"
           widget: "list"
-          fields:
-          - { label: "Event", name: "name", widget: "string", required: true  }
-          - { label: "Date", name: "date", widget: "string", required: true  }
+          fields: 
+          - { label: "Event", name: "name", widget: "string", required: true }
+          - { label: "Date", name: "date", widget: "string", required: true }
           - { label: "Talk URL", name: "location", widget: "string", required: true }
           - { label: "Description", name: "summary", widget: "string", required: true }
