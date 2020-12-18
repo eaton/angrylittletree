@@ -22,7 +22,7 @@ collections:
     create: true
     view_groups:
       - label: "Posted"
-        field: "date"
+        field: "{{filename}}"
         pattern: \d{4}
     sortable_fields: ["title", "date"]
     fields:
@@ -31,15 +31,10 @@ collections:
       - { label: "Summary", name: "summary", widget: "string", required: false, pattern: ['.{0,160}', "160 characters max"], hint: "Optional 160-char text used in listings and meta tags." }
       - { label: "Excerpt", name: "excerpt", widget: "string", required: false, hint: "Optional excerpt I don't seem to use anywhere." }
       - { label: "Tags", name: "tags", widget: list, required: false }
-      - label: "Migration"
-        name: "profile"
-        widget: "object"
-        collapsed: true
-        fields: 
-          - { label: "Livejournal", name: "lj_post", widget: "boolean", required: false, default: false }
-          - { label: "Drupal Path", name: "drupal_path", widget: "string", required: false }
-          - { label: "Drupal ID", name: "drupal_nid", widget: "number", value_type: "int", required: false }
-          - { label: "Created", name: "created", widget: "datetime", format: "x", required: false }
+      - { label: "Livejournal", name: "lj_post", widget: "boolean", required: false, default: false }
+      - { label: "Drupal Path", name: "drupal_path", widget: "string", required: false }
+      - { label: "Drupal ID", name: "drupal_nid", widget: "number", value_type: "int", required: false }
+      - { label: "Created", name: "created", widget: "hidden", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "data"
