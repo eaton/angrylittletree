@@ -25,16 +25,16 @@ collections:
         pattern: \d{4}
     sortable_fields: ["title", "date"]
     fields:
-      - { label: "Title", name: "title", widget: "string", required: true, pattern: ['.{0,60}', "60 characters max"], hint: "60 character limit; used in meta tags."  }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - { label: "Title", name: "title", widget: "string", required: true, pattern: ['.{0,60}', "60 characters max"], hint: "60 character limit; used in meta tags." }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Summary", name: "summary", widget: "string", required: false, pattern: ['.{0,160}', "160 characters max"], hint: "Optional 160-char text used in listings and meta tags." }
       - { label: "Excerpt", name: "excerpt", widget: "string", required: false, hint: "Optional excerpt I don't seem to use anywhere." }
-      - { label: "Tags", name: "tags", widget: list, required: false}
-      - label: "Migration Metadata"
+      - { label: "Tags", name: "tags", widget: list, required: false }
+      - label: "Migration"
         name: "profile"
         widget: "object"
         collapsed: true
-        - fields:
+        fields:
           - { label: "Livejournal", name: "lj_post", widget: "boolean", required: false, default: false }
           - { label: "Drupal Path", name: "drupal_path", widget: "string", required: false }
           - { label: "Drupal ID", name: "drupal_nid", widget: "number", value_type: "int", required: false }
