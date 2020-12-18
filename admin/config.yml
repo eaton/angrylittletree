@@ -85,7 +85,6 @@ collections:
           name: "items"
           widget: "list"
           fields:
-          fields:
           - { label: "Event", name: "name", widget: "string", required: true  }
           - { label: "Date", name: "date", widget: "string", required: true  }
           - { label: "Talk URL", name: "location", widget: "string", required: true }
