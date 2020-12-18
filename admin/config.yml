@@ -2,6 +2,7 @@ backend:
   name: github
   branch: master
   repo: eaton/angrylittletree
+  site_domain: angrylittletree.netlify.app
 
 site_url: "/"
 
