@@ -13,6 +13,6 @@ body-class: home
 </ul>
 
 <ul>
-<h4>Other projects</h4>{% for project in site.data.projects %}
+<h4>Other projects</h4>{% for project in site.data.projects.items %}
 <li><a href="{{ project.link }}"><strong>{{ project.name }}</strong></a> <cite>{{ project.summary }}</cite></li>
 {% endfor %}</ul>

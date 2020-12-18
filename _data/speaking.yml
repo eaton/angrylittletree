@@ -1,29 +1,30 @@
-- name: IA Summit 2015
-  date: April 25-26
-  link: http://www.iasummit.org/node/111
-  summary: Concrete solutions to the problem of semi-structured narrative content
+items:
+  - name: IA Summit 2015
+    date: April 25-26
+    link: http://www.iasummit.org/node/111
+    summary: Concrete solutions to the problem of semi-structured narrative content
 
-- name: DrupalCon Los Angeles
-  date: May 11-15
-  link: https://events.drupal.org/losangeles2015/sessions/battle-body-field
-  summary: A deep dive into the best Drupal tools for editorially-controlled layout
+  - name: DrupalCon Los Angeles
+    date: May 11-15
+    link: https://events.drupal.org/losangeles2015/sessions/battle-body-field
+    summary: A deep dive into the best Drupal tools for editorially-controlled layout
 
-- name: UX Camp Chicago
-  date: June 6
-  link: http://chicagocamps.org/events/2015/ux-camp/
-  summary: Bootstrapping a Content Strategy practice in your web shop
+  - name: UX Camp Chicago
+    date: June 6
+    link: http://chicagocamps.org/events/2015/ux-camp/
+    summary: Bootstrapping a Content Strategy practice in your web shop
 
-- name: DrupalNorth
-  date: June 25-28
-  link: http://www.drupalnorth.org
-  summary: How to overcome page-centric planning on next-generation content projects
+  - name: DrupalNorth
+    date: June 25-28
+    link: http://www.drupalnorth.org
+    summary: How to overcome page-centric planning on next-generation content projects
 
-- name: Design/Content Conference
-  date: August 5-7 
-  link: http://www.designcontentconf.com
-  summary: A special episode of the Insert Content Here podcast
+  - name: Design/Content Conference
+    date: August 5-7 
+    link: http://www.designcontentconf.com
+    summary: A special episode of the Insert Content Here podcast
 
-- name: Confab Intensive
-  date: August 31-September 2
-  link: http://confabevents.com/events/intensive/program/battle-for-the-body-field
-  summary: A three-hour deep dive into the latest techniques for modeling and managing narrative content.
+  - name: Confab Intensive
+    date: August 31-September 2
+    link: http://confabevents.com/events/intensive/program/battle-for-the-body-field
+    summary: A three-hour deep dive into the latest techniques for modeling and managing narrative content.

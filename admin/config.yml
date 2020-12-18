@@ -53,10 +53,14 @@ collections:
         description: "Externally published articles written by Jeff."
         file: "_data/articles.yml"
         fields:
-        - { label: "Article Title", name: "name", widget: "string", required: true  }
-        - { label: "Publisher", name: "link", widget: "string", required: true }
-        - { label: "URL", name: "location", widget: "string", required: true }
-        - { label: "Description", name: "summary", widget: "string", required: true }
+        - label: "Items"
+          name: "items"
+          widget: "list"
+          fields:
+          - { label: "Article Title", name: "name", widget: "string", required: true  }
+          - { label: "Publisher", name: "link", widget: "string", required: true }
+          - { label: "URL", name: "location", widget: "string", required: true }
+          - { label: "Description", name: "summary", widget: "string", required: true }
 
       - name: "projects"
         label: "Projects"
@@ -64,17 +68,25 @@ collections:
         description: "Things I'm doing around the web."
         file: "_data/projects.yml"
         fields:
-        - { label: "Project", name: "name", widget: "string", required: true  }
-        - { label: "URL", name: "location", widget: "string", required: true }
-        - { label: "Description", name: "summary", widget: "string", required: true }
+        - label: "Items"
+          name: "items"
+          widget: "list"
+          fields:
+          - { label: "Project", name: "name", widget: "string", required: true  }
+          - { label: "URL", name: "location", widget: "string", required: true }
+          - { label: "Description", name: "summary", widget: "string", required: true }
 
       - name: "speaking"
         label: "Speaking"
         label_singular: "Talk"
         description: "Upcoming talks I'll be giving this year."
         file: "_data/speaking.yml"
-        fields:
-        - { label: "Event", name: "name", widget: "string", required: true  }
-        - { label: "Date", name: "date", widget: "string", required: true  }
-        - { label: "Talk URL", name: "location", widget: "string", required: true }
-        - { label: "Description", name: "summary", widget: "string", required: true }
+        - label: "Items"
+          name: "items"
+          widget: "list"
+          fields:
+          fields:
+          - { label: "Event", name: "name", widget: "string", required: true  }
+          - { label: "Date", name: "date", widget: "string", required: true  }
+          - { label: "Talk URL", name: "location", widget: "string", required: true }
+          - { label: "Description", name: "summary", widget: "string", required: true }
